@@ -1,40 +1,4 @@
 {
-  "deeperdarker:recipes/transportation/echo_boat": {
-    "criteria": {
-      "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/willow_boat": {
-    "criteria": {
-      "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "deeperdarker:recipes/transportation/bloom_boat": {
-    "criteria": {
-      "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
   "simplyswords:grant_book_on_first_join": {
     "criteria": {
       "tick": "2025-02-15 23:58:07 +0000"
@@ -47,27 +11,107 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "terramity:terramity_parent_advancement": {
     "criteria": {
-      "has_lots_of_items": "2025-02-16 00:10:57 +0000"
+      "terramity_parent_advancement_0": "2025-02-15 23:58:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/spyglass": {
+  "dungeons_arise:wda_root": {
     "criteria": {
-      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
+      "WDA": "2025-02-15 23:58:07 +0000"
+    },
+    "done": true
+  },
+  "illusion_onslaught:illusion_onslaught_advancement": {
+    "criteria": {
+      "illusion_onslaught_advancement": "2025-02-15 23:58:07 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bornin_chaos": {
+    "criteria": {
+      "bornin_chaos_0": "2025-02-15 23:58:07 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2025-02-15 23:58:07 +0000"
+    },
+    "done": true
+  },
+  "rpgsmw:choose_your_class": {
+    "criteria": {
+      "choose_your_class_0": "2025-02-15 23:58:07 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2025-02-15 23:58:07 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "orchard": "2025-02-15 23:58:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "shrubland": "2025-02-16 00:04:06 +0000",
+      "rocky_shrubland": "2025-02-16 00:04:52 +0000",
+      "maple_woods": "2025-02-16 00:05:26 +0000",
+      "orchard": "2025-02-15 23:58:08 +0000",
+      "redwood_forest": "2025-02-16 00:44:53 +0000",
+      "dune_beach": "2025-02-16 00:02:17 +0000",
+      "pumpkin_patch": "2025-02-16 00:05:32 +0000",
+      "prairie": "2025-02-16 00:43:54 +0000"
+    },
+    "done": false
+  },
+  "rpgsmw:mage_class": {
+    "criteria": {
+      "mage_class_0": "2025-02-16 00:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-02-16 00:03:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-02-16 00:04:33 +0000",
+      "minecraft:windswept_forest": "2025-02-16 00:06:55 +0000"
+    },
+    "done": false
+  },
+  "deeperdarker:recipes/transportation/echo_boat": {
+    "criteria": {
+      "in_water": "2025-02-16 00:04:45 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-02-16 00:04:45 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/bloom_boat": {
+    "criteria": {
+      "in_water": "2025-02-16 00:04:45 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
     },
     "done": true
   },
@@ -95,66 +139,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "terramity:terramity_parent_advancement": {
-    "criteria": {
-      "terramity_parent_advancement_0": "2025-02-15 23:58:07 +0000"
-    },
-    "done": true
-  },
-  "illusion_onslaught:from_antique_times": {
-    "criteria": {
-      "from_antique_times": "2025-02-16 00:10:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
-    "criteria": {
-      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tinted_glass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2025-02-15 23:58:07 +0000"
-    },
-    "done": true
-  },
-  "illusion_onslaught:strange_scrolls": {
-    "criteria": {
-      "strange_scrolls": "2025-02-16 00:11:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:biomesoplenty/root": {
-    "criteria": {
-      "orchard": "2025-02-15 23:58:08 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/pine_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
@@ -164,36 +148,6 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2025-02-16 00:03:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "illusion_onslaught:illusion_onslaught_advancement": {
-    "criteria": {
-      "illusion_onslaught_advancement": "2025-02-15 23:58:07 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:bornin_chaos": {
-    "criteria": {
-      "bornin_chaos_0": "2025-02-15 23:58:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2025-02-16 00:11:18 +0000"
     },
     "done": true
   },
@@ -221,24 +175,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-02-16 00:10:57 +0000"
-    },
-    "done": true
-  },
-  "domum_ornamentum:recipes/tools/white_paper_extra": {
-    "criteria": {
-      "has_material": "2025-02-16 00:10:57 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
@@ -257,17 +193,6 @@
     },
     "done": true
   },
-  "biomesoplenty:biomesoplenty/all_biomes": {
-    "criteria": {
-      "shrubland": "2025-02-16 00:04:06 +0000",
-      "rocky_shrubland": "2025-02-16 00:04:52 +0000",
-      "maple_woods": "2025-02-16 00:05:26 +0000",
-      "orchard": "2025-02-15 23:58:08 +0000",
-      "dune_beach": "2025-02-16 00:02:17 +0000",
-      "pumpkin_patch": "2025-02-16 00:05:32 +0000"
-    },
-    "done": false
-  },
   "biomesoplenty:recipes/transportation/maple_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
@@ -277,12 +202,6 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-02-16 00:05:43 +0000"
     },
     "done": true
   },
@@ -298,27 +217,9 @@
     },
     "done": true
   },
-  "rpgsmw:mage_class": {
-    "criteria": {
-      "mage_class_0": "2025-02-16 00:00:34 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/redwood_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2025-02-15 23:58:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
     },
     "done": true
   },
@@ -328,27 +229,9 @@
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/diamond_dust_from_gem": {
-    "criteria": {
-      "has_diamond_gem": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/spirit_attuned_gem": {
-    "criteria": {
-      "has_diamond": "2025-02-16 00:11:18 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2025-02-16 00:04:45 +0000"
-    },
-    "done": true
-  },
-  "domum_ornamentum:recipes/tools/paper_extra": {
-    "criteria": {
-      "has_material": "2025-02-16 00:10:57 +0000"
     },
     "done": true
   },
@@ -388,15 +271,57 @@
     },
     "done": true
   },
-  "rpgsmw:choose_your_class": {
+  "twilightforest:recipes/transportation/sorting_boat": {
     "criteria": {
-      "choose_your_class_0": "2025-02-15 23:58:07 +0000"
+      "in_water": "2025-02-16 00:04:45 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/amethyst_block": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
+      "in_water": "2025-02-16 00:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-02-16 00:05:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2025-02-16 00:05:43 +0000"
+    },
+    "done": false
+  },
+  "illusion_onslaught:from_antique_times": {
+    "criteria": {
+      "from_antique_times": "2025-02-16 00:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-02-16 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-02-16 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/white_paper_extra": {
+    "criteria": {
+      "has_material": "2025-02-16 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/paper_extra": {
+    "criteria": {
+      "has_material": "2025-02-16 00:10:57 +0000"
     },
     "done": true
   },
@@ -406,28 +331,81 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
-      "minecraft:river": "2025-02-16 00:04:33 +0000",
-      "minecraft:windswept_forest": "2025-02-16 00:06:55 +0000"
-    },
-    "done": false
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "baked_potato": "2025-02-16 00:05:43 +0000"
-    },
-    "done": false
-  },
-  "twilightforest:recipes/transportation/sorting_boat": {
-    "criteria": {
-      "in_water": "2025-02-16 00:04:45 +0000"
+      "has_diamond": "2025-02-16 00:11:18 +0000"
     },
     "done": true
   },
-  "occultism:occultism/root": {
+  "minecraft:recipes/decorations/jukebox": {
     "criteria": {
-      "occultism_present": "2025-02-15 23:58:07 +0000"
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/diamond_dust_from_gem": {
+    "criteria": {
+      "has_diamond_gem": "2025-02-16 00:11:18 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/spirit_attuned_gem": {
+    "criteria": {
+      "has_diamond": "2025-02-16 00:11:18 +0000"
     },
     "done": true
   },
@@ -437,9 +415,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/tools/spyglass": {
     "criteria": {
-      "in_water": "2025-02-16 00:04:45 +0000"
+      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-02-16 00:11:22 +0000"
+    },
+    "done": true
+  },
+  "illusion_onslaught:strange_scrolls": {
+    "criteria": {
+      "strange_scrolls": "2025-02-16 00:11:23 +0000"
     },
     "done": true
   },
