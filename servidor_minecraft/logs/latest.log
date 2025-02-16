@@ -623,3 +623,82 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [16Feb2025 01:18:32.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Husk
 [16Feb2025 01:18:40.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to 568.500000, 145.500000, -992.500000]
 [16Feb2025 01:18:44.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 moved too quickly! 0.0,-10.806526110009003,0.0
+[16Feb2025 01:18:50.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Husk
+[16Feb2025 01:19:10.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to 567.500000, 123.500000, -991.500000]
+[16Feb2025 01:19:13.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Husk
+[16Feb2025 01:19:30.085] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dylan473[/172.23.169.194:35400] logged in with entity id 25158 at (95.17258622351554, 64.0, -32.33181796187052)
+[16Feb2025 01:19:30.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dylan473 joined the game
+[16Feb2025 01:19:43.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to Dylan473]
+[16Feb2025 01:20:06.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dylan473 was slain by Restless Spirit
+[16Feb2025 01:20:08.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dylan473> asd
+[16Feb2025 01:20:18.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dylan473> asd
+[16Feb2025 01:20:23.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dylan473> das
+[16Feb2025 01:21:39.541] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Timed out
+[16Feb2025 01:21:39.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
+[16Feb2025 01:21:45.475] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dylan473 lost connection: Disconnected
+[16Feb2025 01:21:45.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dylan473 left the game
+[16Feb2025 01:24:54.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:62076] logged in with entity id 25849 at (94.79929707154604, 85.0, -90.41520133511605)
+[16Feb2025 01:24:54.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[16Feb2025 01:30:27.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has made the advancement [Gravedigger]
+[16Feb2025 01:31:14.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was doomed to fall by Pillager
+[16Feb2025 01:31:27.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to 544.500000, 74.500000, -178.500000]
+[16Feb2025 01:33:18.797] [Worker-Main-53/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:18.867] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:18.871] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:18.881] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:18.884] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:23.266] [Worker-Main-54/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:23.267] [Worker-Main-54/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:23.267] [Worker-Main-54/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:23.268] [Worker-Main-54/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:52.028] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:52.028] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:52.029] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:52.029] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:53.381] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:57.207] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:57.207] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:57.208] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:33:57.208] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:35:51.436] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: M5T1[/172.23.175.19:64259] logged in with entity id 30707 at (258.15943857476253, 90.0, -426.5422591567162)
+[16Feb2025 01:35:51.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 joined the game
+[16Feb2025 01:36:22.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported M5T1 to MadaraUchiha2909]
+[16Feb2025 01:37:17.552] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:17.553] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:17.575] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:17.575] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.896] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.896] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.897] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.898] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.898] [Worker-Main-55/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.907] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:30.908] [Worker-Main-61/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[16Feb2025 01:37:45.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 has made the advancement [Monster Hunter]
+[16Feb2025 01:38:12.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported M5T1 to MadaraUchiha2909]
+[16Feb2025 01:43:52.440] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hedestiny[/172.23.66.198:61793] logged in with entity id 34337 at (-2.5, 64.0, 10.5)
+[16Feb2025 01:43:52.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny joined the game
+[16Feb2025 01:43:52.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny has reached the goal [Choose Your Class]
+[16Feb2025 01:43:52.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny has made the advancement [Terramity]
+[16Feb2025 01:44:52.500] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hedestiny lost connection: Disconnected
+[16Feb2025 01:44:52.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny left the game
+[16Feb2025 01:45:19.046] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hedestiny[/172.23.66.198:61898] logged in with entity id 35320 at (-2.5, 64.0, 10.5)
+[16Feb2025 01:45:19.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny joined the game
+[16Feb2025 01:46:19.147] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hedestiny lost connection: Disconnected
+[16Feb2025 01:46:19.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny left the game
+[16Feb2025 01:47:46.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 has made the advancement [Mana-tastic]
+[16Feb2025 01:48:00.755] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player MadaraUchiha2909 just tried to change non-editable sign
+[16Feb2025 01:49:40.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 was macerated by a Pirate Captain
+[16Feb2025 01:52:35.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to M5T1]
+[16Feb2025 01:55:24.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 has made the advancement [Mysterious People]
+[16Feb2025 01:55:35.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported M5T1 to MadaraUchiha2909]
+[16Feb2025 01:56:34.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 was slain by Skeleton Thrasher
+[16Feb2025 01:56:48.890] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hedestiny[/172.23.66.198:62625] logged in with entity id 47168 at (-2.5, 64.0, 10.5)
+[16Feb2025 01:56:48.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny joined the game
+[16Feb2025 01:57:04.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported M5T1 to MadaraUchiha2909]
+[16Feb2025 01:57:21.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Skeleton Thrasher
+[16Feb2025 01:57:27.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to 149.500000, 71.500000, 178.500000]
+[16Feb2025 01:57:27.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: M5T1 was slain by Skeleton Thrasher
+[16Feb2025 01:57:47.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported M5T1 to MadaraUchiha2909]
+[16Feb2025 01:57:49.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hedestiny lost connection: Timed out
+[16Feb2025 01:57:49.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hedestiny left the game
