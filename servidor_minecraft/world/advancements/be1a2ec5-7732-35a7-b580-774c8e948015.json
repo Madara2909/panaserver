@@ -63,9 +63,11 @@
     "criteria": {
       "shrubland": "2025-02-16 00:04:06 +0000",
       "rocky_shrubland": "2025-02-16 00:04:52 +0000",
+      "highland": "2025-02-16 02:12:32 +0000",
       "maple_woods": "2025-02-16 00:05:26 +0000",
       "orchard": "2025-02-15 23:58:08 +0000",
       "redwood_forest": "2025-02-16 00:44:53 +0000",
+      "aspen_glade": "2025-02-16 02:13:07 +0000",
       "dune_beach": "2025-02-16 00:02:17 +0000",
       "pumpkin_patch": "2025-02-16 00:05:32 +0000",
       "prairie": "2025-02-16 00:43:54 +0000"
@@ -87,9 +89,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-02-16 01:36:23 +0000",
+      "minecraft:beach": "2025-02-16 02:01:46 +0000",
+      "minecraft:dark_forest": "2025-02-16 02:08:15 +0000",
       "minecraft:river": "2025-02-16 00:04:33 +0000",
       "minecraft:cold_ocean": "2025-02-16 01:39:12 +0000",
-      "minecraft:windswept_forest": "2025-02-16 00:06:55 +0000"
+      "minecraft:forest": "2025-02-16 02:15:12 +0000",
+      "minecraft:windswept_forest": "2025-02-16 00:06:55 +0000",
+      "minecraft:ocean": "2025-02-16 02:09:58 +0000",
+      "minecraft:meadow": "2025-02-16 02:13:10 +0000",
+      "minecraft:plains": "2025-02-16 02:16:35 +0000"
     },
     "done": false
   },
@@ -453,17 +461,80 @@
     },
     "done": true
   },
+  "illusion_onslaught:mysterious_people": {
+    "criteria": {
+      "mysterious_people": "2025-02-16 01:55:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/tnt_from_bop_sand": {
+    "criteria": {
+      "has_gunpowder": "2025-02-16 02:04:30 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:root": {
+    "criteria": {
+      "criteria_0": "2025-02-16 01:58:07 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/gray_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-02-16 02:07:31 +0000",
       "minecraft:skeleton": "2025-02-16 01:40:51 +0000",
+      "minecraft:spider": "2025-02-16 02:15:46 +0000",
+      "minecraft:creeper": "2025-02-16 02:02:15 +0000",
       "minecraft:stray": "2025-02-16 01:38:25 +0000",
       "minecraft:zombie": "2025-02-16 01:37:45 +0000"
     },
     "done": false
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-02-16 02:07:35 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/green_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
   "domum_ornamentum:recipes/tools/architectscutter": {
     "criteria": {
       "has_log": "2025-02-16 01:42:05 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/orange_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/cyan_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
     },
     "done": true
   },
@@ -473,15 +544,105 @@
     },
     "done": true
   },
+  "domum_ornamentum:recipes/decorations/yellow_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/red_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/brown_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-02-16 01:54:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-02-16 02:04:30 +0000"
+    },
+    "done": true
+  },
   "minecolonies:recipes/misc/iron_nugget_from_iron_scimitar_smelting": {
     "criteria": {
       "has_scimitar": "2025-02-16 01:49:20 +0000"
     },
     "done": true
   },
+  "domum_ornamentum:recipes/decorations/black_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/light_gray_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-02-16 01:54:32 +0000"
+    },
+    "done": true
+  },
   "illusion_onslaught:mana_tastic": {
     "criteria": {
       "mana_tastic": "2025-02-16 01:47:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-02-16 02:01:40 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/lime_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/white_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/root": {
+    "criteria": {
+      "grave_01": "2025-02-16 02:13:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
     },
     "done": true
   },
@@ -497,9 +658,27 @@
     },
     "done": true
   },
+  "domum_ornamentum:recipes/decorations/pink_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_logs": "2025-02-16 01:42:05 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/light_blue_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-02-16 02:15:46 +0000"
     },
     "done": true
   },
@@ -509,9 +688,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/blue_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:zombie": "2025-02-16 01:37:45 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:horrorofthe_depths": {
+    "criteria": {
+      "horrorofthe_depths_0": "2025-02-16 02:09:05 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:disgusting_lootbox": {
+    "criteria": {
+      "disgusting_lootbox_0": "2025-02-16 02:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-02-16 02:04:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/magenta_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/purple_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 02:15:55 +0000"
     },
     "done": true
   },

@@ -65,13 +65,19 @@
       "shrubland": "2025-02-15 23:21:23 +0000",
       "rocky_shrubland": "2025-02-15 23:21:52 +0000",
       "scrubland": "2025-02-16 00:43:05 +0000",
+      "highland": "2025-02-16 02:07:39 +0000",
       "jacaranda_glade": "2025-02-16 00:41:39 +0000",
       "old_growth_woodland": "2025-02-16 00:57:32 +0000",
       "maple_woods": "2025-02-15 23:26:36 +0000",
       "orchard": "2025-02-15 23:15:25 +0000",
+      "field": "2025-02-16 02:08:18 +0000",
       "mediterranean_forest": "2025-02-16 00:42:32 +0000",
+      "coniferous_forest": "2025-02-16 02:09:06 +0000",
+      "forested_field": "2025-02-16 02:07:17 +0000",
       "redwood_forest": "2025-02-16 01:27:55 +0000",
+      "aspen_glade": "2025-02-16 02:12:16 +0000",
       "dune_beach": "2025-02-16 00:02:19 +0000",
+      "seasonal_forest": "2025-02-16 02:12:51 +0000",
       "rocky_rainforest": "2025-02-16 01:14:35 +0000",
       "pumpkin_patch": "2025-02-16 00:05:33 +0000",
       "prairie": "2025-02-16 00:43:22 +0000",
@@ -330,7 +336,9 @@
       "minecraft:river": "2025-02-15 23:21:43 +0000",
       "minecraft:cold_ocean": "2025-02-15 23:29:58 +0000",
       "minecraft:forest": "2025-02-16 00:40:36 +0000",
-      "minecraft:windswept_forest": "2025-02-16 00:06:41 +0000"
+      "minecraft:windswept_forest": "2025-02-16 00:06:41 +0000",
+      "minecraft:meadow": "2025-02-16 02:11:56 +0000",
+      "minecraft:plains": "2025-02-16 02:10:59 +0000"
     },
     "done": false
   },
@@ -678,7 +686,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-02-16 02:15:28 +0000",
       "minecraft:skeleton": "2025-02-16 01:15:28 +0000",
+      "minecraft:vindicator": "2025-02-16 02:16:02 +0000",
       "minecraft:spider": "2025-02-16 00:42:50 +0000",
       "minecraft:husk": "2025-02-16 01:16:51 +0000",
       "minecraft:zombie": "2025-02-15 23:28:19 +0000"
@@ -1197,9 +1207,27 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-02-16 02:16:02 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:double_trouble": {
+    "criteria": {
+      "double_trouble_0": "2025-02-16 02:01:33 +0000"
+    },
+    "done": true
+  },
   "graveyard:graveyard/root": {
     "criteria": {
       "grave_01": "2025-02-16 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-02-16 02:12:36 +0000"
     },
     "done": true
   },
