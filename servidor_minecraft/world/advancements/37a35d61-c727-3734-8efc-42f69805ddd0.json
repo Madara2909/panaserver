@@ -695,6 +695,7 @@
       "minecraft:ravager": "2025-02-16 15:42:51 +0000",
       "minecraft:vindicator": "2025-02-16 02:16:02 +0000",
       "minecraft:spider": "2025-02-16 00:42:50 +0000",
+      "minecraft:wither_skeleton": "2025-02-16 16:07:41 +0000",
       "minecraft:husk": "2025-02-16 01:16:51 +0000",
       "minecraft:zombie": "2025-02-15 23:28:19 +0000"
     },
@@ -1266,6 +1267,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-02-16 15:58:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-02-16 15:59:01 +0000"
@@ -1284,12 +1291,6 @@
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2025-02-16 15:59:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2025-02-16 15:59:01 +0000"
@@ -1299,12 +1300,6 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-02-16 15:59:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2025-02-16 15:58:55 +0000"
     },
     "done": true
   },
@@ -1329,6 +1324,24 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-02-16 15:59:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-02-16 15:59:26 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2025-02-16 16:09:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-02-16 16:06:02 +0000"
     },
     "done": true
   },
