@@ -1207,9 +1207,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
+  "graveyard:graveyard/root": {
     "criteria": {
-      "voluntary_exile": "2025-02-16 02:16:02 +0000"
+      "grave_01": "2025-02-16 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-02-16 01:50:55 +0000"
     },
     "done": true
   },
@@ -1219,21 +1225,15 @@
     },
     "done": true
   },
-  "graveyard:graveyard/root": {
-    "criteria": {
-      "grave_01": "2025-02-16 01:30:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2025-02-16 02:12:36 +0000"
     },
     "done": true
   },
-  "dungeons_arise:find_small_blimp": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "location0": "2025-02-16 01:50:55 +0000"
+      "voluntary_exile": "2025-02-16 02:16:02 +0000"
     },
     "done": true
   },
