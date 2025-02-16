@@ -79,11 +79,13 @@
       "dune_beach": "2025-02-16 00:02:19 +0000",
       "seasonal_forest": "2025-02-16 02:12:51 +0000",
       "rocky_rainforest": "2025-02-16 01:14:35 +0000",
+      "lavender_field": "2025-02-16 15:45:43 +0000",
       "pumpkin_patch": "2025-02-16 00:05:33 +0000",
       "prairie": "2025-02-16 00:43:22 +0000",
       "grassland": "2025-02-16 01:30:30 +0000",
       "gravel_beach": "2025-02-15 23:27:51 +0000",
-      "rainforest": "2025-02-16 01:14:24 +0000"
+      "rainforest": "2025-02-16 01:14:24 +0000",
+      "crag": "2025-02-16 15:44:37 +0000"
     },
     "done": false
   },
@@ -688,6 +690,7 @@
     "criteria": {
       "minecraft:pillager": "2025-02-16 02:15:28 +0000",
       "minecraft:skeleton": "2025-02-16 01:15:28 +0000",
+      "minecraft:ravager": "2025-02-16 15:42:51 +0000",
       "minecraft:vindicator": "2025-02-16 02:16:02 +0000",
       "minecraft:spider": "2025-02-16 00:42:50 +0000",
       "minecraft:husk": "2025-02-16 01:16:51 +0000",
@@ -1234,6 +1237,12 @@
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2025-02-16 02:16:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-02-16 15:43:25 +0000"
     },
     "done": true
   },
