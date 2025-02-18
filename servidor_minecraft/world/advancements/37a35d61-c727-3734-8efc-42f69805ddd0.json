@@ -1336,39 +1336,33 @@
     },
     "done": true
   },
-  "botania:recipes/combat/manasteel_helmet": {
+  "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
+      "has_enchanted_golden_apple": "2025-02-16 16:06:02 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2025-02-16 16:09:18 +0000"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/cabochis": {
+    "criteria": {
+      "has_cabbage": "2025-02-16 16:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/congee": {
+    "criteria": {
+      "has_cabbage": "2025-02-16 16:16:22 +0000"
     },
     "done": true
   },
   "domum_ornamentum:recipes/decorations/gray_floating_carpet": {
     "criteria": {
       "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/glass_pickaxe": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/dodge_ring": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/manasteel_hoe": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/knockback_belt": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
     },
     "done": true
   },
@@ -1402,33 +1396,9 @@
     },
     "done": true
   },
-  "botania:recipes/combat/manasteel_sword": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/swap_ring": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
   "domum_ornamentum:recipes/decorations/yellow_floating_carpet": {
     "criteria": {
       "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/magnet_ring": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "minecolonies:recipes/food/cabochis": {
-    "criteria": {
-      "has_cabbage": "2025-02-16 16:16:22 +0000"
     },
     "done": true
   },
@@ -1438,27 +1408,9 @@
     },
     "done": true
   },
-  "botania:recipes/tools/obedience_stick": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
   "domum_ornamentum:recipes/decorations/brown_floating_carpet": {
     "criteria": {
       "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/combat/manasteel_chestplate": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "minecolonies:recipes/food/congee": {
-    "criteria": {
-      "has_cabbage": "2025-02-16 16:16:22 +0000"
     },
     "done": true
   },
@@ -1474,39 +1426,9 @@
     },
     "done": true
   },
-  "botania:recipes/tools/manasteel_shears": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/mining_ring": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
-    "criteria": {
-      "lifeturnedouttobeacomedy_0": "2025-02-16 16:09:18 +0000"
-    },
-    "done": true
-  },
   "domum_ornamentum:recipes/decorations/lime_floating_carpet": {
     "criteria": {
       "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/mana_fluxfield": {
-    "criteria": {
-      "has_alt_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/mana_distributor": {
-    "criteria": {
-      "has_item": "2025-02-16 16:22:12 +0000"
     },
     "done": true
   },
@@ -1522,15 +1444,141 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/pump": {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/pink_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/light_blue_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/blue_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/magenta_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/purple_floating_carpet": {
+    "criteria": {
+      "has_string": "2025-02-16 16:21:10 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_helmet": {
     "criteria": {
       "has_item": "2025-02-16 16:22:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
+  "botania:recipes/tools/glass_pickaxe": {
     "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/dodge_ring": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_hoe": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/knockback_belt": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_sword": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/swap_ring": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/magnet_ring": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/obedience_stick": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_chestplate": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_shears": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mining_ring": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_fluxfield": {
+    "criteria": {
+      "has_alt_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_distributor": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pump": {
+    "criteria": {
+      "has_item": "2025-02-16 16:22:12 +0000"
     },
     "done": true
   },
@@ -1582,21 +1630,9 @@
     },
     "done": true
   },
-  "domum_ornamentum:recipes/decorations/pink_floating_carpet": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/lava_pendant": {
     "criteria": {
       "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "domum_ornamentum:recipes/decorations/light_blue_floating_carpet": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
     },
     "done": true
   },
@@ -1630,45 +1666,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/redstone/forest_eye": {
     "criteria": {
       "has_item": "2025-02-16 16:22:12 +0000"
-    },
-    "done": true
-  },
-  "domum_ornamentum:recipes/decorations/blue_floating_carpet": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/loom": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "domum_ornamentum:recipes/decorations/magenta_floating_carpet": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "domum_ornamentum:recipes/decorations/purple_floating_carpet": {
-    "criteria": {
-      "has_string": "2025-02-16 16:21:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2025-02-16 16:06:02 +0000"
     },
     "done": true
   },

@@ -61,6 +61,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "shrubland": "2025-02-18 13:04:39 +0000",
       "orchard": "2025-02-16 00:06:04 +0000"
     },
     "done": false
