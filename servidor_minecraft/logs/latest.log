@@ -2418,3 +2418,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [19Feb2025 15:28:59.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
 [19Feb2025 15:29:18.000] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:52299] logged in with entity id 16037 at (53.81848956882148, 85.0, 32.51595022302331)
 [19Feb2025 15:29:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[19Feb2025 15:40:41.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has made the advancement [Sneak 100]
