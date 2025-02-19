@@ -22,7 +22,7 @@
   "forge:ingots/tungsten": "null",
   "forge:ingots/chrome": "null",
   "forge:gems/sapphire": "null",
-  "forge:dusts/sulfur": "null",
+  "forge:dusts/sulfur": "alexscaves:sulfur_dust",
   "forge:ingots/titanium": "null",
   "forge:ingots/iridium": "null",
   "forge:ingots/constantan": "null",
