@@ -386,3 +386,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [04Mar2025 16:06:37.559] [Server thread/INFO] [structurize/]: New Server UUID a8ae37d4-9222-4ccc-98a8-fcd0ece77fbe
 [04Mar2025 16:12:00.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Set own game mode to Creative Mode]
 [04Mar2025 16:14:42.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Set own game mode to Survival Mode]
+[04Mar2025 16:19:52.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Set own game mode to Creative Mode]
+[04Mar2025 16:20:09.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Set own game mode to Survival Mode]
