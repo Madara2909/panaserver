@@ -440,3 +440,64 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [07Mar2025 22:43:17.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [A Strange Grave Dust]
 [07Mar2025 22:43:37.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Disconnected
 [07Mar2025 22:43:37.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
+[07Mar2025 22:44:11.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [The day of the Dead]
+[07Mar2025 22:44:32.433] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@858b491[id=<null>,name=MadaraUchiha2909,properties={},legacy=false] (/172.23.164.249:63128) lost connection: Timed out
+[07Mar2025 22:44:47.152] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:63133] logged in with entity id 4221 at (-58.67857495003095, 81.0, 274.5262549775194)
+[07Mar2025 22:44:47.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[07Mar2025 22:44:47.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Good Demoman]
+[07Mar2025 22:44:52.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has reached the goal [Explosive Temper]
+[07Mar2025 22:45:31.687] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'MadaraUchiha2909', from: 'fs:/downloads/25376 - Strike Noir Gundam.armour', to: 'db:'
+[07Mar2025 22:46:05.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asdw
+[07Mar2025 22:46:18.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> xdddd
+[07Mar2025 22:46:27.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> aaaa
+[07Mar2025 22:46:47.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Cover Me with Diamonds]
+[07Mar2025 22:46:58.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> aaaaasdw
+[07Mar2025 22:47:37.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta was slain by Fallen Chaos Knight
+[07Mar2025 22:47:37.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Your First Grave]
+[07Mar2025 22:47:37.806] [Server thread/INFO] [tombstone/]: The player EllSparta has successfully been saved
+[07Mar2025 22:47:47.530] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Timed out
+[07Mar2025 22:47:47.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
+[07Mar2025 22:47:57.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Dark Metallurgy]
+[07Mar2025 22:48:00.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Knowledge of Death]
+[07Mar2025 22:48:00.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has reached the goal [Here They Come]
+[07Mar2025 22:48:01.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Monster Hunter]
+[07Mar2025 22:48:07.847] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:63182] logged in with entity id 4875 at (-86.29911745921756, 83.0, 307.95297824761434)
+[07Mar2025 22:48:07.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[07Mar2025 22:48:23.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Knowledge raises the soul]
+[07Mar2025 22:48:27.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> aa
+[07Mar2025 22:49:22.109] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'EllSparta', from: 'fs:/downloads/20401 - Berserker armor.armour', to: 'db:'
+[07Mar2025 22:50:32.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [The Right Suit Makes all the Difference]
+[07Mar2025 22:50:33.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> adw
+[07Mar2025 22:52:39.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [A Better Pickaxe]
+[07Mar2025 22:54:34.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asdw
+[07Mar2025 22:54:49.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> protec
+[07Mar2025 22:55:00.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> me escuchas?
+[07Mar2025 22:55:44.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asdw
+[07Mar2025 22:56:46.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> books?
+[07Mar2025 22:57:01.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [What a Deal!]
+[07Mar2025 22:57:30.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> tomaste las esmeraldas ._.
+[07Mar2025 22:57:35.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> las recuperare
+[07Mar2025 22:57:38.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> dando palos
+[07Mar2025 22:57:42.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> dale pe
+[07Mar2025 22:57:44.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> las anote
+[07Mar2025 22:57:44.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> mera
+[07Mar2025 22:57:47.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> 1 stack
+[07Mar2025 22:57:52.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> toma eso
+[07Mar2025 22:57:55.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> aca toma
+[07Mar2025 22:58:00.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Amateur Archaeologist]
+[07Mar2025 22:58:04.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> oh
+[07Mar2025 22:58:06.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> sht
+[07Mar2025 22:58:08.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> se
+[07Mar2025 22:58:16.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> te estaba diciendo eso pero no me escuchas creo
+[07Mar2025 22:58:34.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> exp?
+[07Mar2025 22:58:56.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> conozco un lugar pero no se si sobrevivas
+[07Mar2025 22:59:14.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> ya va
+[07Mar2025 23:00:03.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to 356.500000, 63.500000, -4319.500000]
+[07Mar2025 23:00:26.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported EllSparta to MadaraUchiha2909]
+[07Mar2025 23:00:32.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> a ver
+[07Mar2025 23:00:41.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> sigueme despacio
+[07Mar2025 23:00:53.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Ashes 'n Bones]
+[07Mar2025 23:02:38.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> puedes hablar?
+[07Mar2025 23:03:38.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> tf
+[07Mar2025 23:03:42.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> my sword?
+[07Mar2025 23:03:58.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> q?
