@@ -501,3 +501,22 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [07Mar2025 23:03:38.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> tf
 [07Mar2025 23:03:42.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> my sword?
 [07Mar2025 23:03:58.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> q?
+[07Mar2025 23:04:03.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> perdi mi espada
+[07Mar2025 23:04:10.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> yo veo q la tienes en la mano
+[07Mar2025 23:04:14.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> no es
+[07Mar2025 23:04:20.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> toma
+[07Mar2025 23:04:24.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> se te cayo y la agarre
+[07Mar2025 23:04:48.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta was slain by Dungeon Effigy
+[07Mar2025 23:04:48.395] [Server thread/INFO] [tombstone/]: The player EllSparta has successfully been saved
+[07Mar2025 23:04:52.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> lol
+[07Mar2025 23:05:00.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> wait
+[07Mar2025 23:05:03.389] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EllSparta lost connection: Disconnected
+[07Mar2025 23:05:03.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta left the game
+[07Mar2025 23:05:26.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asd
+[07Mar2025 23:06:33.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> aaa
+[07Mar2025 23:07:06.382] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Timed out
+[07Mar2025 23:07:06.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
+[07Mar2025 23:07:43.883] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:63401] logged in with entity id 11048 at (365.7113756989947, 67.0, -4354.32396124411)
+[07Mar2025 23:07:43.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[07Mar2025 23:08:06.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asdw
+[07Mar2025 23:12:30.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 moved wrongly!
