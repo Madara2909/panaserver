@@ -35,12 +35,6 @@
     },
     "done": true
   },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2025-03-07 22:27:57 +0000"
-    },
-    "done": true
-  },
   "lootr:root": {
     "criteria": {
       "always_true": "2025-03-07 22:27:56 +0000"
@@ -59,15 +53,58 @@
     },
     "done": true
   },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2025-03-07 22:27:56 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-03-07 22:27:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2025-03-07 22:34:32 +0000",
       "minecraft:savanna": "2025-03-07 22:27:57 +0000"
     },
     "done": false
   },
-  "occultism:occultism/root": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "occultism_present": "2025-03-07 22:27:56 +0000"
+      "slept_in_bed": "2025-03-07 22:39:26 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "scrubland": "2025-03-07 22:33:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2025-03-07 22:40:02 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "scrubland": "2025-03-07 22:33:28 +0000"
+    },
+    "done": false
+  },
+  "evilcraft:fart": {
+    "criteria": {
+      "criteria_0": "2025-03-07 22:37:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2025-03-07 22:40:02 +0000"
     },
     "done": true
   },

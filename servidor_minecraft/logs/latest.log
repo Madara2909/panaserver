@@ -402,3 +402,41 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [07Mar2025 22:33:15.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asdw
 [07Mar2025 22:33:18.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> pk
 [07Mar2025 22:33:28.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported EllSparta to MadaraUchiha2909]
+[07Mar2025 22:33:38.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> hola
+[07Mar2025 22:33:40.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> wtf
+[07Mar2025 22:33:42.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> te va bien?
+[07Mar2025 22:33:46.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> ur a woman
+[07Mar2025 22:33:58.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> si me va bien
+[07Mar2025 22:33:58.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> se no encontre una skin mejor
+[07Mar2025 22:34:02.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> puedes vc?
+[07Mar2025 22:34:04.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> tu vives en corea?
+[07Mar2025 22:34:09.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> hey que personaje tienes?
+[07Mar2025 22:34:10.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> si
+[07Mar2025 22:34:11.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> se dame un chance
+[07Mar2025 22:34:18.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> ni idea
+[07Mar2025 22:34:21.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EllSparta> wtf
+[07Mar2025 22:34:22.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> ya va pera
+[07Mar2025 22:34:44.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> ve al discord que te pase
+[07Mar2025 22:34:50.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> y metete al chat de voz maincra
+[07Mar2025 22:37:31.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has completed the challenge [Learn to Fart]
+[07Mar2025 22:38:28.592] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'EllSparta', from: 'fs:/downloads/20401 - Berserker armor.armour', to: 'db:'
+[07Mar2025 22:39:12.635] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'EllSparta', from: 'fs:/downloads/06839 - Berserk Dragon slayer sword.armour', to: 'db:'
+[07Mar2025 22:39:26.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Sweet Dreams]
+[07Mar2025 22:39:35.498] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'EllSparta', from: 'fs:/downloads/06839 - Berserk Dragon slayer sword.armour', to: 'db:'
+[07Mar2025 22:39:47.031] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Timed out
+[07Mar2025 22:39:47.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
+[07Mar2025 22:40:07.305] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:63064] logged in with entity id 3593 at (-60.196108121794744, 81.0, 273.86425577139147)
+[07Mar2025 22:40:07.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[07Mar2025 22:40:51.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> asdw
+[07Mar2025 22:40:58.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Diamonds!]
+[07Mar2025 22:41:04.894] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'MadaraUchiha2909', from: 'fs:/downloads/25785 - Hellion Berserker Helmet.armour', to: 'db:'
+[07Mar2025 22:41:10.285] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'MadaraUchiha2909', from: 'fs:/downloads/25784 - Hellion Berserker Shouder Pad.armour', to: 'db:'
+[07Mar2025 22:41:13.282] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'MadaraUchiha2909', from: 'fs:/downloads/25783 - Hellion Berserker Chestplate.armour', to: 'db:'
+[07Mar2025 22:41:16.655] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'MadaraUchiha2909', from: 'fs:/downloads/25782 - Hellion Berserker Leggins.armour', to: 'db:'
+[07Mar2025 22:41:19.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Ice Bucket Challenge]
+[07Mar2025 22:41:19.753] [Server thread/INFO] [moe.plushie.armourers_workshop.ArmourersWorkshop/]: accept load request of the 'MadaraUchiha2909', from: 'fs:/downloads/25781 - Hellion Berserker Boots.armour', to: 'db:'
+[07Mar2025 22:41:31.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [Acquire Hardware]
+[07Mar2025 22:42:12.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has completed the challenge [Assassin Class]
+[07Mar2025 22:43:17.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EllSparta has made the advancement [A Strange Grave Dust]
+[07Mar2025 22:43:37.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Disconnected
+[07Mar2025 22:43:37.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
