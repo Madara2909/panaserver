@@ -1,133 +1,133 @@
-[29Apr2025 00:51:20.816] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[29Apr2025 00:51:20.819] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
-[29Apr2025 00:51:29.269] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[29Apr2025 00:51:29.428] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/panaserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[29Apr2025 00:51:30.129] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 00:51:30.131] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 00:51:30.132] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 00:51:30.134] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 00:51:30.560] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[29Apr2025 00:51:34.546] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[29Apr2025 00:51:34.769] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[29Apr2025 00:51:34.847] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 00:51:35.194] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 00:51:35.201] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 00:51:35.262] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 00:51:36.412] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[29Apr2025 00:51:36.413] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[29Apr2025 00:51:36.413] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[29Apr2025 00:51:37.396] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[29Apr2025 00:51:37.397] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[29Apr2025 00:51:37.808] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
-[29Apr2025 00:51:38.120] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[29Apr2025 00:51:43.511] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[29Apr2025 00:51:43.511] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[29Apr2025 00:51:46.967] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 00:51:46.967] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 00:51:46.967] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 00:51:46.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 00:51:48.251] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[29Apr2025 01:10:15.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[29Apr2025 01:10:15.522] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
+[29Apr2025 01:10:17.281] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Apr2025 01:10:17.334] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/panaserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[29Apr2025 01:10:17.688] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 01:10:17.691] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 01:10:17.692] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 01:10:17.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 01:10:17.946] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[29Apr2025 01:10:20.312] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Apr2025 01:10:20.412] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[29Apr2025 01:10:20.465] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 01:10:20.581] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 01:10:20.583] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 01:10:20.592] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 01:10:21.320] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[29Apr2025 01:10:21.320] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[29Apr2025 01:10:21.320] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[29Apr2025 01:10:21.898] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[29Apr2025 01:10:21.899] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[29Apr2025 01:10:22.222] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[29Apr2025 01:10:22.365] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[29Apr2025 01:10:25.946] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[29Apr2025 01:10:25.946] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[29Apr2025 01:10:28.679] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 01:10:28.679] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 01:10:28.680] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 01:10:28.680] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 01:10:29.497] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[29Apr2025 00:51:49.721] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[29Apr2025 00:51:49.779] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[29Apr2025 00:51:49.948] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[29Apr2025 00:51:49.962] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[29Apr2025 00:51:49.966] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[29Apr2025 00:51:49.973] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[29Apr2025 00:51:49.976] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[29Apr2025 00:51:49.980] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[29Apr2025 00:51:49.986] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[29Apr2025 00:51:49.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[29Apr2025 00:51:50.173] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[29Apr2025 00:51:50.175] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[29Apr2025 00:51:50.708] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
-[29Apr2025 00:51:50.737] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 1 plugins
-[29Apr2025 00:51:53.098] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
-[29Apr2025 00:51:53.107] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
-[29Apr2025 00:51:53.109] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
-[29Apr2025 00:51:53.112] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
-[29Apr2025 00:51:53.114] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
-[29Apr2025 00:51:53.114] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
-[29Apr2025 00:51:53.115] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
-[29Apr2025 00:51:53.115] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
-[29Apr2025 00:51:53.115] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
-[29Apr2025 00:51:53.116] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
-[29Apr2025 00:51:53.116] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
-[29Apr2025 00:51:53.119] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
-[29Apr2025 00:51:53.119] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
-[29Apr2025 00:51:53.120] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
-[29Apr2025 00:51:53.120] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
-[29Apr2025 00:51:53.120] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
-[29Apr2025 00:51:53.121] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
-[29Apr2025 00:51:53.121] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
-[29Apr2025 00:51:53.121] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
-[29Apr2025 00:51:53.123] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
-[29Apr2025 00:51:53.124] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
-[29Apr2025 00:51:53.124] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
-[29Apr2025 00:51:53.125] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
-[29Apr2025 00:51:53.126] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
-[29Apr2025 00:51:53.127] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
-[29Apr2025 00:51:53.127] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
-[29Apr2025 00:51:54.030] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[29Apr2025 00:51:54.423] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
-[29Apr2025 00:52:00.586] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[29Apr2025 00:52:01.784] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[29Apr2025 00:52:01.820] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[29Apr2025 00:52:01.837] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[29Apr2025 00:52:01.863] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
-[29Apr2025 00:52:01.883] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.884] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.885] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.885] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:01.885] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 00:52:02.139] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 136 crops
-[29Apr2025 00:52:02.140] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 6 crop tiers
-[29Apr2025 00:52:02.141] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
-[29Apr2025 00:52:02.141] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
-[29Apr2025 00:52:02.142] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 20 mob soul types
-[29Apr2025 00:52:02.174] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[29Apr2025 00:52:02.300] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[29Apr2025 00:52:02.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.19.6 Target: 1.19.10
-[29Apr2025 00:52:02.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[29Apr2025 00:52:02.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.51 Target: 1.2.52
-[29Apr2025 00:52:02.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29Apr2025 00:52:02.802] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
-[29Apr2025 00:52:03.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[29Apr2025 00:52:03.025] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[29Apr2025 00:52:03.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[29Apr2025 00:52:03.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[29Apr2025 00:52:03.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[29Apr2025 00:52:03.438] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
-[29Apr2025 00:52:03.443] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
-[29Apr2025 00:52:03.498] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
-[29Apr2025 00:52:03.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.27
-[29Apr2025 00:52:03.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[29Apr2025 00:52:03.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.0 Target: 8.9.4
-[29Apr2025 00:52:03.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
-[29Apr2025 00:52:03.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.141.2 Target: null
-[29Apr2025 00:52:03.746] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Enchantments/update.json
-[29Apr2025 00:52:03.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Found status: UP_TO_DATE Current: 1.10.8 Target: null
-[29Apr2025 00:52:03.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[29Apr2025 00:52:03.774] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
-[29Apr2025 00:52:09.958] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[29Apr2025 00:52:15.338] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
-[29Apr2025 00:52:15.338] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
-[29Apr2025 00:52:19.542] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.0.jar
-[29Apr2025 00:52:20.355] [Worker-Main-3/INFO] [epicfight/]: Register animations from epicfight
-[29Apr2025 00:52:26.411] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
-[29Apr2025 00:52:26.536] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:entities/villager}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[29Apr2025 00:52:26.537] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
-[29Apr2025 00:52:26.660] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:bk
+[29Apr2025 01:10:30.391] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[29Apr2025 01:10:30.417] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[29Apr2025 01:10:30.498] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29Apr2025 01:10:30.502] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[29Apr2025 01:10:30.508] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[29Apr2025 01:10:30.509] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[29Apr2025 01:10:30.513] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[29Apr2025 01:10:30.514] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[29Apr2025 01:10:30.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[29Apr2025 01:10:30.517] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[29Apr2025 01:10:30.781] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[29Apr2025 01:10:30.785] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[29Apr2025 01:10:31.202] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[29Apr2025 01:10:31.213] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 1 plugins
+[29Apr2025 01:10:32.866] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
+[29Apr2025 01:10:32.873] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
+[29Apr2025 01:10:32.876] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
+[29Apr2025 01:10:32.877] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
+[29Apr2025 01:10:32.878] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
+[29Apr2025 01:10:32.878] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
+[29Apr2025 01:10:32.878] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
+[29Apr2025 01:10:32.879] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
+[29Apr2025 01:10:32.879] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
+[29Apr2025 01:10:32.880] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
+[29Apr2025 01:10:32.881] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
+[29Apr2025 01:10:32.881] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
+[29Apr2025 01:10:32.882] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
+[29Apr2025 01:10:32.884] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
+[29Apr2025 01:10:32.884] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
+[29Apr2025 01:10:32.885] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
+[29Apr2025 01:10:32.885] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
+[29Apr2025 01:10:32.885] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
+[29Apr2025 01:10:32.886] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
+[29Apr2025 01:10:32.886] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
+[29Apr2025 01:10:32.888] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
+[29Apr2025 01:10:32.890] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
+[29Apr2025 01:10:32.891] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
+[29Apr2025 01:10:32.891] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[29Apr2025 01:10:32.894] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[29Apr2025 01:10:32.894] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[29Apr2025 01:10:33.344] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[29Apr2025 01:10:33.508] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[29Apr2025 01:10:37.640] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[29Apr2025 01:10:38.579] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[29Apr2025 01:10:38.607] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[29Apr2025 01:10:38.615] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[29Apr2025 01:10:38.634] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 01:10:38.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[29Apr2025 01:10:38.846] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 136 crops
+[29Apr2025 01:10:38.846] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 6 crop tiers
+[29Apr2025 01:10:38.846] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
+[29Apr2025 01:10:38.850] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
+[29Apr2025 01:10:38.855] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 20 mob soul types
+[29Apr2025 01:10:38.887] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[29Apr2025 01:10:39.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.19.6 Target: 1.19.10
+[29Apr2025 01:10:39.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[29Apr2025 01:10:39.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.51 Target: 1.2.52
+[29Apr2025 01:10:39.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Apr2025 01:10:39.290] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[29Apr2025 01:10:39.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[29Apr2025 01:10:39.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[29Apr2025 01:10:39.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[29Apr2025 01:10:39.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[29Apr2025 01:10:39.650] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29Apr2025 01:10:39.651] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29Apr2025 01:10:39.651] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[29Apr2025 01:10:39.651] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[29Apr2025 01:10:39.652] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[29Apr2025 01:10:39.652] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[29Apr2025 01:10:39.652] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[29Apr2025 01:10:39.703] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[29Apr2025 01:10:39.706] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[29Apr2025 01:10:39.739] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[29Apr2025 01:10:40.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.27
+[29Apr2025 01:10:40.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[29Apr2025 01:10:40.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.0 Target: 8.9.4
+[29Apr2025 01:10:40.080] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[29Apr2025 01:10:40.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.141.2 Target: null
+[29Apr2025 01:10:40.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Enchantments/update.json
+[29Apr2025 01:10:40.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Found status: UP_TO_DATE Current: 1.10.8 Target: null
+[29Apr2025 01:10:40.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[29Apr2025 01:10:40.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[29Apr2025 01:10:44.354] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Apr2025 01:10:48.297] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
+[29Apr2025 01:10:48.298] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
+[29Apr2025 01:10:50.965] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.0.jar
+[29Apr2025 01:10:51.488] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
+[29Apr2025 01:10:55.602] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[29Apr2025 01:10:55.704] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:entities/villager}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[29Apr2025 01:10:55.705] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
+[29Apr2025 01:10:55.763] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:bk
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -160,8 +160,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 00:52:26.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[29Apr2025 00:52:26.722] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:pb
+[29Apr2025 01:10:55.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[29Apr2025 01:10:55.781] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:pb
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -194,9 +194,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 00:52:26.743] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[29Apr2025 00:52:26.839] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[29Apr2025 00:52:26.849] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:b
+[29Apr2025 01:10:55.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[29Apr2025 01:10:55.847] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[29Apr2025 01:10:55.856] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:b
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -229,8 +229,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 00:52:26.856] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[29Apr2025 00:52:26.890] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:nca
+[29Apr2025 01:10:55.862] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[29Apr2025 01:10:55.883] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:nca
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -263,7 +263,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 00:52:26.892] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:ncc
+[29Apr2025 01:10:55.884] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:ncc
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -296,104 +296,104 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 00:52:26.919] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[29Apr2025 00:52:26.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[29Apr2025 00:52:26.981] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[29Apr2025 00:52:26.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[29Apr2025 00:52:26.999] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 40 recipes
-[29Apr2025 00:52:27.275] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:ocarina_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@17ccad3, rewards=AdvancementRewards{experience=60, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={ocarina_advancement_0=net.minecraft.advancements.Criterion@60853148}, requirements=[[ocarina_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.275] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:fairy_advancement: Task Advancement{parentId=terramity:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@67ba8635, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={fairy_advancement_0=net.minecraft.advancements.Criterion@2efcf4fb}, requirements=[[fairy_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.275] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:frenzied_flame_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@3fd7101c, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={frenzied_flame_advancement_0=net.minecraft.advancements.Criterion@76457031}, requirements=[[frenzied_flame_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.275] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:microcosm_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@690c65d5, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={microcosm_advancement_0=net.minecraft.advancements.Criterion@3495543d}, requirements=[[microcosm_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.275] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:opaline_moonstone_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@1e474a0c, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={opaline_moonstone_advancement_0=net.minecraft.advancements.Criterion@edd145}, requirements=[[opaline_moonstone_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.275] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:prismatic_jewel_advancement: Task Advancement{parentId=terramity:fairy_advancement, display=net.minecraft.advancements.DisplayInfo@77df74bb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={prismatic_jewel_advancement_0=net.minecraft.advancements.Criterion@19d6e4fc}, requirements=[[prismatic_jewel_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.276] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:angel_feather_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@297b8b9e, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2da6428e}, criteria={angel_feather_advancement_0=net.minecraft.advancements.Criterion@7246b49}, requirements=[[angel_feather_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 00:52:27.276] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4353 advancements
-[29Apr2025 00:52:27.330] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[29Apr2025 00:52:27.345] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[29Apr2025 00:52:27.353] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[29Apr2025 00:52:27.354] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[29Apr2025 00:52:27.395] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
-[29Apr2025 00:52:27.404] [main/INFO] [minecolonies/]: Loaded 159 recipes for 16 crafters
-[29Apr2025 00:52:27.404] [main/INFO] [minecolonies/]: Beginning load of research for University.
-[29Apr2025 00:52:27.466] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
-[29Apr2025 00:52:27.470] [main/INFO] [minecolonies/]: Loading quests from data
-[29Apr2025 00:52:27.479] [main/INFO] [minecolonies/]: Finished loading quests from data
-[29Apr2025 00:52:27.485] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
-[29Apr2025 00:52:27.488] [main/INFO] [botania/]: Loaded 30 Loonium configurations
-[29Apr2025 00:52:27.542] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[29Apr2025 00:52:31.787] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[29Apr2025 00:52:31.793] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
-[29Apr2025 00:52:31.794] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 1 ms
-[29Apr2025 00:52:32.849] [main/INFO] [majruszlibrary/]: [majruszsenchantments.json] Reloading configuration file took 3 milliseconds
-[29Apr2025 00:52:32.850] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
-[29Apr2025 00:52:32.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[29Apr2025 00:52:32.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29Apr2025 00:52:32.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29Apr2025 00:52:32.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29Apr2025 00:52:32.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29Apr2025 00:52:33.012] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[29Apr2025 00:52:33.120] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[29Apr2025 00:52:33.120] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[29Apr2025 00:52:33.121] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[29Apr2025 00:52:33.121] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[29Apr2025 00:52:33.999] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[29Apr2025 00:52:34.000] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[29Apr2025 00:52:34.000] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29Apr2025 00:52:46.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29Apr2025 00:52:53.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.802] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.803] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.807] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.808] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.809] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.813] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.814] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.815] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.817] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.818] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:53.960] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:54.462] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 00:52:54.961] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[29Apr2025 00:52:55.460] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[29Apr2025 00:52:55.895] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9436 ms
-[29Apr2025 00:52:55.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.757s)! For help, type "help"
-[29Apr2025 00:52:55.988] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[29Apr2025 00:52:56.002] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[29Apr2025 00:52:56.024] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[29Apr2025 00:52:56.062] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[29Apr2025 00:52:56.062] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[29Apr2025 00:52:56.063] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[29Apr2025 00:52:56.063] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[29Apr2025 00:52:56.088] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.jei due to unsatisfied mod condition.
-[29Apr2025 00:52:56.447] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 46 47
-[29Apr2025 00:52:56.447] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 69
-[29Apr2025 00:52:56.448] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
-[29Apr2025 00:52:56.448] [Server thread/INFO] [minecolonies/]: Finished discovering food 315 342
-[29Apr2025 00:52:56.448] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 788
-[29Apr2025 00:52:56.448] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 133
-[29Apr2025 00:52:56.449] [Server thread/INFO] [minecolonies/]: Finished discovering items 7980
-[29Apr2025 00:52:56.449] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
-[29Apr2025 00:52:56.451] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 709
-[29Apr2025 00:52:56.655] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[29Apr2025 00:58:03.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[29Apr2025 00:58:03.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[29Apr2025 00:58:03.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[29Apr2025 00:58:03.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[29Apr2025 00:58:03.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[29Apr2025 00:58:05.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[29Apr2025 00:58:05.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[29Apr2025 00:58:05.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[29Apr2025 00:58:05.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[29Apr2025 00:58:05.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[29Apr2025 00:58:05.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[29Apr2025 00:58:05.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[29Apr2025 00:58:05.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[29Apr2025 00:58:05.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29Apr2025 00:58:05.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[29Apr2025 00:58:05.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29Apr2025 00:58:05.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Apr2025 01:10:55.900] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[29Apr2025 01:10:55.936] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[29Apr2025 01:10:55.938] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[29Apr2025 01:10:55.947] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[29Apr2025 01:10:55.952] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 40 recipes
+[29Apr2025 01:10:56.158] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:ocarina_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@14f78c53, rewards=AdvancementRewards{experience=60, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={ocarina_advancement_0=net.minecraft.advancements.Criterion@587d93a8}, requirements=[[ocarina_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.158] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:fairy_advancement: Task Advancement{parentId=terramity:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@2de2c381, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={fairy_advancement_0=net.minecraft.advancements.Criterion@1936f546}, requirements=[[fairy_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:frenzied_flame_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@10ced188, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={frenzied_flame_advancement_0=net.minecraft.advancements.Criterion@3efc8a12}, requirements=[[frenzied_flame_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:microcosm_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@74f708c2, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={microcosm_advancement_0=net.minecraft.advancements.Criterion@2e01b054}, requirements=[[microcosm_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:opaline_moonstone_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@17160d1, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={opaline_moonstone_advancement_0=net.minecraft.advancements.Criterion@22d1f3bb}, requirements=[[opaline_moonstone_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:prismatic_jewel_advancement: Task Advancement{parentId=terramity:fairy_advancement, display=net.minecraft.advancements.DisplayInfo@3a9e0301, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={prismatic_jewel_advancement_0=net.minecraft.advancements.Criterion@177f73c2}, requirements=[[prismatic_jewel_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:angel_feather_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@66f803fc, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={angel_feather_advancement_0=net.minecraft.advancements.Criterion@af59d82}, requirements=[[angel_feather_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 01:10:56.159] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4353 advancements
+[29Apr2025 01:10:56.205] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[29Apr2025 01:10:56.219] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[29Apr2025 01:10:56.224] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[29Apr2025 01:10:56.225] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[29Apr2025 01:10:56.255] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[29Apr2025 01:10:56.263] [main/INFO] [minecolonies/]: Loaded 159 recipes for 16 crafters
+[29Apr2025 01:10:56.263] [main/INFO] [minecolonies/]: Beginning load of research for University.
+[29Apr2025 01:10:56.315] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
+[29Apr2025 01:10:56.318] [main/INFO] [minecolonies/]: Loading quests from data
+[29Apr2025 01:10:56.326] [main/INFO] [minecolonies/]: Finished loading quests from data
+[29Apr2025 01:10:56.331] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
+[29Apr2025 01:10:56.333] [main/INFO] [botania/]: Loaded 30 Loonium configurations
+[29Apr2025 01:10:56.361] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[29Apr2025 01:10:59.669] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[29Apr2025 01:10:59.671] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[29Apr2025 01:10:59.672] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 1 ms
+[29Apr2025 01:11:00.303] [main/INFO] [majruszlibrary/]: [majruszsenchantments.json] Reloading configuration file took 3 milliseconds
+[29Apr2025 01:11:00.303] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
+[29Apr2025 01:11:00.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29Apr2025 01:11:00.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Apr2025 01:11:00.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Apr2025 01:11:00.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Apr2025 01:11:00.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Apr2025 01:11:00.534] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Apr2025 01:11:00.608] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Apr2025 01:11:00.608] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Apr2025 01:11:00.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Apr2025 01:11:00.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Apr2025 01:11:01.321] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[29Apr2025 01:11:01.322] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[29Apr2025 01:11:01.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Apr2025 01:11:10.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Apr2025 01:11:15.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.213] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.213] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.214] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.215] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.216] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.219] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.221] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.222] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:15.555] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 01:11:16.054] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[29Apr2025 01:11:16.500] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6446 ms
+[29Apr2025 01:11:16.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.878s)! For help, type "help"
+[29Apr2025 01:11:16.594] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Apr2025 01:11:16.613] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[29Apr2025 01:11:16.635] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[29Apr2025 01:11:16.679] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[29Apr2025 01:11:16.680] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[29Apr2025 01:11:16.680] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[29Apr2025 01:11:16.680] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[29Apr2025 01:11:16.731] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.jei due to unsatisfied mod condition.
+[29Apr2025 01:11:17.034] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 46 47
+[29Apr2025 01:11:17.035] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 69
+[29Apr2025 01:11:17.035] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[29Apr2025 01:11:17.035] [Server thread/INFO] [minecolonies/]: Finished discovering food 315 342
+[29Apr2025 01:11:17.036] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 788
+[29Apr2025 01:11:17.036] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 133
+[29Apr2025 01:11:17.037] [Server thread/INFO] [minecolonies/]: Finished discovering items 7980
+[29Apr2025 01:11:17.037] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[29Apr2025 01:11:17.039] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 709
+[29Apr2025 01:11:17.176] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[29Apr2025 01:12:16.128] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,occultism:main,illusion_onslaught:illusion_onslaught,citadel:main_channel,born_in_chaos_v1:born_in_chaos_v1,domum_ornamentum:net-channel,curios:main,botania:main,terramity:terramity,majruszsenchantments:main,cataclysm:main_channel,majruszlibrary:main,lionfishapi:main_channel,structurize:net-channel,minecolonies:net-channel,forge:tier_sorting,modonomicon:main,tombstone:tombstone_channel,patchouli:main,epicfight:network_manager,caelus:main,armourers_workshop:play,lootr:main_network_channel,rpgstats:rpgstats,twilightforest:channel,geckolib:main,graveyard:spawn_entity,waystones:network] rejected vanilla connections
+[29Apr2025 01:12:16.129] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.203.219:60617] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[29Apr2025 01:13:09.006] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,occultism:main,illusion_onslaught:illusion_onslaught,citadel:main_channel,born_in_chaos_v1:born_in_chaos_v1,domum_ornamentum:net-channel,curios:main,botania:main,terramity:terramity,majruszsenchantments:main,cataclysm:main_channel,majruszlibrary:main,lionfishapi:main_channel,structurize:net-channel,minecolonies:net-channel,forge:tier_sorting,modonomicon:main,tombstone:tombstone_channel,patchouli:main,epicfight:network_manager,caelus:main,armourers_workshop:play,lootr:main_network_channel,rpgstats:rpgstats,twilightforest:channel,geckolib:main,graveyard:spawn_entity,waystones:network] rejected vanilla connections
+[29Apr2025 01:13:09.006] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.203.219:60669] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[29Apr2025 01:13:43.149] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,occultism:main,illusion_onslaught:illusion_onslaught,citadel:main_channel,born_in_chaos_v1:born_in_chaos_v1,domum_ornamentum:net-channel,curios:main,botania:main,terramity:terramity,majruszsenchantments:main,cataclysm:main_channel,majruszlibrary:main,lionfishapi:main_channel,structurize:net-channel,minecolonies:net-channel,forge:tier_sorting,modonomicon:main,tombstone:tombstone_channel,patchouli:main,epicfight:network_manager,caelus:main,armourers_workshop:play,lootr:main_network_channel,rpgstats:rpgstats,twilightforest:channel,geckolib:main,graveyard:spawn_entity,waystones:network] rejected vanilla connections
+[29Apr2025 01:13:43.150] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.203.219:60698] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[29Apr2025 01:18:22.036] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:57002] logged in with entity id 1215 at (25.5, 63.0, 36.5)
+[29Apr2025 01:18:22.065] [Server thread/INFO] [Modonomicon/]: Building books ...
+[29Apr2025 01:18:22.070] [Server thread/INFO] [Modonomicon/]: Books built.
+[29Apr2025 01:18:22.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[29Apr2025 01:18:22.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has reached the goal [Choose Your Class]
+[29Apr2025 01:18:22.460] [Server thread/INFO] [structurize/]: New Server UUID 3453bf11-d087-47d2-b0c5-993be6faad75
+[29Apr2025 01:18:22.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has made the advancement [Terramity]
+[29Apr2025 01:18:34.028] [Worker-Main-15/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[29Apr2025 01:18:34.069] [Worker-Main-22/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[29Apr2025 01:18:34.070] [Worker-Main-22/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[29Apr2025 01:18:34.071] [Worker-Main-22/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[29Apr2025 01:18:57.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has completed the challenge [Assassin Class]
+[29Apr2025 01:19:57.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61087] logged in with entity id 1763 at (17.5, 63.0, 31.5)
+[29Apr2025 01:19:57.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[29Apr2025 01:19:57.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X has reached the goal [Choose Your Class]
+[29Apr2025 01:19:57.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X has made the advancement [Terramity]
+[29Apr2025 01:20:07.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> ajaaaaaa
