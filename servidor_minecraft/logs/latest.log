@@ -1,133 +1,133 @@
-[29Apr2025 01:10:15.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[29Apr2025 01:10:15.522] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
-[29Apr2025 01:10:17.281] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[29Apr2025 01:10:17.334] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/panaserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[29Apr2025 01:10:17.688] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 01:10:17.691] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 01:10:17.692] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 01:10:17.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[29Apr2025 01:10:17.946] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[29Apr2025 01:10:20.312] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[29Apr2025 01:10:20.412] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[29Apr2025 01:10:20.465] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 01:10:20.581] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 01:10:20.583] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 01:10:20.592] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[29Apr2025 01:10:21.320] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[29Apr2025 01:10:21.320] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[29Apr2025 01:10:21.320] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[29Apr2025 01:10:21.898] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[29Apr2025 01:10:21.899] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[29Apr2025 01:10:22.222] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
-[29Apr2025 01:10:22.365] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[29Apr2025 01:10:25.946] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[29Apr2025 01:10:25.946] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[29Apr2025 01:10:28.679] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 01:10:28.679] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 01:10:28.680] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 01:10:28.680] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[29Apr2025 01:10:29.497] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[29Apr2025 02:30:38.231] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[29Apr2025 02:30:38.235] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
+[29Apr2025 02:30:47.169] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Apr2025 02:30:47.339] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/panaserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[29Apr2025 02:30:47.976] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 02:30:47.978] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 02:30:47.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 02:30:47.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/panaserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2025 02:30:48.464] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[29Apr2025 02:30:51.903] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Apr2025 02:30:52.089] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[29Apr2025 02:30:52.145] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 02:30:52.425] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 02:30:52.426] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 02:30:52.478] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2025 02:30:53.470] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[29Apr2025 02:30:53.472] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[29Apr2025 02:30:53.472] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[29Apr2025 02:30:54.425] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[29Apr2025 02:30:54.425] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[29Apr2025 02:30:54.833] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[29Apr2025 02:30:55.152] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[29Apr2025 02:31:00.349] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[29Apr2025 02:31:00.349] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[29Apr2025 02:31:04.191] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 02:31:04.192] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 02:31:04.194] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 02:31:04.195] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[29Apr2025 02:31:05.287] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[29Apr2025 01:10:30.391] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[29Apr2025 01:10:30.417] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[29Apr2025 01:10:30.498] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[29Apr2025 01:10:30.502] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[29Apr2025 01:10:30.508] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[29Apr2025 01:10:30.509] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[29Apr2025 01:10:30.513] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[29Apr2025 01:10:30.514] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[29Apr2025 01:10:30.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[29Apr2025 01:10:30.517] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[29Apr2025 01:10:30.781] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[29Apr2025 01:10:30.785] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[29Apr2025 01:10:31.202] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
-[29Apr2025 01:10:31.213] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 1 plugins
-[29Apr2025 01:10:32.866] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
-[29Apr2025 01:10:32.873] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
-[29Apr2025 01:10:32.876] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
-[29Apr2025 01:10:32.877] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
-[29Apr2025 01:10:32.878] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
-[29Apr2025 01:10:32.878] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
-[29Apr2025 01:10:32.878] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
-[29Apr2025 01:10:32.879] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
-[29Apr2025 01:10:32.879] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
-[29Apr2025 01:10:32.880] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
-[29Apr2025 01:10:32.881] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
-[29Apr2025 01:10:32.881] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
-[29Apr2025 01:10:32.882] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
-[29Apr2025 01:10:32.884] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
-[29Apr2025 01:10:32.884] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
-[29Apr2025 01:10:32.885] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
-[29Apr2025 01:10:32.885] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
-[29Apr2025 01:10:32.885] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
-[29Apr2025 01:10:32.886] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
-[29Apr2025 01:10:32.886] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
-[29Apr2025 01:10:32.888] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
-[29Apr2025 01:10:32.890] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
-[29Apr2025 01:10:32.891] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
-[29Apr2025 01:10:32.891] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
-[29Apr2025 01:10:32.894] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
-[29Apr2025 01:10:32.894] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
-[29Apr2025 01:10:33.344] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[29Apr2025 01:10:33.508] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
-[29Apr2025 01:10:37.640] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[29Apr2025 01:10:38.579] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[29Apr2025 01:10:38.607] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[29Apr2025 01:10:38.615] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[29Apr2025 01:10:38.634] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
-[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.650] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.651] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[29Apr2025 01:10:38.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[29Apr2025 01:10:38.846] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 136 crops
-[29Apr2025 01:10:38.846] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 6 crop tiers
-[29Apr2025 01:10:38.846] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
-[29Apr2025 01:10:38.850] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
-[29Apr2025 01:10:38.855] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 20 mob soul types
-[29Apr2025 01:10:38.887] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[29Apr2025 01:10:39.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.19.6 Target: 1.19.10
-[29Apr2025 01:10:39.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[29Apr2025 01:10:39.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.51 Target: 1.2.52
-[29Apr2025 01:10:39.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29Apr2025 01:10:39.290] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
-[29Apr2025 01:10:39.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[29Apr2025 01:10:39.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[29Apr2025 01:10:39.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[29Apr2025 01:10:39.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[29Apr2025 01:10:39.650] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[29Apr2025 01:10:39.651] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[29Apr2025 01:10:39.651] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[29Apr2025 01:10:39.651] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[29Apr2025 01:10:39.652] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[29Apr2025 01:10:39.652] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[29Apr2025 01:10:39.652] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[29Apr2025 01:10:39.703] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
-[29Apr2025 01:10:39.706] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
-[29Apr2025 01:10:39.739] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
-[29Apr2025 01:10:40.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.27
-[29Apr2025 01:10:40.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[29Apr2025 01:10:40.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.0 Target: 8.9.4
-[29Apr2025 01:10:40.080] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
-[29Apr2025 01:10:40.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.141.2 Target: null
-[29Apr2025 01:10:40.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Enchantments/update.json
-[29Apr2025 01:10:40.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Found status: UP_TO_DATE Current: 1.10.8 Target: null
-[29Apr2025 01:10:40.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
-[29Apr2025 01:10:40.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
-[29Apr2025 01:10:44.354] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[29Apr2025 01:10:48.297] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
-[29Apr2025 01:10:48.298] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
-[29Apr2025 01:10:50.965] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.0.jar
-[29Apr2025 01:10:51.488] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
-[29Apr2025 01:10:55.602] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
-[29Apr2025 01:10:55.704] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:entities/villager}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[29Apr2025 01:10:55.705] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
-[29Apr2025 01:10:55.763] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:bk
+[29Apr2025 02:31:06.540] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[29Apr2025 02:31:06.828] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[29Apr2025 02:31:06.914] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29Apr2025 02:31:06.918] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[29Apr2025 02:31:06.932] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[29Apr2025 02:31:06.938] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[29Apr2025 02:31:06.939] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[29Apr2025 02:31:06.941] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[29Apr2025 02:31:06.947] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[29Apr2025 02:31:06.956] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[29Apr2025 02:31:07.173] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[29Apr2025 02:31:07.188] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[29Apr2025 02:31:07.647] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[29Apr2025 02:31:07.676] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 1 plugins
+[29Apr2025 02:31:09.817] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
+[29Apr2025 02:31:09.823] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
+[29Apr2025 02:31:09.823] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
+[29Apr2025 02:31:09.825] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
+[29Apr2025 02:31:09.831] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
+[29Apr2025 02:31:09.831] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
+[29Apr2025 02:31:09.832] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
+[29Apr2025 02:31:09.832] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
+[29Apr2025 02:31:09.833] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
+[29Apr2025 02:31:09.836] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
+[29Apr2025 02:31:09.836] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
+[29Apr2025 02:31:09.836] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
+[29Apr2025 02:31:09.836] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
+[29Apr2025 02:31:09.837] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
+[29Apr2025 02:31:09.837] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
+[29Apr2025 02:31:09.838] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
+[29Apr2025 02:31:09.840] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
+[29Apr2025 02:31:09.840] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
+[29Apr2025 02:31:09.841] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
+[29Apr2025 02:31:09.841] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
+[29Apr2025 02:31:09.841] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
+[29Apr2025 02:31:09.842] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
+[29Apr2025 02:31:09.844] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
+[29Apr2025 02:31:09.845] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[29Apr2025 02:31:09.845] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[29Apr2025 02:31:09.845] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[29Apr2025 02:31:10.513] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[29Apr2025 02:31:11.123] [modloading-worker-0/INFO] [simplyswords/]: Registering Gobber compat Items for simplyswords
+[29Apr2025 02:31:16.337] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[29Apr2025 02:31:17.469] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[29Apr2025 02:31:17.506] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[29Apr2025 02:31:17.516] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[29Apr2025 02:31:17.547] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[29Apr2025 02:31:17.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[29Apr2025 02:31:17.838] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 136 crops
+[29Apr2025 02:31:17.838] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 6 crop tiers
+[29Apr2025 02:31:17.838] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
+[29Apr2025 02:31:17.838] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
+[29Apr2025 02:31:17.839] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 20 mob soul types
+[29Apr2025 02:31:17.921] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[29Apr2025 02:31:17.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[29Apr2025 02:31:18.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.19.6 Target: 1.19.10
+[29Apr2025 02:31:18.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[29Apr2025 02:31:18.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.51 Target: 1.2.52
+[29Apr2025 02:31:18.398] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Apr2025 02:31:18.521] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[29Apr2025 02:31:18.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[29Apr2025 02:31:18.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[29Apr2025 02:31:18.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[29Apr2025 02:31:18.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[29Apr2025 02:31:19.127] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29Apr2025 02:31:19.128] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29Apr2025 02:31:19.128] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[29Apr2025 02:31:19.129] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[29Apr2025 02:31:19.129] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[29Apr2025 02:31:19.129] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[29Apr2025 02:31:19.129] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[29Apr2025 02:31:19.220] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[29Apr2025 02:31:19.222] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[29Apr2025 02:31:19.273] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[29Apr2025 02:31:19.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.23 Target: 1.20.1-1.1.27
+[29Apr2025 02:31:19.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[29Apr2025 02:31:19.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.0 Target: 8.9.4
+[29Apr2025 02:31:19.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[29Apr2025 02:31:19.451] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.141.2 Target: null
+[29Apr2025 02:31:19.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Enchantments/update.json
+[29Apr2025 02:31:19.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsenchantments] Found status: UP_TO_DATE Current: 1.10.8 Target: null
+[29Apr2025 02:31:19.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[29Apr2025 02:31:19.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[29Apr2025 02:31:25.657] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Apr2025 02:31:30.887] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
+[29Apr2025 02:31:30.887] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/panaserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
+[29Apr2025 02:31:34.427] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.0.jar
+[29Apr2025 02:31:35.314] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
+[29Apr2025 02:31:41.088] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[29Apr2025 02:31:41.194] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:entities/villager}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[29Apr2025 02:31:41.196] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
+[29Apr2025 02:31:41.278] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:bk
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -160,8 +160,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 01:10:55.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[29Apr2025 01:10:55.781] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:pb
+[29Apr2025 02:31:41.304] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[29Apr2025 02:31:41.308] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:pb
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -194,9 +194,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 01:10:55.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[29Apr2025 01:10:55.847] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[29Apr2025 01:10:55.856] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:b
+[29Apr2025 02:31:41.323] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[29Apr2025 02:31:41.390] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[29Apr2025 02:31:41.404] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:b
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -229,8 +229,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 01:10:55.862] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[29Apr2025 01:10:55.883] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:nca
+[29Apr2025 02:31:41.416] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[29Apr2025 02:31:41.447] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:nca
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -263,7 +263,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 01:10:55.884] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:ncc
+[29Apr2025 02:31:41.450] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe rpgsmw:ncc
 com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23202!/:?]
@@ -296,162 +296,663 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[29Apr2025 01:10:55.900] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[29Apr2025 01:10:55.936] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[29Apr2025 01:10:55.938] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[29Apr2025 01:10:55.947] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[29Apr2025 01:10:55.952] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 40 recipes
-[29Apr2025 01:10:56.158] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:ocarina_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@14f78c53, rewards=AdvancementRewards{experience=60, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={ocarina_advancement_0=net.minecraft.advancements.Criterion@587d93a8}, requirements=[[ocarina_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.158] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:fairy_advancement: Task Advancement{parentId=terramity:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@2de2c381, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={fairy_advancement_0=net.minecraft.advancements.Criterion@1936f546}, requirements=[[fairy_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:frenzied_flame_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@10ced188, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={frenzied_flame_advancement_0=net.minecraft.advancements.Criterion@3efc8a12}, requirements=[[frenzied_flame_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:microcosm_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@74f708c2, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={microcosm_advancement_0=net.minecraft.advancements.Criterion@2e01b054}, requirements=[[microcosm_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:opaline_moonstone_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@17160d1, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={opaline_moonstone_advancement_0=net.minecraft.advancements.Criterion@22d1f3bb}, requirements=[[opaline_moonstone_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:prismatic_jewel_advancement: Task Advancement{parentId=terramity:fairy_advancement, display=net.minecraft.advancements.DisplayInfo@3a9e0301, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={prismatic_jewel_advancement_0=net.minecraft.advancements.Criterion@177f73c2}, requirements=[[prismatic_jewel_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.159] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:angel_feather_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@66f803fc, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2a0daf30}, criteria={angel_feather_advancement_0=net.minecraft.advancements.Criterion@af59d82}, requirements=[[angel_feather_advancement_0]], sends_telemetry_event=false}
-[29Apr2025 01:10:56.159] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4353 advancements
-[29Apr2025 01:10:56.205] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[29Apr2025 01:10:56.219] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[29Apr2025 01:10:56.224] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[29Apr2025 01:10:56.225] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[29Apr2025 01:10:56.255] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
-[29Apr2025 01:10:56.263] [main/INFO] [minecolonies/]: Loaded 159 recipes for 16 crafters
-[29Apr2025 01:10:56.263] [main/INFO] [minecolonies/]: Beginning load of research for University.
-[29Apr2025 01:10:56.315] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
-[29Apr2025 01:10:56.318] [main/INFO] [minecolonies/]: Loading quests from data
-[29Apr2025 01:10:56.326] [main/INFO] [minecolonies/]: Finished loading quests from data
-[29Apr2025 01:10:56.331] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
-[29Apr2025 01:10:56.333] [main/INFO] [botania/]: Loaded 30 Loonium configurations
-[29Apr2025 01:10:56.361] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[29Apr2025 01:10:59.669] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[29Apr2025 01:10:59.671] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
-[29Apr2025 01:10:59.672] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 1 ms
-[29Apr2025 01:11:00.303] [main/INFO] [majruszlibrary/]: [majruszsenchantments.json] Reloading configuration file took 3 milliseconds
-[29Apr2025 01:11:00.303] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
-[29Apr2025 01:11:00.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[29Apr2025 01:11:00.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29Apr2025 01:11:00.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29Apr2025 01:11:00.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29Apr2025 01:11:00.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29Apr2025 01:11:00.534] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[29Apr2025 01:11:00.608] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[29Apr2025 01:11:00.608] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[29Apr2025 01:11:00.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[29Apr2025 01:11:00.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[29Apr2025 01:11:01.321] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[29Apr2025 01:11:01.322] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[29Apr2025 01:11:01.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29Apr2025 01:11:10.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29Apr2025 01:11:15.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.213] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.213] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.214] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.215] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.216] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.219] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.221] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.222] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:15.555] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Apr2025 01:11:16.054] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[29Apr2025 01:11:16.500] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6446 ms
-[29Apr2025 01:11:16.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.878s)! For help, type "help"
-[29Apr2025 01:11:16.594] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[29Apr2025 01:11:16.613] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[29Apr2025 01:11:16.635] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[29Apr2025 01:11:16.679] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[29Apr2025 01:11:16.680] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[29Apr2025 01:11:16.680] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[29Apr2025 01:11:16.680] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[29Apr2025 01:11:16.731] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.jei due to unsatisfied mod condition.
-[29Apr2025 01:11:17.034] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 46 47
-[29Apr2025 01:11:17.035] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 69
-[29Apr2025 01:11:17.035] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
-[29Apr2025 01:11:17.035] [Server thread/INFO] [minecolonies/]: Finished discovering food 315 342
-[29Apr2025 01:11:17.036] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 788
-[29Apr2025 01:11:17.036] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 133
-[29Apr2025 01:11:17.037] [Server thread/INFO] [minecolonies/]: Finished discovering items 7980
-[29Apr2025 01:11:17.037] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
-[29Apr2025 01:11:17.039] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 709
-[29Apr2025 01:11:17.176] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[29Apr2025 01:12:16.128] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,occultism:main,illusion_onslaught:illusion_onslaught,citadel:main_channel,born_in_chaos_v1:born_in_chaos_v1,domum_ornamentum:net-channel,curios:main,botania:main,terramity:terramity,majruszsenchantments:main,cataclysm:main_channel,majruszlibrary:main,lionfishapi:main_channel,structurize:net-channel,minecolonies:net-channel,forge:tier_sorting,modonomicon:main,tombstone:tombstone_channel,patchouli:main,epicfight:network_manager,caelus:main,armourers_workshop:play,lootr:main_network_channel,rpgstats:rpgstats,twilightforest:channel,geckolib:main,graveyard:spawn_entity,waystones:network] rejected vanilla connections
-[29Apr2025 01:12:16.129] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.203.219:60617] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[29Apr2025 01:13:09.006] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,occultism:main,illusion_onslaught:illusion_onslaught,citadel:main_channel,born_in_chaos_v1:born_in_chaos_v1,domum_ornamentum:net-channel,curios:main,botania:main,terramity:terramity,majruszsenchantments:main,cataclysm:main_channel,majruszlibrary:main,lionfishapi:main_channel,structurize:net-channel,minecolonies:net-channel,forge:tier_sorting,modonomicon:main,tombstone:tombstone_channel,patchouli:main,epicfight:network_manager,caelus:main,armourers_workshop:play,lootr:main_network_channel,rpgstats:rpgstats,twilightforest:channel,geckolib:main,graveyard:spawn_entity,waystones:network] rejected vanilla connections
-[29Apr2025 01:13:09.006] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.203.219:60669] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[29Apr2025 01:13:43.149] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,occultism:main,illusion_onslaught:illusion_onslaught,citadel:main_channel,born_in_chaos_v1:born_in_chaos_v1,domum_ornamentum:net-channel,curios:main,botania:main,terramity:terramity,majruszsenchantments:main,cataclysm:main_channel,majruszlibrary:main,lionfishapi:main_channel,structurize:net-channel,minecolonies:net-channel,forge:tier_sorting,modonomicon:main,tombstone:tombstone_channel,patchouli:main,epicfight:network_manager,caelus:main,armourers_workshop:play,lootr:main_network_channel,rpgstats:rpgstats,twilightforest:channel,geckolib:main,graveyard:spawn_entity,waystones:network] rejected vanilla connections
-[29Apr2025 01:13:43.150] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.203.219:60698] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[29Apr2025 01:18:22.036] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:57002] logged in with entity id 1215 at (25.5, 63.0, 36.5)
-[29Apr2025 01:18:22.065] [Server thread/INFO] [Modonomicon/]: Building books ...
-[29Apr2025 01:18:22.070] [Server thread/INFO] [Modonomicon/]: Books built.
-[29Apr2025 01:18:22.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
-[29Apr2025 01:18:22.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has reached the goal [Choose Your Class]
-[29Apr2025 01:18:22.460] [Server thread/INFO] [structurize/]: New Server UUID 3453bf11-d087-47d2-b0c5-993be6faad75
-[29Apr2025 01:18:22.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has made the advancement [Terramity]
-[29Apr2025 01:18:34.028] [Worker-Main-15/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
-[29Apr2025 01:18:34.069] [Worker-Main-22/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
-[29Apr2025 01:18:34.070] [Worker-Main-22/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
-[29Apr2025 01:18:34.071] [Worker-Main-22/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
-[29Apr2025 01:18:57.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has completed the challenge [Assassin Class]
-[29Apr2025 01:19:57.403] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61087] logged in with entity id 1763 at (17.5, 63.0, 31.5)
-[29Apr2025 01:19:57.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
-[29Apr2025 01:19:57.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X has reached the goal [Choose Your Class]
-[29Apr2025 01:19:57.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X has made the advancement [Terramity]
-[29Apr2025 01:20:07.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> ajaaaaaa
-[29Apr2025 01:20:15.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> qlq chikibebi
-[29Apr2025 01:20:33.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Shinra7X> mano mi skin
-[29Apr2025 01:20:38.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Shinra7X> e una mielda
-[29Apr2025 01:20:45.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> eres un negro con un amongus
-[29Apr2025 01:20:47.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> pq xd
-[29Apr2025 01:20:59.493] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Timed out
-[29Apr2025 01:20:59.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
-[29Apr2025 01:21:25.261] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61162] logged in with entity id 2162 at (16.657324349655575, 63.0, 30.381857589789547)
-[29Apr2025 01:21:25.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
-[29Apr2025 01:21:42.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X has completed the challenge [Assassin Class]
-[29Apr2025 01:21:43.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> aja
-[29Apr2025 01:21:47.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> too bien?
-[29Apr2025 01:21:49.609] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=62, z=29}
-[29Apr2025 01:21:50.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> no tenes lag?
-[29Apr2025 01:21:54.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Shinra7X> cñ
-[29Apr2025 01:22:08.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Shinra7X> los mensajes se mandan bull de lento
-[29Apr2025 01:22:14.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
-[29Apr2025 01:22:14.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
-[29Apr2025 01:22:14.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> cñ raro
-[29Apr2025 01:22:47.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Disconnected
-[29Apr2025 01:22:47.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
-[29Apr2025 01:23:03.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61264] logged in with entity id 2607 at (15.27633067816988, 63.0, 28.958461678638084)
-[29Apr2025 01:23:03.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
-[29Apr2025 01:23:19.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X was slain by Zombie
-[29Apr2025 01:23:19.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X has made the advancement [Your First Grave]
-[29Apr2025 01:23:19.693] [Server thread/INFO] [tombstone/]: The player Shinra7X has successfully been saved
-[29Apr2025 01:23:25.406] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=65, z=33}
-[29Apr2025 01:23:25.705] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
-[29Apr2025 01:23:26.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=65, z=33}
-[29Apr2025 01:23:26.058] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
-[29Apr2025 01:23:26.203] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=65, z=33}
-[29Apr2025 01:23:26.406] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=66, z=33}
-[29Apr2025 01:23:26.453] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=65, z=33}
-[29Apr2025 01:23:27.507] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
-[29Apr2025 01:23:28.452] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
-[29Apr2025 01:23:31.353] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=64, z=41}
-[29Apr2025 01:23:31.405] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=64, z=41}
-[29Apr2025 01:23:31.850] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=62, z=44}
-[29Apr2025 01:23:38.119] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=63, z=41}
-[29Apr2025 01:23:38.127] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
-[29Apr2025 01:23:38.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
-[29Apr2025 01:29:11.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[29Apr2025 01:29:11.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[29Apr2025 01:29:11.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[29Apr2025 01:29:11.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[29Apr2025 01:29:12.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[29Apr2025 01:29:13.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[29Apr2025 01:29:13.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[29Apr2025 01:29:13.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[29Apr2025 01:29:13.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[29Apr2025 01:29:13.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[29Apr2025 01:29:13.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[29Apr2025 01:29:13.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29Apr2025 01:29:13.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[29Apr2025 01:29:13.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29Apr2025 01:29:13.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[29Apr2025 01:29:13.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[29Apr2025 01:29:13.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Apr2025 02:31:41.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[29Apr2025 02:31:41.524] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[29Apr2025 02:31:41.527] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[29Apr2025 02:31:41.540] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[29Apr2025 02:31:41.547] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 40 recipes
+[29Apr2025 02:31:41.816] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:ocarina_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@1510cc98, rewards=AdvancementRewards{experience=60, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={ocarina_advancement_0=net.minecraft.advancements.Criterion@6e6210ec}, requirements=[[ocarina_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.817] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:fairy_advancement: Task Advancement{parentId=terramity:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@60c8cd6, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={fairy_advancement_0=net.minecraft.advancements.Criterion@7817098b}, requirements=[[fairy_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.817] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:frenzied_flame_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@4c74a7ce, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={frenzied_flame_advancement_0=net.minecraft.advancements.Criterion@cefb49a}, requirements=[[frenzied_flame_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.817] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:microcosm_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@1f66e3e0, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={microcosm_advancement_0=net.minecraft.advancements.Criterion@6e5ccff2}, requirements=[[microcosm_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.818] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:opaline_moonstone_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@1cc4c8ac, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={opaline_moonstone_advancement_0=net.minecraft.advancements.Criterion@146fb799}, requirements=[[opaline_moonstone_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.818] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:prismatic_jewel_advancement: Task Advancement{parentId=terramity:fairy_advancement, display=net.minecraft.advancements.DisplayInfo@3a56f85c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={prismatic_jewel_advancement_0=net.minecraft.advancements.Criterion@536c53f0}, requirements=[[prismatic_jewel_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.818] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement terramity:angel_feather_advancement: Task Advancement{parentId=terramity:prismatic_jewel_advancement, display=net.minecraft.advancements.DisplayInfo@14cf6b82, rewards=AdvancementRewards{experience=20, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@c9d5e50}, criteria={angel_feather_advancement_0=net.minecraft.advancements.Criterion@258d5938}, requirements=[[angel_feather_advancement_0]], sends_telemetry_event=false}
+[29Apr2025 02:31:41.818] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4353 advancements
+[29Apr2025 02:31:41.879] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[29Apr2025 02:31:41.897] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[29Apr2025 02:31:41.907] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[29Apr2025 02:31:41.909] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[29Apr2025 02:31:41.951] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[29Apr2025 02:31:41.960] [main/INFO] [minecolonies/]: Loaded 159 recipes for 16 crafters
+[29Apr2025 02:31:41.961] [main/INFO] [minecolonies/]: Beginning load of research for University.
+[29Apr2025 02:31:42.015] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
+[29Apr2025 02:31:42.019] [main/INFO] [minecolonies/]: Loading quests from data
+[29Apr2025 02:31:42.027] [main/INFO] [minecolonies/]: Finished loading quests from data
+[29Apr2025 02:31:42.032] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
+[29Apr2025 02:31:42.035] [main/INFO] [botania/]: Loaded 30 Loonium configurations
+[29Apr2025 02:31:42.094] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[29Apr2025 02:31:46.545] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[29Apr2025 02:31:46.548] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 2 ms
+[29Apr2025 02:31:46.550] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 1 ms
+[29Apr2025 02:31:47.445] [main/INFO] [majruszlibrary/]: [majruszsenchantments.json] Reloading configuration file took 6 milliseconds
+[29Apr2025 02:31:47.446] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 0 milliseconds
+[29Apr2025 02:31:47.447] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29Apr2025 02:31:47.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Apr2025 02:31:47.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Apr2025 02:31:47.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Apr2025 02:31:47.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Apr2025 02:31:47.655] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Apr2025 02:31:47.737] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Apr2025 02:31:47.738] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Apr2025 02:31:47.738] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Apr2025 02:31:47.738] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Apr2025 02:31:48.746] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[29Apr2025 02:31:48.747] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[29Apr2025 02:31:48.747] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Apr2025 02:32:00.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Apr2025 02:32:07.123] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.145] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.173] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.193] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.207] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.221] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.308] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.327] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.355] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.374] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.403] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.419] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.434] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.463] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:07.916] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Apr2025 02:32:08.297] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[29Apr2025 02:32:08.797] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[29Apr2025 02:32:09.282] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8486 ms
+[29Apr2025 02:32:09.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (21.529s)! For help, type "help"
+[29Apr2025 02:32:09.409] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Apr2025 02:32:09.428] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[29Apr2025 02:32:09.454] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[29Apr2025 02:32:09.499] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[29Apr2025 02:32:09.499] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[29Apr2025 02:32:09.499] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[29Apr2025 02:32:09.500] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[29Apr2025 02:32:09.536] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.jei due to unsatisfied mod condition.
+[29Apr2025 02:32:09.893] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 46 47
+[29Apr2025 02:32:09.894] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 69
+[29Apr2025 02:32:09.894] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[29Apr2025 02:32:09.894] [Server thread/INFO] [minecolonies/]: Finished discovering food 315 342
+[29Apr2025 02:32:09.895] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 788
+[29Apr2025 02:32:09.895] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 133
+[29Apr2025 02:32:09.895] [Server thread/INFO] [minecolonies/]: Finished discovering items 7980
+[29Apr2025 02:32:09.895] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[29Apr2025 02:32:09.898] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 709
+[29Apr2025 02:32:10.045] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[29Apr2025 02:32:50.778] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MadaraUchiha2909[/172.23.164.249:61747] logged in with entity id 1290 at (17.805257255646765, 64.0, 35.4348698041585)
+[29Apr2025 02:32:50.801] [Server thread/INFO] [Modonomicon/]: Building books ...
+[29Apr2025 02:32:50.806] [Server thread/INFO] [Modonomicon/]: Books built.
+[29Apr2025 02:32:50.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 joined the game
+[29Apr2025 02:32:51.303] [Server thread/INFO] [structurize/]: New Server UUID d975f4df-b2e8-4202-a017-16fd54f69db2
+[29Apr2025 02:32:57.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:55182] logged in with entity id 1341 at (4.909412667459429, 63.0, 40.24133701205955)
+[29Apr2025 02:32:57.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[29Apr2025 02:33:34.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Shinra7X> ola
+[29Apr2025 02:33:35.843] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=33}
+[29Apr2025 02:33:40.341] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
+[29Apr2025 02:33:41.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
+[29Apr2025 02:33:42.190] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=33}
+[29Apr2025 02:33:42.415] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=64, z=33}
+[29Apr2025 02:34:14.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=35}
+[29Apr2025 02:34:28.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing changed. The player already is an operator
+[29Apr2025 02:34:57.840] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=4, y=62, z=40}
+[29Apr2025 02:35:01.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:03.288] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.541] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.591] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:03.692] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=35}
+[29Apr2025 02:35:03.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=35}
+[29Apr2025 02:35:03.837] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=35}
+[29Apr2025 02:35:03.890] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=35}
+[29Apr2025 02:35:03.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=35}
+[29Apr2025 02:35:03.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:04.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:04.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:04.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:04.192] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:04.241] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:04.288] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:04.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:04.439] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:04.537] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:04.585] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:35:04.636] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:35:04.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:35:04.740] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:35:04.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:35:04.841] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:35:04.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:04.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:04.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:05.041] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:05.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:05.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:05.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.287] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.337] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.442] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:35:05.489] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:35:05.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:35:05.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:35:05.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:35:05.691] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.735] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.792] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.839] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:05.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.038] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.138] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.190] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.241] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.289] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:35:06.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:06.440] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:06.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:35:06.537] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.686] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.790] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:06.985] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.138] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.188] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.239] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.289] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=36}
+[29Apr2025 02:35:07.940] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.289] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.439] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.690] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:08.837] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:08.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:09.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made shynra7x a server operator
+[29Apr2025 02:35:09.108] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:09.109] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:09.109] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:09.147] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:09.236] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:17.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=42}
+[29Apr2025 02:35:18.185] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:18.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:18.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:35:18.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:18.542] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:18.640] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:35:18.691] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:35:18.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:18.958] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:19.137] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:19.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:19.440] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:19.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:19.741] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:19.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:20.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:20.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:35:20.192] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=39}
+[29Apr2025 02:35:20.236] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=39}
+[29Apr2025 02:35:20.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=39}
+[29Apr2025 02:35:20.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=39}
+[29Apr2025 02:35:20.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=39}
+[29Apr2025 02:35:20.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=39}
+[29Apr2025 02:35:20.744] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:20.837] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:20.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:21.042] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:21.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:21.138] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:21.188] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:21.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:21.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:21.389] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:21.487] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:21.541] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:35:21.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:21.743] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:35:21.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:35:22.042] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:35:22.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:35:22.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:22.191] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:22.289] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:22.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:22.440] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:22.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:22.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:22.635] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:22.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:22.735] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:22.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:35:22.840] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:22.894] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:22.940] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:23.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:23.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:23.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:23.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:23.291] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:23.343] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:23.389] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:23.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=33}
+[29Apr2025 02:35:23.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=33}
+[29Apr2025 02:35:23.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=32}
+[29Apr2025 02:35:23.688] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=32}
+[29Apr2025 02:35:23.886] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=15, y=63, z=33}
+[29Apr2025 02:35:23.935] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=33}
+[29Apr2025 02:35:23.991] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=33}
+[29Apr2025 02:35:24.038] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=34}
+[29Apr2025 02:35:24.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=62, z=34}
+[29Apr2025 02:35:24.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=15, y=63, z=35}
+[29Apr2025 02:35:24.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=15, y=63, z=35}
+[29Apr2025 02:35:24.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=15, y=63, z=36}
+[29Apr2025 02:35:24.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=15, y=63, z=37}
+[29Apr2025 02:35:24.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:24.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:24.840] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:24.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:35:24.939] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:24.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:25.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:25.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:25.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:35:25.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:25.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:25.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:25.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:35:25.437] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:25.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:35:25.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:35:25.686] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=18, y=63, z=33} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:35:27.809] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
+[29Apr2025 02:35:27.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[29Apr2025 02:36:02.717] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:55492] logged in with entity id 2293 at (19.007482718397675, 64.0, 37.36919643297975)
+[29Apr2025 02:36:02.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[29Apr2025 02:36:16.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=37}
+[29Apr2025 02:36:16.886] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:36:16.957] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=37}
+[29Apr2025 02:36:16.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=38}
+[29Apr2025 02:36:17.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=38}
+[29Apr2025 02:36:17.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=38}
+[29Apr2025 02:36:17.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=38}
+[29Apr2025 02:36:17.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=39}
+[29Apr2025 02:36:17.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=39}
+[29Apr2025 02:36:17.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=40}
+[29Apr2025 02:36:17.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=12, y=63, z=41}
+[29Apr2025 02:36:19.437] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:36:19.487] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:36:19.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:36:19.740] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:36:19.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:36:19.890] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:36:20.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:36:30.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:36:33.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=65, z=41}
+[29Apr2025 02:36:33.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=64, z=41}
+[29Apr2025 02:36:33.986] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=64, z=41}
+[29Apr2025 02:36:34.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=62, z=44}
+[29Apr2025 02:36:34.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=62, z=44}
+[29Apr2025 02:36:34.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=8, y=62, z=44}
+[29Apr2025 02:36:34.539] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=8, y=62, z=44}
+[29Apr2025 02:36:34.585] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=8, y=62, z=44}
+[29Apr2025 02:36:34.684] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=9, y=62, z=43}
+[29Apr2025 02:36:34.737] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=9, y=62, z=43}
+[29Apr2025 02:36:34.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=9, y=62, z=43}
+[29Apr2025 02:36:34.885] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=10, y=63, z=42}
+[29Apr2025 02:36:35.438] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=12, y=63, z=40}
+[29Apr2025 02:36:35.488] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=39}
+[29Apr2025 02:36:35.534] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=39}
+[29Apr2025 02:36:35.586] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=38}
+[29Apr2025 02:36:35.641] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=38}
+[29Apr2025 02:36:35.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:36:35.886] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:36:35.939] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:36:35.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:36:36.039] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:36:36.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:36:36.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:36:36.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:36:36.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:36:36.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:36:36.337] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:36:36.384] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:36:36.443] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=18, y=63, z=38}
+[29Apr2025 02:36:36.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:36:36.784] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:36:36.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:36:36.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:36:36.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=20, y=63, z=37}
+[29Apr2025 02:36:37.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=34}
+[29Apr2025 02:36:37.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=34}
+[29Apr2025 02:36:37.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=34}
+[29Apr2025 02:36:37.287] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=34}
+[29Apr2025 02:36:37.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=22, y=63, z=34}
+[29Apr2025 02:36:39.435] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=12, y=63, z=36}
+[29Apr2025 02:36:39.486] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=12, y=63, z=36}
+[29Apr2025 02:36:40.834] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=36}
+[29Apr2025 02:36:56.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=37}
+[29Apr2025 02:36:57.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:57.784] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:57.886] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:57.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.083] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.188] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.486] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.539] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.636] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.789] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.935] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:58.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:59.035] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:59.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:59.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:59.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:36:59.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=40}
+[29Apr2025 02:36:59.291] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=21, y=63, z=40}
+[29Apr2025 02:37:15.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:15.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:28.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=39}
+[29Apr2025 02:37:28.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=39}
+[29Apr2025 02:37:28.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=39}
+[29Apr2025 02:37:29.035] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:29.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:29.340] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:29.488] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:29.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:29.791] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:29.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:30.191] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=16, y=63, z=38}
+[29Apr2025 02:37:33.134] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:37:33.536] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=62, z=39}
+[29Apr2025 02:37:34.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=62, z=40}
+[29Apr2025 02:37:34.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=14, y=63, z=40}
+[29Apr2025 02:37:34.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=62, z=40}
+[29Apr2025 02:37:37.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MadaraUchiha2909 lost connection: Disconnected
+[29Apr2025 02:37:37.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 left the game
+[29Apr2025 02:37:40.636] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:40.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:40.934] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:40.983] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:41.033] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:41.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=41}
+[29Apr2025 02:37:41.440] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=13, y=63, z=42}
+[29Apr2025 02:37:42.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=63, z=44}
+[29Apr2025 02:37:42.489] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=44}
+[29Apr2025 02:37:42.634] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=44}
+[29Apr2025 02:37:42.886] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=44}
+[29Apr2025 02:37:42.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=44}
+[29Apr2025 02:37:42.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:43.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:43.084] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:43.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:43.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:43.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:43.284] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:43.939] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=40}
+[29Apr2025 02:37:44.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:44.790] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:44.885] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:45.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:45.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=43}
+[29Apr2025 02:37:45.133] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=43}
+[29Apr2025 02:37:45.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=42}
+[29Apr2025 02:37:45.237] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=42}
+[29Apr2025 02:37:45.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=42}
+[29Apr2025 02:37:45.385] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=42}
+[29Apr2025 02:37:45.435] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=42}
+[29Apr2025 02:37:45.488] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=42}
+[29Apr2025 02:37:45.539] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=41}
+[29Apr2025 02:37:45.584] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=41}
+[29Apr2025 02:37:45.634] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=41}
+[29Apr2025 02:37:45.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=41}
+[29Apr2025 02:37:45.735] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:45.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:45.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=41}
+[29Apr2025 02:37:45.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:45.933] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:45.984] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:46.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=40}
+[29Apr2025 02:37:46.143] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=40}
+[29Apr2025 02:37:46.188] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=41}
+[29Apr2025 02:37:46.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=41}
+[29Apr2025 02:37:46.334] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=41}
+[29Apr2025 02:37:46.386] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=41}
+[29Apr2025 02:37:46.487] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.584] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.635] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.791] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.838] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:46.984] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:47.038] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=41}
+[29Apr2025 02:37:47.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:47.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:47.184] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:47.288] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:47.333] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:47.385] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:47.483] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:37:47.536] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:37:47.586] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:37:47.635] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:37:47.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:37:47.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=37}
+[29Apr2025 02:37:47.786] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:37:47.834] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:37:47.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:37:47.934] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=36}
+[29Apr2025 02:37:47.985] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=36}
+[29Apr2025 02:37:48.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=36}
+[29Apr2025 02:37:48.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=36}
+[29Apr2025 02:37:48.138] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=36}
+[29Apr2025 02:37:48.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:37:48.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:37:48.883] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:37:48.935] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:37:49.005] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:37:49.035] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:37:49.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:37:49.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=37}
+[29Apr2025 02:37:49.233] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=36}
+[29Apr2025 02:37:49.283] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=36}
+[29Apr2025 02:37:49.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=36}
+[29Apr2025 02:37:49.387] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=36}
+[29Apr2025 02:37:49.435] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=35}
+[29Apr2025 02:37:49.483] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=35}
+[29Apr2025 02:37:49.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=35}
+[29Apr2025 02:37:49.632] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=35}
+[29Apr2025 02:37:49.686] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=35}
+[29Apr2025 02:37:49.733] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:37:49.786] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:37:49.834] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:37:49.883] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:37:49.991] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=36}
+[29Apr2025 02:37:50.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=36}
+[29Apr2025 02:37:50.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=36}
+[29Apr2025 02:37:50.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=37}
+[29Apr2025 02:37:50.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=37}
+[29Apr2025 02:37:50.232] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=38}
+[29Apr2025 02:37:50.285] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.383] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.433] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.537] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.586] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.686] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=22, y=63, z=38}
+[29Apr2025 02:37:50.733] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=41}
+[29Apr2025 02:37:50.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=41}
+[29Apr2025 02:37:50.832] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:50.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=42}
+[29Apr2025 02:37:50.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=43}
+[29Apr2025 02:37:50.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=43}
+[29Apr2025 02:37:51.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.284] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.387] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.437] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.487] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.542] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.582] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.635] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=42}
+[29Apr2025 02:37:51.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:51.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:51.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:51.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:51.986] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:52.034] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:52.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=43}
+[29Apr2025 02:37:52.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=43}
+[29Apr2025 02:37:52.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=42}
+[29Apr2025 02:37:52.283] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=42}
+[29Apr2025 02:37:52.389] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=42}
+[29Apr2025 02:37:52.434] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=42}
+[29Apr2025 02:37:52.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=42}
+[29Apr2025 02:37:52.534] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:52.584] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:52.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:52.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:52.738] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:52.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=40}
+[29Apr2025 02:37:52.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=40}
+[29Apr2025 02:37:52.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=40}
+[29Apr2025 02:37:52.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=40}
+[29Apr2025 02:37:53.035] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=40}
+[29Apr2025 02:37:53.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=40}
+[29Apr2025 02:37:53.133] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=41}
+[29Apr2025 02:37:53.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=41}
+[29Apr2025 02:37:53.287] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:37:53.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:37:53.438] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=41}
+[29Apr2025 02:37:53.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=10, y=63, z=41}
+[29Apr2025 02:37:53.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=10, y=63, z=41}
+[29Apr2025 02:37:53.736] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=10, y=63, z=40}
+[29Apr2025 02:37:53.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=10, y=63, z=40}
+[29Apr2025 02:37:53.882] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:53.937] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:53.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:54.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:54.088] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:54.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=11, y=63, z=40}
+[29Apr2025 02:37:54.233] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=40}
+[29Apr2025 02:37:54.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=40}
+[29Apr2025 02:37:54.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=39}
+[29Apr2025 02:37:54.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=39}
+[29Apr2025 02:37:54.437] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=37}
+[29Apr2025 02:37:54.536] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=37}
+[29Apr2025 02:37:54.582] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=36}
+[29Apr2025 02:37:54.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=36}
+[29Apr2025 02:37:54.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=12, y=63, z=36}
+[29Apr2025 02:37:54.785] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=37}
+[29Apr2025 02:37:54.835] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=13, y=63, z=37}
+[29Apr2025 02:37:54.933] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:54.985] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:55.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:55.084] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:55.134] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:55.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:55.237] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=14, y=63, z=37}
+[29Apr2025 02:37:55.283] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:37:55.333] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:37:55.384] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=15, y=63, z=38}
+[29Apr2025 02:37:55.437] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=16, y=63, z=36}
+[29Apr2025 02:37:55.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:37:55.537] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:37:55.583] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=36}
+[29Apr2025 02:37:55.636] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:55.686] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:55.733] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:55.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:55.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:55.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:55.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=37}
+[29Apr2025 02:37:56.184] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:37:56.237] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:37:56.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=37}
+[29Apr2025 02:37:56.337] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:37:56.385] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=19, y=63, z=38}
+[29Apr2025 02:37:56.489] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.534] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.583] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.735] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.782] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.840] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.886] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=20, y=63, z=38}
+[29Apr2025 02:37:56.934] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.239] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.283] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.334] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.433] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.583] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.635] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.686] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=21, y=63, z=39}
+[29Apr2025 02:37:57.737] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=38}
+[29Apr2025 02:37:57.786] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:57.838] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=17, y=63, z=39}
+[29Apr2025 02:37:57.934] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=40}
+[29Apr2025 02:37:57.986] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=40}
+[29Apr2025 02:37:58.036] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=40}
+[29Apr2025 02:37:58.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:58.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:58.284] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:58.337] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:58.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[29Apr2025 02:37:58.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=15, y=62, z=45} BlockPos{x=18, y=63, z=41}
+[29Apr2025 02:37:58.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Apr2025 02:37:58.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Apr2025 02:37:58.407] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Server closed
+[29Apr2025 02:37:58.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[29Apr2025 02:37:58.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Apr2025 02:37:59.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29Apr2025 02:38:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29Apr2025 02:38:00.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[29Apr2025 02:38:00.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[29Apr2025 02:38:00.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[29Apr2025 02:38:00.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29Apr2025 02:38:00.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Apr2025 02:38:00.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Apr2025 02:38:00.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[29Apr2025 02:38:00.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[29Apr2025 02:38:00.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[29Apr2025 02:38:00.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Apr2025 02:38:00.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

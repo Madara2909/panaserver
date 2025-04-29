@@ -1,4 +1,88 @@
 {
+  "simplyswords:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "terramity:terramity_parent_advancement": {
+    "criteria": {
+      "terramity_parent_advancement_0": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "illusion_onslaught:illusion_onslaught_advancement": {
+    "criteria": {
+      "illusion_onslaught_advancement": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bornin_chaos": {
+    "criteria": {
+      "bornin_chaos_0": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "rpgsmw:choose_your_class": {
+    "criteria": {
+      "choose_your_class_0": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2025-04-29 01:18:22 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "aspen_glade": "2025-04-29 01:18:23 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-04-29 01:18:23 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "aspen_glade": "2025-04-29 01:18:23 +0000"
+    },
+    "done": false
+  },
+  "rpgsmw:assassin_class": {
+    "criteria": {
+      "assassin_class_0": "2025-04-29 01:18:57 +0000"
+    },
+    "done": true
+  },
   "deeperdarker:recipes/transportation/echo_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
@@ -14,18 +98,6 @@
   "deeperdarker:recipes/transportation/bloom_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
-    },
-    "done": true
-  },
-  "simplyswords:grant_book_on_first_join": {
-    "criteria": {
-      "tick": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-04-29 01:18:22 +0000"
     },
     "done": true
   },
@@ -59,24 +131,6 @@
     },
     "done": true
   },
-  "terramity:terramity_parent_advancement": {
-    "criteria": {
-      "terramity_parent_advancement_0": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:biomesoplenty/root": {
-    "criteria": {
-      "aspen_glade": "2025-04-29 01:18:23 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/pine_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
@@ -86,24 +140,6 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
-    },
-    "done": true
-  },
-  "illusion_onslaught:illusion_onslaught_advancement": {
-    "criteria": {
-      "illusion_onslaught_advancement": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:bornin_chaos": {
-    "criteria": {
-      "bornin_chaos_0": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2025-04-29 01:18:23 +0000"
     },
     "done": true
   },
@@ -149,18 +185,6 @@
     },
     "done": true
   },
-  "biomesoplenty:biomesoplenty/all_biomes": {
-    "criteria": {
-      "aspen_glade": "2025-04-29 01:18:23 +0000"
-    },
-    "done": false
-  },
-  "lootr:root": {
-    "criteria": {
-      "always_true": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/maple_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
@@ -188,12 +212,6 @@
   "biomesoplenty:recipes/transportation/redwood_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
-    },
-    "done": true
-  },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2025-04-29 01:18:22 +0000"
     },
     "done": true
   },
@@ -245,33 +263,39 @@
     },
     "done": true
   },
-  "rpgsmw:assassin_class": {
-    "criteria": {
-      "assassin_class_0": "2025-04-29 01:18:57 +0000"
-    },
-    "done": true
-  },
-  "rpgsmw:choose_your_class": {
-    "criteria": {
-      "choose_your_class_0": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/transportation/sorting_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
     },
     "done": true
   },
-  "occultism:occultism/root": {
-    "criteria": {
-      "occultism_present": "2025-04-29 01:18:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-04-29 01:22:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-04-29 02:35:36 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/architectscutter": {
+    "criteria": {
+      "has_log": "2025-04-29 02:35:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-04-29 02:35:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-04-29 02:35:36 +0000"
     },
     "done": true
   },
