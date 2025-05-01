@@ -416,3 +416,84 @@ com.google.gson.JsonSyntaxException: Unknown item 'rpgsmw:deleted_mod_element'
 [01May2025 03:02:47.995] [Server thread/INFO] [tombstone/]: The player Aragosn has successfully been saved
 [01May2025 03:02:51.001] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61225] logged in with entity id 3388 at (-1892.4113163113877, 275.0, 1115.8561978383013)
 [01May2025 03:02:51.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[01May2025 03:03:28.143] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aragosn lost connection: Disconnected
+[01May2025 03:03:28.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn left the game
+[01May2025 03:03:45.432] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
+[01May2025 03:03:45.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[01May2025 03:03:54.336] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aragosn[/172.23.114.97:54358] logged in with entity id 3896 at (-40.79359591664955, 63.0, 52.752549593581264)
+[01May2025 03:03:54.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn joined the game
+[01May2025 03:04:54.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Gearling
+[01May2025 03:04:54.113] [Server thread/INFO] [tombstone/]: The player MadaraUchiha2909 has successfully been saved
+[01May2025 03:04:59.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to -1837.500000, 224.500000, 1126.500000]
+[01May2025 03:05:08.700] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61231] logged in with entity id 5059 at (-1881.955737195482, 275.0, 1114.7276978860725)
+[01May2025 03:05:08.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[01May2025 03:05:17.363] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/5052, l='ServerLevel[world]', x=-1843.10, y=229.50, z=1127.50] died: Gearling was slain by MadaraUchiha2909
+[01May2025 03:05:21.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aragosn> cabron dame una enderpel
+[01May2025 03:05:24.496] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/5117, l='ServerLevel[world]', x=-1843.75, y=229.00, z=1126.26] died: Gearling was slain by MadaraUchiha2909
+[01May2025 03:05:30.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aragosn> para tepeame
+[01May2025 03:05:39.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Gearling
+[01May2025 03:05:39.174] [Server thread/INFO] [tombstone/]: The player MadaraUchiha2909 has successfully been saved
+[01May2025 03:05:45.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported Shinra7X to MadaraUchiha2909]
+[01May2025 03:05:47.689] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
+[01May2025 03:05:47.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[01May2025 03:05:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to -1853.500000, 229.500000, 1133.500000]
+[01May2025 03:05:56.389] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aragosn lost connection: Disconnected
+[01May2025 03:05:56.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn left the game
+[01May2025 03:06:21.044] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61239] logged in with entity id 6143 at (8.5, 64.0, 28.5)
+[01May2025 03:06:21.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[01May2025 03:06:22.045] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aragosn[/172.23.114.97:54366] logged in with entity id 6310 at (-132.3434592920607, 87.0, 119.49627369876589)
+[01May2025 03:06:22.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn joined the game
+[01May2025 03:06:34.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MadaraUchiha2909> s
+[01May2025 03:06:57.894] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6627, l='ServerLevel[world]', x=-1840.90, y=207.00, z=1123.60] died: Gearling went off with a bang
+[01May2025 03:06:57.895] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6610, l='ServerLevel[world]', x=-1840.36, y=207.00, z=1123.62] died: Gearling went off with a bang
+[01May2025 03:06:57.897] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6593, l='ServerLevel[world]', x=-1841.20, y=207.00, z=1123.61] died: Gearling went off with a bang
+[01May2025 03:06:57.898] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6618, l='ServerLevel[world]', x=-1841.17, y=207.00, z=1123.06] died: Gearling went off with a bang
+[01May2025 03:06:57.899] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6572, l='ServerLevel[world]', x=-1840.58, y=207.80, z=1123.20] died: Gearling went off with a bang
+[01May2025 03:06:57.900] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6672, l='ServerLevel[world]', x=-1840.76, y=208.17, z=1123.62] died: Gearling went off with a bang
+[01May2025 03:06:57.901] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/6634, l='ServerLevel[world]', x=-1840.22, y=208.00, z=1123.56] died: Gearling went off with a bang
+[01May2025 03:07:11.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 was slain by Skeleton
+[01May2025 03:07:11.810] [Server thread/INFO] [tombstone/]: The player MadaraUchiha2909 has successfully been saved
+[01May2025 03:07:27.134] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Timed out
+[01May2025 03:07:27.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[01May2025 03:07:28.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Gave 1 [Ender Pearl] to Aragosn]
+[01May2025 03:07:45.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to 50.500000, 235.500000, 101.500000]
+[01May2025 03:08:00.645] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61246] logged in with entity id 7730 at (52.394916934673354, 69.49550413542775, 31.351648741178344)
+[01May2025 03:08:00.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[01May2025 03:08:02.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported Shinra7X to MadaraUchiha2909]
+[01May2025 03:08:26.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to -1841.500000, 191.500000, 1122.500000]
+[01May2025 03:08:59.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X fell from a high place
+[01May2025 03:08:59.250] [Server thread/INFO] [tombstone/]: The player Shinra7X has successfully been saved
+[01May2025 03:09:05.886] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aragosn lost connection: Disconnected
+[01May2025 03:09:05.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn left the game
+[01May2025 03:09:27.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MadaraUchiha2909: Gave 1 [Ender Pearl] to Shinra7X]
+[01May2025 03:09:29.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X moved too quickly! -6.606335697543926,3.324473125962129,-6.886738874108687
+[01May2025 03:09:29.383] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
+[01May2025 03:09:29.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[01May2025 03:09:30.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has reached the goal [Bone Crusher]
+[01May2025 03:09:30.112] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7938, l='ServerLevel[world]', x=-1834.48, y=195.00, z=1119.71] died: Gearling was slain by MadaraUchiha2909
+[01May2025 03:09:30.340] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aragosn[/172.23.114.97:54374] logged in with entity id 8275 at (-1841.300000011921, 283.5, 1113.3930474747153)
+[01May2025 03:09:30.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn joined the game
+[01May2025 03:09:41.602] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7952, l='ServerLevel[world]', x=-1834.79, y=195.00, z=1119.78] died: Gearling was slain by MadaraUchiha2909
+[01May2025 03:10:06.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61253] logged in with entity id 8365 at (52.127495655662244, 66.45925825308167, 145.58746783920049)
+[01May2025 03:10:06.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[01May2025 03:10:54.395] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6e04c9ad[id=<null>,name=Lablanquita,properties={},legacy=false] (/172.23.151.225:55485) lost connection: Disconnected
+[01May2025 03:11:11.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MadaraUchiha2909 has made the advancement [Knowledge raises the soul]
+[01May2025 03:11:15.789] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
+[01May2025 03:11:15.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[01May2025 03:11:29.887] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aragosn lost connection: Disconnected
+[01May2025 03:11:29.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn left the game
+[01May2025 03:11:56.189] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aragosn[/172.23.114.97:54381] logged in with entity id 9092 at (-1833.957615791986, 241.5, 1117.7047138076414)
+[01May2025 03:11:56.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn joined the game
+[01May2025 03:12:08.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn was slain by Zombie
+[01May2025 03:12:08.246] [Server thread/INFO] [tombstone/]: The player Aragosn has successfully been saved
+[01May2025 03:12:11.491] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61263] logged in with entity id 9156 at (39.80860472977881, 63.0, 160.0380606218619)
+[01May2025 03:12:11.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
+[01May2025 03:12:20.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aragosn> enderperl
+[01May2025 03:12:23.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Aragosn> lidel
+[01May2025 03:12:30.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shinra7X lost connection: Disconnected
+[01May2025 03:12:30.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X left the game
+[01May2025 03:12:40.951] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=15, y=66, z=33}
+[01May2025 03:12:53.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aragosn lost connection: Disconnected
+[01May2025 03:12:53.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aragosn left the game
+[01May2025 03:13:03.944] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shinra7X[/172.23.203.219:61279] logged in with entity id 9674 at (23.43000426948178, 64.0, 159.00543786878816)
+[01May2025 03:13:03.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shinra7X joined the game
