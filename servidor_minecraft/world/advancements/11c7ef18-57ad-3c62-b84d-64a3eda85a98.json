@@ -1155,11 +1155,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2025-05-01 03:34:27 +0000",
       "minecraft:birch_forest": "2025-04-29 03:43:01 +0000",
       "minecraft:beach": "2025-04-29 03:45:09 +0000",
       "minecraft:dark_forest": "2025-04-29 03:44:26 +0000",
       "minecraft:mangrove_swamp": "2025-04-29 03:54:38 +0000",
       "minecraft:river": "2025-04-29 03:02:38 +0000",
+      "minecraft:snowy_plains": "2025-05-01 03:34:29 +0000",
       "minecraft:forest": "2025-04-29 03:38:01 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-29 03:46:35 +0000",
       "minecraft:savanna": "2025-05-01 02:59:18 +0000",
@@ -1923,6 +1925,66 @@
   "lootr:25loot": {
     "criteria": {
       "loot_stat": "2025-05-01 02:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-01 03:26:07 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_frosted_prison": {
+    "criteria": {
+      "prison": "2025-05-01 03:34:27 +0000"
     },
     "done": true
   },
