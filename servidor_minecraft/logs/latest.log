@@ -1,6 +1,117 @@
-[01:48:57] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[01:48:57] [main/INFO]: Loading 49 mods:
+[00:12:30] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[00:12:33] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[00:12:33] [main/WARN]: Warnings were found!
+ - Mod 'Simply Swords' (simplyswords) 1.56.0-1.20.1 recommends version 1.7.2 or later of bettercombat, which is missing!
+	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
+[00:12:33] [main/INFO]: Loading 203 mods:
+	- accessories 1.0.0-beta.47+1.20.1
+	   |-- io_wispforest_endec 0.1.8
+	   |-- io_wispforest_endec_gson 0.1.5
+	   \-- io_wispforest_endec_netty 0.1.4
+	- alloy_forgery 2.1.2+1.20
+	- aquamirae 6
+	- archers 1.3.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- architectury 9.2.14
+	- artifacts 9.5.15
+	   |-- expandability 9.0.4
+	   \-- step-height-entity-attribute 1.2.0
 	- attributefix 21.0.4
+	- automobility 0.4.2+1.20.1-fabric
+	   \-- jsonem 0.2.1+1.20
+	- azurelib 3.0.8
+	   \-- mixinextras 0.4.1
+	- azurelibarmor 2.0.14
+	- badpackets 0.4.3
+	- bclib 3.0.14
+	   \-- wunderlib 1.1.5
+	- betterend 4.0.11
+	- betterendisland 1.20-Fabric-2.0.6
+	   \-- org_reflections_reflections 0.10.2
+	- bigendcitiesmod 1.20.1-1.0.4
+	- bosses_of_mass_destruction 1.7.5-1.20.1
+	   |-- maelstrom_library 1.6.1-1.20
+	   \-- multipart_entities 1.5-1.20
+	- botania 1.20.1-448-FABRIC
+	   |-- fiber 0.23.0-2
+	   |-- reach-entity-attributes 2.4.0
+	   \-- step-height-entity-attribute 1.2.0
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- combatroll 1.3.3+1.20.1
+	- create 0.5.1-j-build.1631+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.11-4
+	   |-- forgeconfigapiport 8.0.0
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_config 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_utility 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_client_events 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_obj_loader 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_tool_actions 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_fluids 2.3.8+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- deeperdarker 1.3.3
+	   \-- customportalapi 0.0.1-beta64-1.20
+	- dungeonnowloading 1.5
+	   \-- forgeconfigapiport 8.0.0
+	- dungeons_arise 2.1.58
+	- emotecraft 2.2.7-b.build.50
+	   \-- bendy-lib 4.0.0
+	- extraspellattributes 1.3.2
 	- fabric-api 0.92.5+1.20.1
 	   |-- fabric-api-base 0.4.32+1802ada577
 	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
@@ -54,96 +165,1216 @@
 	   |-- fabric-sound-api-v1 1.0.14+1802ada577
 	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
 	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.3+kotlin.2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
+	- final_adversaries_lite 1.1
 	- geckolib 4.7.1.2
 	   \-- com_eliotlash_mclib_mclib 20
+	- hugestructureblocks 1.0.9
+	- immersive_aircraft 1.2.2+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- incendium 5.3.5
+	- ironchest 2.0.2
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
 	- java 17
+	- jewelry 1.3.7+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- levelz 1.4.13
+	- libz 1.0.3
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.15.2
+	   |-- com_fasterxml_jackson_core_jackson-core 2.15.2
+	   \-- com_fasterxml_jackson_core_jackson-databind 2.15.2
+	- lootr 0.7.35.85
+	- man_of_many_planes 0.2.0+1.20.1
+	- midnightlib 1.4.1
+	- minecells 1.9.2
+	   \-- gimm1q 0.7.9+1.20.1
+	        \-- com_github_redempt_crunch 2.0.3
 	- minecraft 1.20.1
+	- mr_true_ending 1-v1.1.0c
+	- mythicmetals 0.19.10+1.20.1
+	   |-- additionalentityattributes 1.7.3+1.20.0
+	   |-- common-protection-api 1.0.0
+	   \-- reach-entity-attributes 2.4.0
+	- netherexp 2.1.3
+	   |-- forgeconfigapiport 8.0.0
+	   \-- mixinextras 0.4.1
+	- obscure_api 16
+	- owo 0.11.2+1.20
+	- paladins 1.4.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- patchouli 1.20.1-84.1-FABRIC
+	   \-- fiber 0.23.0-2
+	- player-animator 1.0.2-rc1+1.20
 	- ranged_weapon_api 1.1.4+1.20.1
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rogues 1.2.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- roughlyenoughitems 12.1.785
+	   \-- error_notifier 1.0.9
+	- rpg-minibosses 1.0.5+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- runes 0.9.13+1.20.1
+	- shield_api 1.0.1+1.20.1
+	- simplemod 1.20.1
+	- simplyswords 1.56.0-1.20.1
+	   \-- spruceui 5.0.0+1.20
 	- soulsweapons 1.2.4-1.20.1-fabric
-[01:48:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/panaserver/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:48:57] [main/INFO]: Compatibility level set to JAVA_17
-[01:48:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[01:49:04] [main/INFO]: Config initialized!
-[01:49:04] [main/INFO]: Successfully initialized Geckolib!
-[01:49:04] [main/INFO]: Successfully registered SoulsWeapons content!
-[01:49:04] [main/INFO]: Successfully registered built-in 2D model resourcepack!
-[01:49:04] [main/INFO]: Successfully registered built-in Legacy 2D Models resourcepack!
-[01:49:04] [main/INFO]: Successfully registered built-in Legacy 3D Models resourcepack!
-[01:49:04] [main/INFO]: Successfully registered built-in Fresh Animations Compat. resourcepack!
-[01:49:04] [main/INFO]: Initializing done, time taken: 264ms
-[01:49:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:49:06] [main/INFO]: Loaded 7 recipes
-[01:49:06] [main/INFO]: Loaded 1422 advancements
-[01:49:07] [main/INFO]: Applied 169 biome modifications to 58 of 64 new biomes in 11.29 ms
-[01:49:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:49:07] [Server thread/INFO]: Loading properties
-[01:49:07] [Server thread/INFO]: Default game type: SURVIVAL
-[01:49:07] [Server thread/INFO]: Generating keypair
-[01:49:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:49:07] [Server thread/INFO]: Using epoll channel type
-[01:49:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:49:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:49:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:49:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:49:07] [Server thread/INFO]: Preparing level "world"
-[01:49:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:49:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:49:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:49:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:49:16] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[01:49:17] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[01:49:17] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[01:49:18] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[01:49:18] [Worker-Main-3/INFO]: Preparing spawn area: 7%
-[01:49:19] [Worker-Main-2/INFO]: Preparing spawn area: 9%
-[01:49:19] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[01:49:20] [Worker-Main-2/INFO]: Preparing spawn area: 13%
-[01:49:20] [Worker-Main-3/INFO]: Preparing spawn area: 16%
-[01:49:21] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[01:49:21] [Worker-Main-1/INFO]: Preparing spawn area: 22%
-[01:49:22] [Worker-Main-2/INFO]: Preparing spawn area: 24%
-[01:49:22] [Worker-Main-2/INFO]: Preparing spawn area: 26%
-[01:49:23] [Worker-Main-1/INFO]: Preparing spawn area: 29%
-[01:49:23] [Worker-Main-1/INFO]: Preparing spawn area: 32%
-[01:49:24] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[01:49:24] [Worker-Main-1/INFO]: Preparing spawn area: 38%
-[01:49:25] [Worker-Main-2/INFO]: Preparing spawn area: 41%
-[01:49:25] [Worker-Main-1/INFO]: Preparing spawn area: 44%
-[01:49:26] [Worker-Main-2/INFO]: Preparing spawn area: 46%
-[01:49:26] [Worker-Main-2/INFO]: Preparing spawn area: 49%
-[01:49:27] [Worker-Main-2/INFO]: Preparing spawn area: 53%
-[01:49:27] [Worker-Main-3/INFO]: Preparing spawn area: 56%
-[01:49:28] [Worker-Main-2/INFO]: Preparing spawn area: 59%
-[01:49:28] [Worker-Main-1/INFO]: Preparing spawn area: 62%
-[01:49:29] [Worker-Main-3/INFO]: Preparing spawn area: 64%
-[01:49:29] [Worker-Main-1/INFO]: Preparing spawn area: 68%
-[01:49:30] [Worker-Main-1/INFO]: Preparing spawn area: 70%
-[01:49:30] [Worker-Main-1/INFO]: Preparing spawn area: 73%
-[01:49:31] [Worker-Main-3/INFO]: Preparing spawn area: 76%
-[01:49:31] [Worker-Main-2/INFO]: Preparing spawn area: 79%
-[01:49:32] [Worker-Main-3/INFO]: Preparing spawn area: 82%
-[01:49:32] [Worker-Main-3/INFO]: Preparing spawn area: 84%
-[01:49:33] [Worker-Main-3/INFO]: Preparing spawn area: 87%
-[01:49:33] [Worker-Main-1/INFO]: Preparing spawn area: 90%
-[01:49:34] [Worker-Main-3/INFO]: Preparing spawn area: 92%
-[01:49:34] [Worker-Main-2/INFO]: Preparing spawn area: 96%
-[01:49:35] [Worker-Main-2/INFO]: Preparing spawn area: 99%
-[01:49:35] [Server thread/INFO]: Time elapsed: 22578 ms
-[01:49:35] [Server thread/INFO]: Done (27.982s)! For help, type "help"
-[01:49:35] [Server thread/INFO]: Loaded values for 15 compatible attributes.
-[01:49:35] [Server thread/INFO]: Creating a new config file at /workspaces/panaserver/servidor_minecraft/./config/attributefix.json.
-[01:49:35] [Server thread/INFO]: Saving config file. 15 entries.
-[01:49:35] [Server thread/INFO]: Applying changes for 15 attributes.
-[01:51:59] [Server thread/INFO]: [Not Secure] [Server] pene
-[01:57:27] [Server thread/INFO]: [Not Secure] [Server] webazoo
-[01:58:08] [Server thread/INFO]: MadaraUchiha2909[/127.95.82.55:41379] logged in with entity id 279 at (-159.5, 65.0, 102.5)
-[01:58:08] [Server thread/INFO]: MadaraUchiha2909 joined the game
-[01:58:39] [Server thread/INFO]: Made MadaraUchiha2909 a server operator
-[01:58:49] [Server thread/INFO]: [MadaraUchiha2909: Set own game mode to Creative Mode]
+	- spell_engine 0.15.12+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- spell_power 0.12.0+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- structure_pool_api 1.0+1.20.1
+	- terrablender 3.0.1.10
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- the_bumblezone 7.7.3+1.20.1-fabric
+	   |-- athena 3.1.1
+	   |-- mixinextras 0.4.1
+	   \-- noindium 1.1.0+1.20
+	- travelersbackpack 9.1.37
+	   \-- reach-entity-attributes 2.4.0
+	- trinkets 3.7.2
+	- wizards 1.4.1+1.20.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- wthit 8.16.3
+	- xaerominimap 25.2.6
+	- xaeroworldmap 1.39.9
+	- yigd 2.0.15
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+[00:12:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/panaserver/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:12:34] [main/INFO]: Compatibility level set to JAVA_17
+[00:12:35] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:12:35] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[00:12:35] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[00:12:35] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[00:12:35] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[00:12:35] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[00:12:35] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[00:12:35] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[00:12:35] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[00:12:36] [main/WARN]: Error loading class: net/minecraft/class_337$1 (java.lang.ClassNotFoundException: net/minecraft/class_337$1)
+[00:12:36] [main/WARN]: @Mixin target net/minecraft/class_337$1 was not found minecells.mixins.json:client.hud.BossBarUpdaterMixin from mod minecells
+[00:12:36] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/entity/LithiumEntityCollisions (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/entity/LithiumEntityCollisions)
+[00:12:36] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[00:12:36] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[00:12:36] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[00:12:36] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[00:12:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:12:40] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:12:43] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfm000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:12:47] [main/WARN]: @ModifyConstant conflict. Skipping yungsapi_fabric.mixins.json:IncreaseStructureWeightLimitMixinFabric from mod yungsapi->@ModifyConstant::yungsapi_increaseWeightLimitProd(I)I with priority 1000, already redirected by dungeonnowloading.fabric.mixins.json:fabric.structures.StructurePoolMixin from mod dungeonnowloading->@ModifyConstant::dungeonnowloading_increaseWeightLimit(I)I with priority 1000
+[00:12:48] [main/INFO]: Registering Listeners!
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[00:12:49] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[00:12:49] [main/ERROR]: No data fixer registered for artifacts:mimic
+[00:12:49] [main/INFO]: Registered azurelib config for auto-sync function
+[00:12:49] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[00:12:49] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[00:12:49] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[00:12:58] [main/INFO]: Reflections took 57 ms to scan 1 urls, producing 1 keys and 2 values
+[00:12:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:12:58] [main/INFO]: [STDOUT]: All 6 have been set properly
+[00:12:59] [main/ERROR]: No data fixer registered for botania:mana_burst
+[00:12:59] [main/ERROR]: No data fixer registered for botania:pixie
+[00:12:59] [main/ERROR]: No data fixer registered for botania:flame_ring
+[00:12:59] [main/ERROR]: No data fixer registered for botania:vine_ball
+[00:12:59] [main/ERROR]: No data fixer registered for botania:doppleganger
+[00:12:59] [main/ERROR]: No data fixer registered for botania:magic_landmine
+[00:12:59] [main/ERROR]: No data fixer registered for botania:spark
+[00:12:59] [main/ERROR]: No data fixer registered for botania:thrown_item
+[00:12:59] [main/ERROR]: No data fixer registered for botania:magic_missile
+[00:12:59] [main/ERROR]: No data fixer registered for botania:thorn_chakram
+[00:12:59] [main/ERROR]: No data fixer registered for botania:corporea_spark
+[00:12:59] [main/ERROR]: No data fixer registered for botania:ender_air_bottle
+[00:12:59] [main/ERROR]: No data fixer registered for botania:pool_minecart
+[00:12:59] [main/ERROR]: No data fixer registered for botania:pink_wither
+[00:12:59] [main/ERROR]: No data fixer registered for botania:player_mover
+[00:12:59] [main/ERROR]: No data fixer registered for botania:mana_storm
+[00:12:59] [main/ERROR]: No data fixer registered for botania:babylon_weapon
+[00:12:59] [main/ERROR]: No data fixer registered for botania:falling_star
+[00:12:59] [main/ERROR]: No data fixer registered for botania:ender_air
+[00:13:02] [main/ERROR]: No data fixer registered for crystallized_amber
+[00:13:02] [main/ERROR]: No data fixer registered for sculk_jaw
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:hollow
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:spawner_carrier
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:sealed_chaos
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:whimper
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:chaos_spawner_projectile
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:special_item_entity
+[00:13:02] [main/ERROR]: No data fixer registered for dungeonnowloading:great_experience_bottle
+[00:13:02] [main/INFO]: Hello Fabric world!
+[00:13:02] [main/INFO]: ExpandAbility here, who dis?
+[00:13:02] [main/INFO]: Hello Fabric world!
+[00:13:02] [main/INFO]: Initializing Gimm1q - Mim1q's Fabric modding library!
+[00:13:02] [main/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
+[00:13:02] [main/INFO]: New structure size = 512
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[00:13:02] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[00:13:02] [main/ERROR]: No data fixer registered for man_of_many_planes:scarlet_biplane
+[00:13:02] [main/ERROR]: No data fixer registered for man_of_many_planes:economy_plane
+[00:13:03] [main/INFO]: [Mythic Metals] Mythic Metals is now initialized.
+[00:13:03] [main/ERROR]: No data fixer registered for apparition
+[00:13:03] [main/ERROR]: No data fixer registered for wisp
+[00:13:03] [main/ERROR]: No data fixer registered for vessel
+[00:13:03] [main/ERROR]: No data fixer registered for ecto_slab
+[00:13:03] [main/ERROR]: No data fixer registered for banshee
+[00:13:03] [main/ERROR]: No data fixer registered for stampede
+[00:13:03] [main/ERROR]: No data fixer registered for carcass
+[00:13:03] [main/ERROR]: No data fixer registered for soul_bullet
+[00:13:03] [main/ERROR]: No data fixer registered for blood_drop
+[00:13:03] [main/ERROR]: No data fixer registered for phasmo_arrow
+[00:13:03] [main/ERROR]: No data fixer registered for mist_charge
+[00:13:03] [main/ERROR]: No data fixer registered for grave_cloud
+[00:13:03] [main/ERROR]: No data fixer registered for will_o_wisp
+[00:13:03] [main/ERROR]: No data fixer registered for antidote
+[00:13:03] [main/ERROR]: No data fixer registered for grenade_effect_cloud
+[00:13:03] [main/INFO]: My Seethenhagen factory makes 331 pounds of licorice per hour
+[00:13:03] [main/INFO]: [REI] Registered plugin provider AlloyForgeryCommonPlugin [alloy_forgery] for REIPlugin
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[00:13:03] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[00:13:03] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[00:13:03] [main/INFO]: [REI] Registered plugin provider AlloyForgeryCommonPlugin [alloy_forgery] for REIServerPlugin
+[00:13:03] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[00:13:03] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[00:13:03] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[00:13:03] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[00:13:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[00:13:03] [main/INFO]: Hello Fabric world!
+[00:13:03] [main/INFO]: Shield API initialized!
+[00:13:03] [main/INFO]: Hello Fabric world!
+[00:13:04] [main/ERROR]: No data fixer registered for battlestandard
+[00:13:04] [main/ERROR]: No data fixer registered for battlestandarddark
+[00:13:04] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[00:13:04] [main/INFO]: [STDOUT]: /workspaces/panaserver/servidor_minecraft/config
+[00:13:04] [main/INFO]: Registering Mythic Metals compat Items for simplyswords
+[00:13:04] [main/INFO]: Config initialized!
+[00:13:04] [main/INFO]: Successfully initialized Geckolib!
+[00:13:04] [main/INFO]: Successfully registered SoulsWeapons content!
+[00:13:04] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[00:13:04] [main/INFO]: Successfully registered built-in Legacy 2D Models resourcepack!
+[00:13:04] [main/INFO]: Successfully registered built-in Legacy 3D Models resourcepack!
+[00:13:04] [main/INFO]: Successfully registered built-in Fresh Animations Compat. resourcepack!
+[00:13:04] [main/INFO]: Initializing done, time taken: 256ms
+[00:13:05] [main/ERROR]: No data fixer registered for 
+[00:13:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[00:13:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[00:13:05] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[00:13:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[00:13:05] [main/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[00:13:05] [main/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[00:13:05] [main/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[00:13:05] [main/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[00:13:05] [main/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[00:13:05] [main/INFO]: [WTHIT] Plugin config reloaded
+[00:13:06] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 4 values
+[00:13:06] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[00:13:06] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[00:13:06] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[00:13:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:13:06] [main/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[00:13:06] [main/INFO]: [bclib] Running Pre Patchers on ./world/.
+[00:13:06] [main/WARN]: [bclib] Applying Fixes on Level
+[00:13:06] [main/INFO]: [bclib] Patcher Stage... Reading Data%
+[00:13:06] [main/INFO]: [bclib] Patcher Stage... Fixing Players%
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/37a35d61-c727-3734-8efc-42f69805ddd0.dat
+[00:13:06] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/436b6319-6bc7-35ac-898f-27f02a84dde2.dat
+[00:13:06] [main/INFO]: [bclib] Patcher Stage... Applying Patches to level.dat%
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting level.dat in ./world/.
+[00:13:06] [main/INFO]: [bclib] Patcher Stage... Patching Custom World-Data%
+[00:13:06] [main/INFO]: [bclib] Patcher Stage... Repairing all Regions%
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.0.mca
+[00:13:06] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-1.mca
+[00:13:06] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
+[00:13:06] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
+[00:13:06] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-1.mca
+[00:13:06] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.1.mca
+[00:13:06] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.1.mca
+[00:13:06] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
+[00:13:07] [main/INFO]: [bclib] Patcher Stage... Saving Patch State%
+[00:13:07] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:jade_cave
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:megalake_grove
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:neon_oasis
+[00:13:07] [main/INFO]: [bclib] Did not manage biome betterend:painted_mountains
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (5e644ddd)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:13:08] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:13:08] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (49bb8578)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (13b316b0)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:13:08] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:13:08] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4e271a09)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (65ce11a8)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:13:08] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:13:08] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4e11f369)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7b683a70)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:13:08] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:13:08] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (730400fe)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[00:13:08] [main/WARN]: [bclib] No valid BCLBiome Registry available!
+[00:13:08] [main/WARN]: [bclib] No valid Biome Registry available!
+[00:13:08] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[00:13:08] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[00:13:08] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[00:13:08] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (59349bed)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[00:13:08] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (69e7f50b)
+[00:13:08] [main/INFO]: [bclib] Unable to build Biome List yet
+[00:13:08] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[00:13:08] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[00:13:08] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[00:13:08] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[00:13:10] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:rpg-minibosses:blocks/poster_rogue
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'rpg-minibosses:poster_rogue'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:13:10] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:rpg-minibosses:blocks/poster_mage
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'rpg-minibosses:poster_mage'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:13:10] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:rpg-minibosses:blocks/poster_templar
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'rpg-minibosses:poster_templar'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:13:10] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:rpg-minibosses:blocks/poster_jugg
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'rpg-minibosses:poster_jugg'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:13:10] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:rpg-minibosses:blocks/poster_merc
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'rpg-minibosses:poster_merc'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:13:20] [main/INFO]: [bclib] Disabling Recipe: bclib:test_star
+[00:13:20] [main/INFO]: Loaded 39 recipes
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/rubeus/cutscene_boss_start
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/lothran/swing_attack_dmg/hard
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Option 'type' isn't applicable here at position 259: .....10,type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Option 'type' isn't applicable here at position 259: .....10,type=<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/rubeus/boss_reset
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 3: tp <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 3: tp <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/rubeus_church/boss_reset
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 3: tp <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 3: tp <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/rubeus_church/detect
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Invalid or unknown entity type 'whisperwoods:hidebehind' at position 79: ...y @e[type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 13: Invalid or unknown entity type 'whisperwoods:hidebehind' at position 79: ...y @e[type=<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/rubeus_church/boss_start
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/rubeus_church/cutscene_boss_start
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/bell_church/spawn_monsters
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Invalid or unknown entity type 'whisperwoods:zotzpyre' at position 50: .....75,type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Invalid or unknown entity type 'whisperwoods:zotzpyre' at position 50: .....75,type=<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/bell_church/spawn_vesper
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'whisperwoods:zotzpyre' of type 'minecraft:entity_type'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'whisperwoods:zotzpyre' of type 'minecraft:entity_type'
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/spawn/rubeus_church/main
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 12: Invalid or unknown entity type 'whisperwoods:hidebehind' at position 131: ...y @e[type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 12: Invalid or unknown entity type 'whisperwoods:hidebehind' at position 131: ...y @e[type=<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/rubeus/rdm_teleport
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Incorrect argument for command at position 125: ...10 run tp <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 6: Incorrect argument for command at position 125: ...10 run tp <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/ERROR]: Failed to load function final_adversaries:bosses/rubeus/boss_start
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Can't find element 'whisperwoods:hidebehind' of type 'minecraft:entity_type'
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:13:20] [main/INFO]: Loaded 5231 advancements
+[00:13:20] [main/INFO]: Loaded 30 Loonium configurations
+[00:13:21] [main/INFO]: Saved 36 Value Calculator templates to config folder
+[00:13:21] [main/INFO]: Reloading Spawner Rune data...
+[00:13:21] [main/INFO]: [REI] ****************************************
+[00:13:21] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[00:13:21] [main/INFO]: [REI] Plugins (4):
+[00:13:21] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[00:13:21] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]
+[00:13:21] [main/INFO]: [REI] ****************************************
+[00:13:21] [main/INFO]: [REI] ========================================
+[00:13:21] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[00:13:21] [main/INFO]: [REI] Plugins (4):
+[00:13:21] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[00:13:21] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]
+[00:13:21] [main/INFO]: [REI] ========================================
+[00:13:21] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.111 ms, totaling 29.67 ms.
+[00:13:21] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.130 ms, totaling 5.097 ms.
+[00:13:21] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[00:13:21] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[00:13:21] [main/INFO]: [REI] Plugins (4):
+[00:13:21] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[00:13:21] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]
+[00:13:21] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[00:13:21] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[00:13:21] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[00:13:21] [main/INFO]: [REI] Plugins (4):
+[00:13:21] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[00:13:21] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[00:13:21] [main/INFO]: [REI]  - (0.00) AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]
+[00:13:21] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[00:13:21] [main/INFO]: [REI] REIPlugin finished post-reload for END in 597.8 μs, totaling 27.60 ms.
+[00:13:21] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 362.9 μs, totaling 9.856 ms.
+[00:13:21] [main/INFO]: Reloading grave shape (server)
+[00:13:21] [main/INFO]: Grave model and shape reload successful (server)
+[00:13:21] [main/INFO]: Reloading YIGD graveyard data (server)
+[00:13:21] [main/INFO]: Graveyard data successfully reloaded (server)
+[00:13:21] [main/INFO]: Reloading YIGD grave area overrides (server)
+[00:13:21] [main/INFO]: Grave area overrides successfully reloaded (server)
+[00:13:24] [main/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[00:13:24] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (730400fe)
+[00:13:24] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[00:13:24] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (69e7f50b)
+[00:13:24] [main/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[00:13:24] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[00:13:24] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[00:13:24] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[00:13:24] [main/INFO]: Applied 1812 biome modifications to 90 of 119 new biomes in 33.72 ms
+[00:13:24] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 225244 bytes (in 23 string chunks with the size of 10000)
+[00:13:24] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[00:13:24] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:13:24] [Server thread/INFO]: Loading properties
+[00:13:24] [Server thread/INFO]: Default game type: SURVIVAL
+[00:13:24] [Server thread/INFO]: Generating keypair
+[00:13:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:13:24] [Server thread/INFO]: Using epoll channel type
+[00:13:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:13:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:13:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:13:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:13:24] [Server thread/INFO]: Preparing level "world"
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:ramparts
+    class_1992 (2669f908)
+        biomes     = 1
+        namespaces = minecells(1)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (730400fe)
+        biomes     = 13
+        namespaces = incendium(8), minecraft(5)
+        seed       = 0
+        height     = 192
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:prison
+    class_1992 (55fc314d)
+        biomes     = 1
+        namespaces = minecells(1)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:promenade
+    class_1992 (49c424cc)
+        biomes     = 1
+        namespaces = minecells(1)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for deeperdarker:otherside
+    class_4766 (75e5994f)
+        biomes     = 4
+        namespaces = deeperdarker(4)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (69e7f50b)
+        biomes     = 24
+        namespaces = betterend(19), minecraft(5)
+        seed       = 3937521530486067806
+        height     = 128
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for the_bumblezone:the_bumblezone
+    BzBiomeSource (3abdcf39)
+        biomes     = 9
+        namespaces = the_bumblezone(9)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:insufferable_crypt
+    class_1992 (5f01d9b4)
+        biomes     = 1
+        namespaces = minecells(1)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:black_bridge
+    class_1992 (342ca60a)
+        biomes     = 1
+        namespaces = minecells(1)
+[00:13:25] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (242177b4)
+        biomes     = 53
+        namespaces = minecraft(53)
+[00:13:25] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecells:ramparts: 
+     net.minecraft.class_3754@7221f661 
+     class_1992 (2669f908)
+         biomes     = 1
+         namespaces = minecells(1)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (6f6cf0f3) 
+     BCLib - Nether BiomeSource (730400fe)
+         biomes     = 13
+         namespaces = incendium(8), minecraft(5)
+         seed       = 0
+         height     = 192
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecells:prison: 
+     net.minecraft.class_2897@342b4ed6 
+     class_1992 (55fc314d)
+         biomes     = 1
+         namespaces = minecells(1)
+ - minecells:promenade: 
+     net.minecraft.class_3754@41a7ae6f 
+     class_1992 (49c424cc)
+         biomes     = 1
+         namespaces = minecells(1)
+ - deeperdarker:otherside: 
+     net.minecraft.class_3754@1bd624db 
+     class_4766 (75e5994f)
+         biomes     = 4
+         namespaces = deeperdarker(4)
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (47911ce) 
+     BCLib - The End  BiomeSource (69e7f50b)
+         biomes     = 24
+         namespaces = betterend(19), minecraft(5)
+         seed       = 3937521530486067806
+         height     = 128
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - the_bumblezone:the_bumblezone: 
+     com.telepathicgrunt.the_bumblezone.worldgen.dimension.BzChunkGenerator@13ba5d6c 
+     BzBiomeSource (3abdcf39)
+         biomes     = 9
+         namespaces = the_bumblezone(9)
+ - minecells:insufferable_crypt: 
+     net.minecraft.class_2897@b91016a 
+     class_1992 (5f01d9b4)
+         biomes     = 1
+         namespaces = minecells(1)
+ - minecells:black_bridge: 
+     net.minecraft.class_2897@753cccde 
+     class_1992 (342ca60a)
+         biomes     = 1
+         namespaces = minecells(1)
+ - minecraft:overworld: 
+     net.minecraft.class_3754@27b8a80b 
+     class_4766 (242177b4)
+         biomes     = 53
+         namespaces = minecraft(53)
+[00:13:25] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (69e7f50b)
+    biomes     = 24
+    namespaces = betterend(19), minecraft(5)
+    seed       = 3937521530486067806
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[00:13:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:13:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:13:33] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[00:13:34] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[00:13:34] [Worker-Main-3/INFO]: Preparing spawn area: 12%
+[00:13:35] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[00:13:35] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[00:13:36] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[00:13:36] [Worker-Main-3/INFO]: Preparing spawn area: 35%
+[00:13:37] [Worker-Main-3/INFO]: Preparing spawn area: 55%
+[00:13:37] [Worker-Main-1/INFO]: Preparing spawn area: 65%
+[00:13:38] [Worker-Main-3/INFO]: Preparing spawn area: 77%
+[00:13:38] [Worker-Main-2/INFO]: Preparing spawn area: 91%
+[00:13:39] [Server thread/INFO]: Time elapsed: 9875 ms
+[00:13:39] [Server thread/INFO]: Done (14.069s)! For help, type "help"
+[00:13:39] [Server thread/INFO]: Loaded values for 74 compatible attributes.
+[00:13:39] [Server thread/INFO]: Loaded 74 values from config.
+[00:13:39] [Server thread/INFO]: Saving config file. 74 entries.
+[00:13:39] [Server thread/INFO]: Applying changes for 74 attributes.
+[00:13:39] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[00:13:39] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[00:13:50] [Server thread/INFO]: [Handshake] Sending channel query
+[00:13:50] [Netty Epoll Server IO #1/INFO]: [Handshake] Receiving client channels
+[00:13:50] [Netty Epoll Server IO #1/INFO]: [Handshake] Handshake completed successfully
+[00:13:50] [Server thread/INFO]: skity[/127.95.229.249:32843] logged in with entity id 225 at (337.5, 64.0, -8.5)
+[00:13:50] [Server thread/INFO]: Sending server config values to client
+[00:13:51] [Server thread/INFO]: Loading config from file...
+[00:13:51] [Server thread/INFO]: skity joined the game
+[00:13:51] [Netty Epoll Server IO #1/INFO]: Receiving client config
+[00:13:53] [Netty Epoll Server IO #1/INFO]: Priority overwritten for player skity. Claiming: GRAVE / Robbing: INVENTORY
+[00:13:53] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[00:13:53] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[00:13:53] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[00:13:53] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/panaserver/servidor_minecraft/bclib-sync (allowDelete=true)
+[00:14:58] [Server thread/INFO]: [Handshake] Sending channel query
+[00:14:58] [Netty Epoll Server IO #2/INFO]: [Handshake] Receiving client channels
+[00:14:58] [Netty Epoll Server IO #2/INFO]: [Handshake] Handshake completed successfully
+[00:14:58] [Server thread/INFO]: MadaraUchiha2909[/127.95.82.55:60283] logged in with entity id 500 at (336.78995603072536, 64.0, -8.899876107319763)
+[00:14:58] [Server thread/INFO]: Sending server config values to client
+[00:14:58] [Server thread/INFO]: Loading config from file...
+[00:14:58] [Server thread/INFO]: MadaraUchiha2909 joined the game
+[00:14:58] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[00:15:00] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player MadaraUchiha2909. Claiming: GRAVE / Robbing: INVENTORY
+[00:15:00] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[00:15:00] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[00:15:00] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[00:15:00] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/panaserver/servidor_minecraft/bclib-sync (allowDelete=true)
+[00:15:12] [Server thread/INFO]: skity was blown up by Creeper
+[00:15:14] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[00:15:56] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=167, y=-38, z=-288}
+[00:16:16] [Server thread/INFO]: skity claimed a grave belonging to skity at 390, 65, -36, minecraft:overworld
+[00:16:40] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> asdw
+[00:18:50] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[00:19:14] [Server thread/INFO]: [MadaraUchiha2909: Set own game mode to Survival Mode]
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.36644902395426016
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.7258647484276253
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.9926306330815464
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 1.2718258719384608
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 1.5634493297379208
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.3040415461600787
+[00:19:24] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.3164414378310312
+[00:20:08] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.2556447947272247
+[00:20:08] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.3952268688611156
+[00:20:08] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.5222465599836426
+[00:20:08] [Server thread/WARN]: Scarlet Biplane (vehicle of MadaraUchiha2909) moved wrongly! 0.6078150516520253
+[00:20:32] [Server thread/WARN]: MadaraUchiha2909 moved wrongly!
+[00:20:43] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[00:20:48] [Server thread/INFO]: skity was shot by Skeleton
+[00:21:20] [Server thread/INFO]: skity was slain by Zombie
+[00:21:20] [Server thread/INFO]: Did not backup data (grave data empty)
+[00:21:56] [Server thread/INFO]: skity claimed a grave belonging to skity at 471, 71, 28, minecraft:overworld
+[00:22:11] [Server thread/INFO]: skity was doomed to fall by Zombie
+[00:22:22] [Server thread/INFO]: [MadaraUchiha2909: Teleported skity to MadaraUchiha2909]
