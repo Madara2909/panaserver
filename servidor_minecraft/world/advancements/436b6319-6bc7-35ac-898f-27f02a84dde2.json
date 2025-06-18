@@ -93,7 +93,9 @@
     "criteria": {
       "minecraft:windswept_hills": "2025-06-18 01:43:31 +0000",
       "minecraft:beach": "2025-06-18 00:03:16 +0000",
+      "minecraft:mangrove_swamp": "2025-06-18 01:46:04 +0000",
       "minecraft:river": "2025-06-18 00:19:36 +0000",
+      "minecraft:swamp": "2025-06-18 01:45:20 +0000",
       "minecraft:ocean": "2025-06-18 00:19:39 +0000",
       "minecraft:flower_forest": "2025-06-18 00:18:18 +0000",
       "minecraft:plains": "2025-06-18 00:14:24 +0000"
@@ -230,7 +232,10 @@
     "criteria": {
       "cooked_beef": "2025-06-18 00:25:01 +0000",
       "beef": "2025-06-18 01:32:06 +0000",
-      "bread": "2025-06-18 01:32:43 +0000"
+      "porkchop": "2025-06-18 02:02:34 +0000",
+      "spider_eye": "2025-06-18 02:02:49 +0000",
+      "bread": "2025-06-18 01:32:43 +0000",
+      "carrot": "2025-06-18 02:02:17 +0000"
     },
     "done": false
   },
@@ -1738,7 +1743,8 @@
     "criteria": {
       "minecraft:skeleton": "2025-06-18 01:42:45 +0000",
       "minecraft:spider": "2025-06-18 01:37:37 +0000",
-      "minecraft:zombie": "2025-06-18 01:37:41 +0000"
+      "minecraft:zombie": "2025-06-18 01:37:41 +0000",
+      "minecraft:drowned": "2025-06-18 02:20:29 +0000"
     },
     "done": false
   },
@@ -1757,6 +1763,114 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2025-06-18 01:39:25 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-06-18 02:01:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2025-06-18 02:12:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_rod": {
+    "criteria": {
+      "has_item": "2025-06-18 02:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_fence": {
+    "criteria": {
+      "has_item": "2025-06-18 02:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-06-18 02:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-06-18 02:04:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-06-18 02:30:40 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mechanical_nest": {
+    "criteria": {
+      "location0": "2025-06-18 01:45:20 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wolf": {
+    "criteria": {
+      "has_bone": "2025-06-18 02:21:42 +0000"
     },
     "done": true
   },

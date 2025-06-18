@@ -93,9 +93,11 @@
     "criteria": {
       "minecraft:windswept_hills": "2025-06-18 01:42:24 +0000",
       "minecraft:beach": "2025-06-18 00:32:20 +0000",
+      "minecraft:mangrove_swamp": "2025-06-18 01:45:30 +0000",
       "minecraft:swamp": "2025-06-18 01:42:49 +0000",
       "minecraft:forest": "2025-06-18 01:43:09 +0000",
       "minecraft:flower_forest": "2025-06-18 00:33:01 +0000",
+      "minecraft:savanna": "2025-06-18 02:21:44 +0000",
       "minecraft:plains": "2025-06-18 00:32:36 +0000"
     },
     "done": false
@@ -895,6 +897,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2025-06-18 00:39:20 +0000",
+      "mutton": "2025-06-18 01:50:00 +0000",
       "bread": "2025-06-18 01:33:10 +0000"
     },
     "done": false
@@ -1874,7 +1877,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-06-18 01:40:17 +0000",
-      "minecraft:spider": "2025-06-18 01:38:05 +0000"
+      "minecraft:spider": "2025-06-18 01:38:05 +0000",
+      "minecraft:creeper": "2025-06-18 02:37:58 +0000",
+      "minecraft:enderman": "2025-06-18 02:36:55 +0000",
+      "minecraft:zombie": "2025-06-18 01:48:22 +0000"
     },
     "done": false
   },
@@ -1932,6 +1938,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
   "minecells:root": {
     "criteria": {
       "requirement": "2025-06-18 01:43:29 +0000"
@@ -1941,6 +1953,132 @@
   "minecells:book/book": {
     "criteria": {
       "requirement": "2025-06-18 01:43:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-06-18 02:23:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2025-06-18 01:46:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/coal": {
+    "criteria": {
+      "has_coal": "2025-06-18 02:30:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_rod": {
+    "criteria": {
+      "has_item": "2025-06-18 02:36:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecells:unlock/kill_15_undead_archers": {
+    "criteria": {
+      "undead_archers_killed": "2025-06-18 02:13:57 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_fence": {
+    "criteria": {
+      "has_item": "2025-06-18 02:36:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-06-18 02:36:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-06-18 02:30:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-06-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mechanical_nest": {
+    "criteria": {
+      "location0": "2025-06-18 01:45:23 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wolf": {
+    "criteria": {
+      "has_bone": "2025-06-18 02:36:18 +0000"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2025-06-18 02:09:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-06-18 02:23:23 +0000"
     },
     "done": true
   },
