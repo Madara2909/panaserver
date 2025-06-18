@@ -441,6 +441,12 @@
     },
     "done": true
   },
+  "simplyswords:caelestis": {
+    "criteria": {
+      "requirement": "2025-06-18 01:18:44 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/jellyshroom_fence": {
     "criteria": {
       "has_stick": "2025-06-18 01:02:20 +0000"
@@ -534,6 +540,12 @@
   "betterend:recipes/decorations/helix_tree_ladder": {
     "criteria": {
       "has_stick": "2025-06-18 01:02:20 +0000"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2025-06-18 01:18:53 +0000"
     },
     "done": true
   },
