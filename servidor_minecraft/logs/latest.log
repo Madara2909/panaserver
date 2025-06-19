@@ -2446,3 +2446,50 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
 	... 29 more
+[04:36:37] [Server thread/INFO]: MadaraUchiha2909 lost connection: Timed out
+[04:36:37] [Server thread/INFO]: MadaraUchiha2909 left the game
+[04:39:26] [Server thread/INFO]: [Handshake] Sending channel query
+[04:39:26] [Netty Epoll Server IO #0/INFO]: [Handshake] Receiving client channels
+[04:39:26] [Netty Epoll Server IO #0/INFO]: [Handshake] Handshake completed successfully
+[04:39:26] [Server thread/INFO]: MadaraUchiha2909[/127.217.69.223:59075] logged in with entity id 1542215 at (27.975528332084277, 60.0, 2047.2067006049147)
+[04:39:26] [Server thread/INFO]: Sending server config values to client
+[04:39:26] [Server thread/INFO]: Loading config from file...
+[04:39:26] [Server thread/INFO]: MadaraUchiha2909 joined the game
+[04:39:26] [Netty Epoll Server IO #0/INFO]: Receiving client config
+[04:39:31] [Netty Epoll Server IO #0/INFO]: Priority overwritten for player MadaraUchiha2909. Claiming: GRAVE / Robbing: INVENTORY
+[04:39:31] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[04:39:31] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[04:39:31] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[04:39:31] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/panaserver/servidor_minecraft/bclib-sync (allowDelete=true)
+[04:39:56] [Server thread/INFO]: MadaraUchiha2909 lost connection: Timed out
+[04:39:56] [Server thread/INFO]: MadaraUchiha2909 left the game
+[04:40:38] [Server thread/INFO]: [Handshake] Sending channel query
+[04:41:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@7231c6a0[id=<null>,name=MadaraUchiha2909,properties={},legacy=false] (/127.217.69.223:36233) lost connection: Disconnected
+[04:41:18] [Server thread/INFO]: [Handshake] Sending channel query
+[04:41:18] [Netty Epoll Server IO #3/INFO]: [Handshake] Receiving client channels
+[04:41:18] [Netty Epoll Server IO #3/INFO]: [Handshake] Handshake completed successfully
+[04:41:18] [Server thread/INFO]: MadaraUchiha2909[/127.217.69.223:49853] logged in with entity id 1542579 at (27.975528332084277, 60.0, 2047.2067006049147)
+[04:41:18] [Server thread/INFO]: Sending server config values to client
+[04:41:18] [Server thread/INFO]: Loading config from file...
+[04:41:18] [Server thread/INFO]: MadaraUchiha2909 joined the game
+[04:41:19] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[04:41:19] [Netty Epoll Server IO #3/INFO]: Priority overwritten for player MadaraUchiha2909. Claiming: GRAVE / Robbing: INVENTORY
+[04:41:19] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[04:41:19] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[04:41:19] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[04:41:19] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/panaserver/servidor_minecraft/bclib-sync (allowDelete=true)
+[04:41:54] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> asdw
