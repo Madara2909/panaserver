@@ -1938,6 +1938,12 @@
     },
     "done": true
   },
+  "mythicmetals:forge": {
+    "criteria": {
+      "smol_forg": "2025-06-19 04:31:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-19 04:07:51 +0000"
@@ -2041,6 +2047,12 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/end_stone_smelter": {
+    "criteria": {
+      "has_tag_c_furnaces": "2025-06-19 04:28:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2025-06-19 03:32:22 +0000"
@@ -2140,6 +2152,12 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-06-19 04:18:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-06-19 04:28:27 +0000"
     },
     "done": true
   },
