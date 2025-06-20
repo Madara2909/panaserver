@@ -94,6 +94,7 @@
       "minecraft:deep_ocean": "2025-06-19 03:42:32 +0000",
       "minecraft:bamboo_jungle": "2025-06-19 01:34:28 +0000",
       "minecraft:beach": "2025-06-19 01:31:54 +0000",
+      "minecraft:mangrove_swamp": "2025-06-20 01:39:08 +0000",
       "minecraft:sparse_jungle": "2025-06-19 01:23:20 +0000",
       "minecraft:river": "2025-06-19 03:00:52 +0000",
       "minecraft:lukewarm_ocean": "2025-06-19 03:41:26 +0000",
@@ -3441,12 +3442,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "requirement": "2025-06-20 01:37:55 +0000"
-    },
-    "done": false
-  },
   "minecells:black_bridge": {
     "criteria": {
       "requirement": "2025-06-20 01:23:28 +0000"
@@ -3462,6 +3457,12 @@
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2025-06-20 01:13:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-06-20 01:39:11 +0000"
     },
     "done": true
   },
