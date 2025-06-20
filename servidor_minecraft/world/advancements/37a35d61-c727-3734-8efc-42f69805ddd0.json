@@ -2699,6 +2699,12 @@
     },
     "done": true
   },
+  "minecells:insufferable_crypt": {
+    "criteria": {
+      "requirement": "2025-06-20 01:31:37 +0000"
+    },
+    "done": true
+  },
   "minecells:book/mobs/sewers_tentacle": {
     "criteria": {
       "requirement": "2025-06-20 01:33:05 +0000"
@@ -2714,12 +2720,6 @@
   "minecells:unlock/kill_conjunctivius": {
     "criteria": {
       "concierge_killed": "2025-06-20 01:37:10 +0000"
-    },
-    "done": true
-  },
-  "minecells:insufferable_crypt": {
-    "criteria": {
-      "requirement": "2025-06-20 01:31:37 +0000"
     },
     "done": true
   },

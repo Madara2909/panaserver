@@ -2123,12 +2123,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "requirement": "2025-06-20 01:47:59 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
     "criteria": {
       "has_vine": "2025-06-20 00:54:10 +0000"
