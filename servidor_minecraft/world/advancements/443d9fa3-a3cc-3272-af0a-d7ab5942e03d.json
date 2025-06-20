@@ -92,6 +92,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2025-06-19 03:42:32 +0000",
+      "minecraft:sunflower_plains": "2025-06-20 02:07:54 +0000",
       "minecraft:bamboo_jungle": "2025-06-19 01:34:28 +0000",
       "minecraft:beach": "2025-06-19 01:31:54 +0000",
       "minecraft:mangrove_swamp": "2025-06-20 01:39:08 +0000",
@@ -1011,10 +1012,12 @@
       "minecraft:skeleton": "2025-06-19 02:15:36 +0000",
       "minecraft:vindicator": "2025-06-20 01:12:34 +0000",
       "minecraft:spider": "2025-06-19 02:55:30 +0000",
+      "minecraft:piglin_brute": "2025-06-20 02:10:49 +0000",
       "minecraft:creeper": "2025-06-19 02:15:46 +0000",
       "minecraft:slime": "2025-06-19 03:32:33 +0000",
       "minecraft:husk": "2025-06-19 01:32:27 +0000",
       "minecraft:cave_spider": "2025-06-19 02:03:47 +0000",
+      "minecraft:piglin": "2025-06-20 02:12:05 +0000",
       "minecraft:enderman": "2025-06-20 00:13:06 +0000",
       "minecraft:zombie": "2025-06-19 01:34:05 +0000",
       "minecraft:drowned": "2025-06-19 02:56:57 +0000",
@@ -3442,9 +3445,57 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/birch_window": {
+    "criteria": {
+      "has_ingredient": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-20 02:15:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2025-06-20 02:07:24 +0000"
+    },
+    "done": true
+  },
   "minecells:black_bridge": {
     "criteria": {
       "requirement": "2025-06-20 01:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-06-20 02:17:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-06-20 02:14:49 +0000"
     },
     "done": true
   },
@@ -3454,15 +3505,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2025-06-20 01:13:28 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
       "has_mud": "2025-06-20 01:39:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_14": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_15": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_10": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_11": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_12": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_13": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
     },
     "done": true
   },
@@ -3478,6 +3589,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-06-20 02:17:24 +0000"
+    },
+    "done": true
+  },
   "minecells:conjunctivius": {
     "criteria": {
       "conjunctivius_killed": "2025-06-20 01:37:10 +0000"
@@ -3490,6 +3607,66 @@
     },
     "done": true
   },
+  "botania:recipes/decorations/mushroom_0": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_1": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_2": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_3": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_4": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_5": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_6": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_7": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_8": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_9": {
+    "criteria": {
+      "has_item": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
   "minecells:book/mobs/undead_archer": {
     "criteria": {
       "requirement": "2025-06-20 01:32:32 +0000"
@@ -3499,6 +3676,12 @@
   "aquamirae:adventure/find_ice_maze": {
     "criteria": {
       "deep_frozen_ocean": "2025-06-20 01:03:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-06-20 02:14:49 +0000"
     },
     "done": true
   },
@@ -3538,9 +3721,27 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/decorations/chungus_monolith": {
+    "criteria": {
+      "has_item": "2025-06-20 02:09:26 +0000"
+    },
+    "done": true
+  },
   "minecells:book/mobs/leaping_zombie": {
     "criteria": {
       "requirement": "2025-06-20 01:30:33 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_orig_recipe": "2025-06-20 02:14:49 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_village": {
+    "criteria": {
+      "location0": "2025-06-20 02:09:03 +0000"
     },
     "done": true
   },
@@ -3556,6 +3757,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
   "aquamirae:adventure/obtain_shell_horn": {
     "criteria": {
       "shell_horn": "2025-06-20 01:13:47 +0000"
@@ -3565,6 +3772,18 @@
   "lootr:100loot": {
     "criteria": {
       "loot_stat": "2025-06-20 01:30:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-20 02:17:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-06-20 02:14:49 +0000"
     },
     "done": true
   },
