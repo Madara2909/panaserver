@@ -2609,30 +2609,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-06-20 00:43:24 +0000"
-    },
-    "done": true
-  },
-  "minecells:book/mobs/sweeper": {
-    "criteria": {
-      "requirement": "2025-06-20 00:48:37 +0000"
-    },
-    "done": true
-  },
-  "minecells:book/mobs/inquisitor": {
-    "criteria": {
-      "requirement": "2025-06-20 00:48:33 +0000"
-    },
-    "done": true
-  },
-  "minecells:unlock/kill_10_shieldbearers": {
-    "criteria": {
-      "shieldbearers_killed": "2025-06-20 00:54:08 +0000"
-    },
-    "done": true
-  },
   "netherexp:recipes/bone_blocks/bone_rod": {
     "criteria": {
       "has_item": "2025-06-20 00:42:36 +0000"
@@ -2651,15 +2627,27 @@
     },
     "done": true
   },
-  "minecells:unlock/kill_10_inquisitors": {
-    "criteria": {
-      "inquisitors_killed": "2025-06-20 01:10:53 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/wolf": {
     "criteria": {
       "has_bone": "2025-06-20 00:42:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-06-20 00:43:24 +0000"
+    },
+    "done": true
+  },
+  "minecells:book/mobs/inquisitor": {
+    "criteria": {
+      "requirement": "2025-06-20 00:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecells:book/mobs/sweeper": {
+    "criteria": {
+      "requirement": "2025-06-20 00:48:37 +0000"
     },
     "done": true
   },
@@ -2672,6 +2660,72 @@
   "minecells:unlock/kill_10_buzzcutters": {
     "criteria": {
       "buzzcutters_killed": "2025-06-20 00:52:14 +0000"
+    },
+    "done": true
+  },
+  "minecells:unlock/kill_10_shieldbearers": {
+    "criteria": {
+      "shieldbearers_killed": "2025-06-20 00:54:08 +0000"
+    },
+    "done": true
+  },
+  "minecells:unlock/kill_10_inquisitors": {
+    "criteria": {
+      "inquisitors_killed": "2025-06-20 01:10:53 +0000"
+    },
+    "done": true
+  },
+  "minecells:black_bridge": {
+    "criteria": {
+      "requirement": "2025-06-20 01:13:26 +0000"
+    },
+    "done": true
+  },
+  "minecells:concierge": {
+    "criteria": {
+      "concierge_killed": "2025-06-20 01:17:01 +0000"
+    },
+    "done": true
+  },
+  "minecells:unlock/kill_concierge": {
+    "criteria": {
+      "conjunctivius_killed": "2025-06-20 01:17:01 +0000"
+    },
+    "done": true
+  },
+  "minecells:respawn_boss": {
+    "criteria": {
+      "obelisk_used": "2025-06-20 01:19:54 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2025-06-20 01:37:55 +0000"
+    },
+    "done": false
+  },
+  "minecells:book/mobs/sewers_tentacle": {
+    "criteria": {
+      "requirement": "2025-06-20 01:33:05 +0000"
+    },
+    "done": true
+  },
+  "minecells:conjunctivius": {
+    "criteria": {
+      "conjunctivius_killed": "2025-06-20 01:37:10 +0000"
+    },
+    "done": true
+  },
+  "minecells:unlock/kill_conjunctivius": {
+    "criteria": {
+      "concierge_killed": "2025-06-20 01:37:10 +0000"
+    },
+    "done": true
+  },
+  "minecells:insufferable_crypt": {
+    "criteria": {
+      "requirement": "2025-06-20 01:31:37 +0000"
     },
     "done": true
   },
