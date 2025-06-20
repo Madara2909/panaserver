@@ -2651,6 +2651,12 @@
     },
     "done": true
   },
+  "minecells:unlock/kill_10_inquisitors": {
+    "criteria": {
+      "inquisitors_killed": "2025-06-20 01:10:53 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/wolf": {
     "criteria": {
       "has_bone": "2025-06-20 00:42:36 +0000"
