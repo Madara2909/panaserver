@@ -2742,9 +2742,10 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
+      "requirement": "2025-06-22 03:36:46 +0000",
       "log_spam_fixer": "2025-06-20 03:08:53 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/on_kill": {
     "criteria": {
