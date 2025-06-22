@@ -4244,3 +4244,146 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 [05:09:34] [Server thread/INFO]: Villager class_1646['Leatherworker'/54157, l='ServerLevel[world]', x=76.70, y=72.43, z=2039.77] died, message: 'Leatherworker was slain by Zombie'
 [05:10:13] [Server thread/INFO]: skity was slain by MadaraUchiha2909
 [05:10:26] [Server thread/INFO]: skity claimed a grave belonging to skity at 32, 57, 2081, minecraft:overworld
+[05:10:44] [Server thread/INFO]: skity was shot by MadaraUchiha2909
+[05:11:01] [Server thread/INFO]: skity claimed a grave belonging to skity at 32, 57, 2080, minecraft:overworld
+[05:12:24] [Server thread/INFO]: [Not Secure] <skity> se me apago el cel
+[05:12:26] [Server thread/INFO]: [MadaraUchiha2909: Set own game mode to Creative Mode]
+[05:12:27] [Server thread/INFO]: [Not Secure] <skity> ya conecto again
+[05:12:28] [Server thread/INFO]: [Not Secure] <skity> :v
+[05:12:29] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> xddd
+[05:12:34] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> pera
+[05:12:36] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> ando viendo algo
+[05:13:03] [Server thread/INFO]: [MadaraUchiha2909: Set own game mode to Survival Mode]
+[05:13:23] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[05:13:38] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> ven a ver
+[05:13:39] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 29 more
+[05:13:48] [Server thread/INFO]: [Not Secure] <skity> ala verga
+[05:13:51] [Server thread/INFO]: [Not Secure] <skity> lo que te acabo de dar:v
+[05:14:00] [Server thread/INFO]: [Not Secure] <skity> la frostmour
+[05:14:13] [Server thread/INFO]: [Not Secure] <skity> acumula almas
+[05:14:14] [Server thread/INFO]: [Not Secure] <skity> tmbn
+[05:14:19] [Server thread/INFO]: [Not Secure] <skity> pero nose q hace
+[05:14:27] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> yta va
+[05:14:50] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for length 1
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
+	... 25 more
+[05:15:03] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> uuuh
+[05:15:06] [Server thread/INFO]: MadaraUchiha2909 was slain by skity
+[05:15:06] [Server thread/INFO]: Created new backpack backup file for MadaraUchiha2909 with unique ID travelersbackpack.standard_22.06.2025-05.15.06.dat
+[05:15:10] [Server thread/INFO]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to skity]
+[05:15:12] [Server thread/INFO]: MadaraUchiha2909 claimed a grave belonging to MadaraUchiha2909 at 29, 63, 2070, minecraft:overworld
+[05:15:17] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> como se vera
+[05:15:20] [Server thread/INFO]: [Not Secure] <MadaraUchiha2909> con particulas
+[05:15:25] [Server thread/INFO]: [Not Secure] <skity> alv
+[05:15:54] [Server thread/INFO]: [MadaraUchiha2909: Teleported skity to MadaraUchiha2909]
+[05:17:33] [Server thread/INFO]: skity was slain by MadaraUchiha2909
+[05:17:41] [Server thread/INFO]: skity claimed a grave belonging to skity at 24, 71, 2087, minecraft:overworld
+[05:17:45] [Server thread/INFO]: MadaraUchiha2909 was slain by skity
+[05:17:45] [Server thread/INFO]: Created new backpack backup file for MadaraUchiha2909 with unique ID travelersbackpack.standard_22.06.2025-05.17.45.dat
+[05:17:48] [Server thread/INFO]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to skity]
+[05:17:51] [Server thread/INFO]: MadaraUchiha2909 claimed a grave belonging to MadaraUchiha2909 at 33, 71, 2087, minecraft:overworld
+[05:18:03] [Server thread/INFO]: MadaraUchiha2909 was slain by skity
+[05:18:03] [Server thread/INFO]: Created new backpack backup file for MadaraUchiha2909 with unique ID travelersbackpack.standard_22.06.2025-05.18.03.dat
+[05:18:06] [Server thread/INFO]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to skity]
+[05:18:08] [Server thread/INFO]: MadaraUchiha2909 claimed a grave belonging to MadaraUchiha2909 at 27, 71, 2096, minecraft:overworld
+[05:18:16] [Server thread/INFO]: MadaraUchiha2909 was slain by skity
+[05:18:17] [Server thread/INFO]: Created new backpack backup file for MadaraUchiha2909 with unique ID travelersbackpack.standard_22.06.2025-05.18.16.dat
+[05:18:20] [Server thread/INFO]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to skity]
+[05:18:22] [Server thread/INFO]: MadaraUchiha2909 claimed a grave belonging to MadaraUchiha2909 at 30, 71, 2089, minecraft:overworld
+[05:18:26] [Server thread/INFO]: skity was slain by MadaraUchiha2909
+[05:18:40] [Server thread/INFO]: skity claimed a grave belonging to skity at 30, 71, 2095, minecraft:overworld
+[05:18:53] [Server thread/INFO]: MadaraUchiha2909 was slain by skity
+[05:18:53] [Server thread/INFO]: Created new backpack backup file for MadaraUchiha2909 with unique ID travelersbackpack.standard_22.06.2025-05.18.53.dat
+[05:18:59] [Server thread/INFO]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to skity]
+[05:19:01] [Server thread/INFO]: MadaraUchiha2909 claimed a grave belonging to MadaraUchiha2909 at 22, 72, 2092, minecraft:overworld
+[05:19:11] [Server thread/INFO]: skity was slain by MadaraUchiha2909
+[05:19:19] [Server thread/INFO]: skity claimed a grave belonging to skity at 23, 71, 2096, minecraft:overworld
+[05:19:45] [Server thread/INFO]: MadaraUchiha2909 was slain by skity
+[05:19:45] [Server thread/INFO]: Created new backpack backup file for MadaraUchiha2909 with unique ID travelersbackpack.standard_22.06.2025-05.19.45.dat
+[05:19:48] [Server thread/INFO]: [MadaraUchiha2909: Teleported MadaraUchiha2909 to skity]
+[05:19:51] [Server thread/INFO]: MadaraUchiha2909 claimed a grave belonging to MadaraUchiha2909 at 42, 72, 2087, minecraft:overworld
+[05:20:03] [Server thread/INFO]: skity was slain by MadaraUchiha2909
+[05:20:10] [Server thread/INFO]: skity claimed a grave belonging to skity at 41, 72, 2094, minecraft:overworld
+[05:20:17] [Server thread/INFO]: skity was slain by MadaraUchiha2909
+[05:20:26] [Server thread/INFO]: skity claimed a grave belonging to skity at 50, 72, 2089, minecraft:overworld
