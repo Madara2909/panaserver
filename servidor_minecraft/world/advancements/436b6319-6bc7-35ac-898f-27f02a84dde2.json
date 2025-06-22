@@ -2738,87 +2738,80 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "netherexp:nether/overkill": {
     "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
+      "overkill": "2025-06-22 03:48:46 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:all_weapons": {
+    "criteria": {
+      "forlorn_scythe": "2025-06-22 03:53:22 +0000",
+      "withered_wabbajack": "2025-06-22 04:26:00 +0000",
+      "soul_reaper": "2025-06-22 03:55:17 +0000",
+      "darkin_blade": "2025-06-22 04:01:39 +0000"
     },
     "done": false
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
+      "tamed_animal": "2025-06-22 03:55:46 +0000"
+    },
+    "done": true
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2025-06-22 04:10:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-06-22 04:10:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-06-22 04:10:48 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/root": {
+    "criteria": {
+      "incendium:ash_barrens": "2025-06-22 04:10:49 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/soul_searcher": {
+    "criteria": {
+      "incendium:ash_barrens": "2025-06-22 04:10:49 +0000",
+      "incendium:quartz_flats": "2025-06-22 04:23:10 +0000",
+      "incendium:withered_forest": "2025-06-22 04:33:11 +0000"
     },
     "done": false
   },
-  "incendium:technical/on_kill": {
+  "incendium:ash_barrens/root": {
     "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-22 04:28:34 +0000"
-    },
-    "done": false
-  },
-  "soulsweapons:recipes/combat/moonlight_greatsword": {
-    "criteria": {
-      "has_lord_soul": "2025-06-22 04:15:27 +0000"
+      "requirement": "2025-06-22 04:10:49 +0000"
     },
     "done": true
   },
   "soulsweapons:recipes/combat/withered_chest": {
     "criteria": {
       "has_item": "2025-06-22 04:15:26 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/smelt_withered_demon_heart": {
+    "criteria": {
+      "has_item": "2025-06-22 04:15:26 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/moonlight_greatsword": {
+    "criteria": {
+      "has_lord_soul": "2025-06-22 04:15:27 +0000"
     },
     "done": true
   },
@@ -2834,24 +2827,6 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/soul_ingot_helmet": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:basalt_deltas": "2025-06-22 04:24:20 +0000"
-    },
-    "done": false
-  },
-  "incendium:root": {
-    "criteria": {
-      "requirement": "2025-06-22 04:10:48 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/soul_reaper": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
@@ -2864,39 +2839,9 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/soul_robes_chestplate": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-22 04:24:24 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/leviathan_axe_left": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/lucernia_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/translucent_glaive": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/translucent_double_greatsword": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
     },
     "done": true
   },
@@ -2906,21 +2851,9 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/translucent_sword": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/glaive_of_hodir": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/soul_robes_helmet": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
     },
     "done": true
   },
@@ -2942,41 +2875,11 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2025-06-22 03:55:46 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/galeforce": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
     },
     "done": true
-  },
-  "incendium:misc/root": {
-    "criteria": {
-      "incendium:ash_barrens": "2025-06-22 04:10:49 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/misc/smelt_withered_demon_heart": {
-    "criteria": {
-      "has_item": "2025-06-22 04:15:26 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/soul_ingot_boots": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:lords_on_stick": {
-    "criteria": {
-      "withered_wabbajack": "2025-06-22 04:26:00 +0000"
-    },
-    "done": false
   },
   "soulsweapons:recipes/combat/frostmourne": {
     "criteria": {
@@ -2987,37 +2890,6 @@
   "soulsweapons:recipes/combat/whirligig_sawblade": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/soul_robes_boots": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "incendium:misc/soul_searcher": {
-    "criteria": {
-      "incendium:ash_barrens": "2025-06-22 04:10:49 +0000",
-      "incendium:quartz_flats": "2025-06-22 04:23:10 +0000"
-    },
-    "done": false
-  },
-  "incendium:ash_barrens/root": {
-    "criteria": {
-      "requirement": "2025-06-22 04:10:49 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/lacugrove_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/umbrella_tree_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
     },
     "done": true
   },
@@ -3033,24 +2905,6 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/soul_ingot_leggings": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/lucernia_jellyshroom_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/soul_robes_leggings": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/dawnbreaker": {
     "criteria": {
       "has_lord_soul": "2025-06-22 04:15:27 +0000"
@@ -3063,42 +2917,9 @@
     },
     "done": true
   },
-  "soulsweapons:all_weapons": {
-    "criteria": {
-      "forlorn_scythe": "2025-06-22 03:53:22 +0000",
-      "withered_wabbajack": "2025-06-22 04:26:00 +0000",
-      "soul_reaper": "2025-06-22 03:55:17 +0000",
-      "darkin_blade": "2025-06-22 04:01:39 +0000"
-    },
-    "done": false
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-06-22 04:10:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-22 04:24:24 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/leviathan_axe_right": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/tenanea_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/jellyshroom_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
     },
     "done": true
   },
@@ -3126,12 +2947,6 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/helix_tree_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/darkin_blade": {
     "criteria": {
       "has_lord_soul": "2025-06-22 04:15:27 +0000"
@@ -3144,57 +2959,15 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/dragon_tree_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/mossy_glowshroom_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-06-22 04:10:48 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/rageblade": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/soul_ingot_chestplate": {
-    "criteria": {
-      "has_item": "2025-06-22 04:17:45 +0000"
-    },
-    "done": true
-  },
-  "incendium:quartz_flats/root": {
-    "criteria": {
-      "requirement": "2025-06-22 04:23:10 +0000"
-    },
-    "done": true
-  },
   "soulsweapons:recipes/combat/nightfall": {
     "criteria": {
       "has_item": "2025-06-22 04:15:27 +0000"
-    },
-    "done": true
-  },
-  "netherexp:nether/overkill": {
-    "criteria": {
-      "overkill": "2025-06-22 03:48:46 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/end_lotus_hanging_sign": {
-    "criteria": {
-      "has_chain": "2025-06-22 04:16:56 +0000"
     },
     "done": true
   },
@@ -3216,9 +2989,165 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/skofnung": {
+    "criteria": {
+      "has_lord_soul": "2025-06-22 04:15:27 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_jellyshroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_hanging_sign": {
+    "criteria": {
+      "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/pythadendron_hanging_sign": {
     "criteria": {
       "has_chain": "2025-06-22 04:16:56 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_helmet": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_chestplate": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_glaive": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_double_greatsword": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_sword": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_helmet": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_boots": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_boots": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_leggings": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_leggings": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_chestplate": {
+    "criteria": {
+      "has_item": "2025-06-22 04:17:45 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/root": {
+    "criteria": {
+      "requirement": "2025-06-22 04:23:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2025-06-22 04:24:20 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-22 04:24:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-22 04:24:24 +0000"
     },
     "done": true
   },
@@ -3228,9 +3157,93 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/skofnung": {
+  "soulsweapons:lords_on_stick": {
     "criteria": {
-      "has_lord_soul": "2025-06-22 04:15:27 +0000"
+      "withered_wabbajack": "2025-06-22 04:26:00 +0000"
+    },
+    "done": false
+  },
+  "soulsweapons:recipes/misc/chungus_disc": {
+    "criteria": {
+      "has_item": "2025-06-22 04:34:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-06-22 04:34:57 +0000"
+    },
+    "done": true
+  },
+  "incendium:withered_forest/root": {
+    "criteria": {
+      "requirement": "2025-06-22 04:33:11 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/slab": {
+    "criteria": {
+      "has_item": "2025-06-22 04:34:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-06-22 04:34:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-06-22 04:34:47 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/chungus_emerald_block": {
+    "criteria": {
+      "has_item": "2025-06-22 04:34:14 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot": {
+    "criteria": {
+      "has_cod": "2025-06-22 04:34:57 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/stairs": {
+    "criteria": {
+      "has_item": "2025-06-22 04:34:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-06-22 04:34:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-06-22 04:34:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-06-22 04:34:57 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/chungus_emerald": {
+    "criteria": {
+      "has_item": "2025-06-22 04:34:14 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/wall": {
+    "criteria": {
+      "has_item": "2025-06-22 04:34:47 +0000"
     },
     "done": true
   },

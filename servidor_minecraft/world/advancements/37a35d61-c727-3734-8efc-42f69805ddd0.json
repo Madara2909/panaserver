@@ -3280,6 +3280,7 @@
   "soulsweapons:all_weapons": {
     "criteria": {
       "forlorn_scythe": "2025-06-22 01:39:47 +0000",
+      "withered_wabbajack": "2025-06-22 04:34:01 +0000",
       "soul_reaper": "2025-06-22 02:37:42 +0000",
       "moonlight_greatsword": "2025-06-22 04:19:23 +0000",
       "darkin_blade": "2025-06-22 02:41:48 +0000",
@@ -5187,6 +5188,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-06-22 04:34:15 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/steam_whistle": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
@@ -5217,9 +5224,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-06-22 04:33:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-06-22 04:35:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/steam_engine": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-06-22 04:33:57 +0000"
     },
     "done": true
   },
@@ -5283,9 +5308,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-22 04:33:57 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/appliances/copper_diving_boots": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-06-22 04:34:15 +0000"
     },
     "done": true
   },
@@ -5307,6 +5344,12 @@
     },
     "done": true
   },
+  "soulsweapons:lords_on_stick": {
+    "criteria": {
+      "withered_wabbajack": "2025-06-22 04:34:01 +0000"
+    },
+    "done": false
+  },
   "create:recipes/misc/crafting/kinetics/smart_fluid_pipe": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
@@ -5322,6 +5365,18 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-06-22 04:22:33 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/cave_pumpkin_pie": {
+    "criteria": {
+      "has_sugar": "2025-06-22 04:34:12 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/special_page_to_paper": {
+    "criteria": {
+      "has_item": "2025-06-22 04:26:09 +0000"
     },
     "done": true
   },
@@ -5373,6 +5428,18 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/shadow_berry_jelly": {
+    "criteria": {
+      "has_sugar": "2025-06-22 04:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-06-22 04:34:15 +0000"
+    },
+    "done": true
+  },
   "create:recipes/decorations/copper_scaffolding_from_copper_ingots_stonecutting": {
     "criteria": {
       "has_copper_ingots": "2025-06-22 04:22:24 +0000"
@@ -5400,6 +5467,12 @@
   "betterend:recipes/decorations/jellyshroom_hanging_sign": {
     "criteria": {
       "has_chain": "2025-06-22 04:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-06-22 04:33:57 +0000"
     },
     "done": true
   },
@@ -5457,6 +5530,12 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_sugar": "2025-06-22 04:34:12 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/mossy_glowshroom_hanging_sign": {
     "criteria": {
       "has_chain": "2025-06-22 04:17:14 +0000"
@@ -5466,6 +5545,12 @@
   "travelersbackpack:recipes/misc/enderman": {
     "criteria": {
       "has_ender_pearl": "2025-06-22 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly": {
+    "criteria": {
+      "has_sugar": "2025-06-22 04:34:12 +0000"
     },
     "done": true
   },
@@ -5496,6 +5581,18 @@
   "betterend:recipes/decorations/pythadendron_hanging_sign": {
     "criteria": {
       "has_chain": "2025-06-22 04:17:14 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:ender_of_world_ender": {
+    "criteria": {
+      "condition_0": "2025-06-22 04:33:59 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/chaos_helmet": {
+    "criteria": {
+      "has_item": "2025-06-22 04:25:58 +0000"
     },
     "done": true
   },
