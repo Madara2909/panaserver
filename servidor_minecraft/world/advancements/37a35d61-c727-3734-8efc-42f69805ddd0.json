@@ -1938,6 +1938,7 @@
       "minecraft:husk": "2025-06-20 02:36:32 +0000",
       "minecraft:piglin": "2025-06-20 02:16:52 +0000",
       "minecraft:enderman": "2025-06-19 04:16:41 +0000",
+      "minecraft:endermite": "2025-06-22 04:58:43 +0000",
       "minecraft:zombie": "2025-06-20 00:42:21 +0000",
       "minecraft:drowned": "2025-06-22 04:22:23 +0000",
       "minecraft:zombie_villager": "2025-06-22 03:53:04 +0000"
@@ -3284,7 +3285,8 @@
       "soul_reaper": "2025-06-22 02:37:42 +0000",
       "moonlight_greatsword": "2025-06-22 04:19:23 +0000",
       "darkin_blade": "2025-06-22 02:41:48 +0000",
-      "draugr": "2025-06-20 02:55:22 +0000"
+      "draugr": "2025-06-20 02:55:22 +0000",
+      "dawnbreaker": "2025-06-22 05:05:20 +0000"
     },
     "done": false
   },
@@ -5176,15 +5178,33 @@
     },
     "done": true
   },
+  "botania:recipes/decorations/apothecary_mossy": {
+    "criteria": {
+      "has_item": "2025-06-22 04:43:54 +0000"
+    },
+    "done": true
+  },
   "soulsweapons:all_moonlight_weapons": {
     "criteria": {
       "moonlight_greatsword": "2025-06-22 04:19:23 +0000"
     },
     "done": false
   },
+  "botania:recipes/decorations/apothecary_deepslate": {
+    "criteria": {
+      "has_item": "2025-06-22 04:43:54 +0000"
+    },
+    "done": true
+  },
   "create:recipes/decorations/copper_ladder_from_copper_ingots_stonecutting": {
     "criteria": {
       "has_copper_ingots": "2025-06-22 04:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-22 05:00:44 +0000"
     },
     "done": true
   },
@@ -5212,9 +5232,21 @@
     },
     "done": true
   },
+  "botania:recipes/tools/twig_wand": {
+    "criteria": {
+      "has_item": "2025-06-22 04:43:54 +0000"
+    },
+    "done": true
+  },
   "create:copper": {
     "criteria": {
       "0": "2025-06-22 04:22:24 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/enhanced_arkenplate": {
+    "criteria": {
+      "has_item": "2025-06-22 04:59:22 +0000"
     },
     "done": true
   },
@@ -5233,6 +5265,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-06-22 04:35:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-22 04:56:09 +0000"
     },
     "done": true
   },
@@ -5257,6 +5295,18 @@
   "betterend:recipes/decorations/lucernia_hanging_sign": {
     "criteria": {
       "has_chain": "2025-06-22 04:17:14 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_obsidian_heart": "2025-06-22 04:38:54 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/slab": {
+    "criteria": {
+      "has_item": "2025-06-22 04:35:52 +0000"
     },
     "done": true
   },
@@ -5296,6 +5346,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-06-22 04:35:52 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_blazing_eye": "2025-06-22 04:38:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-06-22 04:22:33 +0000"
@@ -5311,6 +5373,12 @@
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-06-22 04:33:57 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:chaos_orb": {
+    "criteria": {
+      "chaos_orb": "2025-06-22 04:51:07 +0000"
     },
     "done": true
   },
@@ -5350,6 +5418,12 @@
     },
     "done": false
   },
+  "bosses_of_mass_destruction:recipes/blast_amplifier": {
+    "criteria": {
+      "has_blazing_eye": "2025-06-22 04:38:23 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/smart_fluid_pipe": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
@@ -5386,6 +5460,12 @@
     },
     "done": true
   },
+  "botania:recipes/decorations/apothecary_default": {
+    "criteria": {
+      "has_item": "2025-06-22 04:43:54 +0000"
+    },
+    "done": true
+  },
   "alloy_forgery:recipes/alloy_forgery/copper_block": {
     "criteria": {
       "has_the_recipe": "2025-06-22 04:22:24 +0000"
@@ -5416,9 +5496,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-06-22 04:35:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-22 05:00:44 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/misc/infusion_pedestal": {
     "criteria": {
       "has_ender_pearl": "2025-06-22 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-22 05:00:44 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
+    "criteria": {
+      "has_ancient_anima": "2025-06-22 04:39:27 +0000"
     },
     "done": true
   },
@@ -5455,6 +5559,12 @@
   "create:recipes/misc/crafting/materials/copper_nugget": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-22 04:56:09 +0000"
     },
     "done": true
   },
@@ -5518,6 +5628,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-22 05:00:44 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/nights_edge_item": {
+    "criteria": {
+      "has_item": "2025-06-22 04:59:22 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/fluid_valve": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
@@ -5542,6 +5664,30 @@
     },
     "done": true
   },
+  "bosses_of_mass_destruction:nether/gauntlet_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:gauntlet": "2025-06-22 04:45:06 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/earthdive_spear": {
+    "criteria": {
+      "has_obsidian_heart": "2025-06-22 04:38:54 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/dreamwood_wand": {
+    "criteria": {
+      "has_item": "2025-06-22 04:43:54 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_soil_layer": {
+    "criteria": {
+      "has_item": "2025-06-22 04:56:45 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/enderman": {
     "criteria": {
       "has_ender_pearl": "2025-06-22 04:22:38 +0000"
@@ -5554,6 +5700,18 @@
     },
     "done": true
   },
+  "netherexp:recipes/basalt/stairs": {
+    "criteria": {
+      "has_item": "2025-06-22 04:35:52 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:kill_day_night_boss": {
+    "criteria": {
+      "condition_0": "2025-06-22 04:59:22 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/hose_pulley": {
     "criteria": {
       "has_item": "2025-06-22 04:22:24 +0000"
@@ -5563,6 +5721,12 @@
   "betterend:recipes/decorations/end_lotus_hanging_sign": {
     "criteria": {
       "has_chain": "2025-06-22 04:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-06-22 04:35:52 +0000"
     },
     "done": true
   },
@@ -5593,6 +5757,12 @@
   "soulsweapons:recipes/combat/chaos_helmet": {
     "criteria": {
       "has_item": "2025-06-22 04:25:58 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/wall": {
+    "criteria": {
+      "has_item": "2025-06-22 04:35:52 +0000"
     },
     "done": true
   },
