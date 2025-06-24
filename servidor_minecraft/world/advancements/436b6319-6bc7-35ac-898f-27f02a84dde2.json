@@ -1516,6 +1516,7 @@
       "minecraft:piglin_brute": "2025-06-20 02:11:05 +0000",
       "minecraft:creeper": "2025-06-22 03:50:25 +0000",
       "minecraft:zombified_piglin": "2025-06-24 01:58:09 +0000",
+      "minecraft:witch": "2025-06-24 04:59:31 +0000",
       "minecraft:wither_skeleton": "2025-06-24 02:04:06 +0000",
       "minecraft:piglin": "2025-06-20 02:13:29 +0000",
       "minecraft:enderman": "2025-06-22 03:49:26 +0000",
@@ -3771,6 +3772,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/hunter_pistol": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/tools/glass_pickaxe": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -3849,6 +3856,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/building_blocks/infused_blackstone": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/tools/tiny_planet": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -3888,6 +3901,12 @@
   "botania:recipes/tools/swap_ring": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/silver_bullet": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
@@ -4017,6 +4036,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/decorations/soul_lantern_lost_soul": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "botania:challenge/flugel_eye": {
     "criteria": {
       "eye": "2025-06-24 04:37:58 +0000"
@@ -4026,6 +4051,12 @@
   "botania:recipes/decorations/mana_distributor": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/silver_bullet_iron_ingot": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
@@ -4077,9 +4108,21 @@
     },
     "done": true
   },
+  "botania:challenge/odin_ring": {
+    "criteria": {
+      "ring": "2025-06-24 05:07:32 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/combat/manasteel_boots": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/soulfire_stain": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
@@ -4143,6 +4186,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/blunderbuss": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/tools/manasteel_shovel": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -4188,6 +4237,18 @@
   "botania:recipes/tools/lava_pendant": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/iron_skull": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/soul_ingot": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
@@ -4239,6 +4300,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/building_blocks/cracked_infused_blackstone": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/redstone/avatar": {
     "criteria": {
       "has_item": "2025-06-24 04:37:26 +0000"
@@ -4263,6 +4330,12 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/hunter_cannon": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/tools/sextant": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -4284,6 +4357,12 @@
   "botania:recipes/redstone/forest_eye": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/decorations/soul_lamp": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
@@ -4320,6 +4399,12 @@
   "soulsweapons:infused_hallowheart": {
     "criteria": {
       "enhanced_withered_chest": "2025-06-24 04:42:27 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/gatling_gun": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
