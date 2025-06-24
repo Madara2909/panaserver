@@ -3725,77 +3725,101 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "soulsweapons:recipes/combat/forlorn_helmet": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 03:37:32 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "soulsweapons:recipes/combat/forlorn_leggings": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 03:37:32 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "soulsweapons:recipes/combat/forlorn_chestplate": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 03:37:32 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "soulsweapons:recipes/combat/forlorn_boots": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 03:37:32 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "soulsweapons:recipes/combat/bloodthirster": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 03:37:32 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_glowstone_dust": "2025-06-24 04:24:51 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_glowstone_dust": "2025-06-24 04:24:51 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "botania:challenge/gaia_guardian_hardmode": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "guardian": "2025-06-24 04:25:50 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "botania:main/gaia_guardian_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "guardian": "2025-06-24 04:25:50 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "botania:main/runic_altar_pickup": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "rune": "2025-06-24 04:26:00 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "botania:recipes/decorations/bellows": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 04:26:00 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "botania:recipes/decorations/terra_plate": {
     "criteria": {
-      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+      "has_item": "2025-06-24 04:26:00 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "botania:recipes/tools/exchange_rod": {
+    "criteria": {
+      "has_item": "2025-06-24 04:26:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/slingshot": {
+    "criteria": {
+      "has_item": "2025-06-24 04:26:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/tornado_rod": {
+    "criteria": {
+      "has_item": "2025-06-24 04:26:00 +0000"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2025-06-24 04:26:00 +0000"
+    },
+    "done": true
   },
   "botania:recipes/combat/manasteel_helmet": {
     "criteria": {
@@ -3806,60 +3830,6 @@
   "botania:recipes/tools/aura_ring": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/mana_pylon": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/forlorn_helmet": {
-    "criteria": {
-      "has_item": "2025-06-24 03:37:32 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/blossom_berry_jelly_potion": {
-    "criteria": {
-      "has_sugar": "2025-06-24 04:36:12 +0000"
-    },
-    "done": true
-  },
-  "botania:main/bauble_wear": {
-    "criteria": {
-      "code_triggered": "2025-06-24 04:27:24 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/diva_charm": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/goddess_charm": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/hunter_pistol": {
-    "criteria": {
-      "has_lost_soul": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -3881,12 +3851,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-06-24 05:15:23 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/manasteel_hoe": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -3899,45 +3863,9 @@
     },
     "done": true
   },
-  "botania:recipes/tools/mana_tablet_alt": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/astrolabe": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/conversions/manadiamond_block_deconstruct": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/super_travel_belt": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/runic_altar": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/mana_ring": {
-    "criteria": {
-      "has_item": "2025-06-24 04:38:20 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/pinkinator": {
-    "criteria": {
-      "use_pinkinator": "2025-06-24 05:17:14 +0000"
     },
     "done": true
   },
@@ -3953,57 +3881,9 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/building_blocks/infused_blackstone": {
-    "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/tiny_planet": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/gaia_guardian_hardmode": {
-    "criteria": {
-      "guardian": "2025-06-24 04:25:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/auto_crafting_halo": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/mana_mirror": {
-    "criteria": {
-      "has_item": "2025-06-24 04:38:20 +0000"
-    },
-    "done": true
-  },
-  "botania:main/runic_altar_pickup": {
-    "criteria": {
-      "rune": "2025-06-24 04:26:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/bellows": {
-    "criteria": {
-      "has_item": "2025-06-24 04:26:00 +0000"
     },
     "done": true
   },
@@ -4013,39 +3893,9 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/silver_bullet": {
-    "criteria": {
-      "has_lost_soul": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/brewery": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/combat/holy_cloak": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/terra_plate": {
-    "criteria": {
-      "has_item": "2025-06-24 04:26:00 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/laputa_shard": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
     },
     "done": true
   },
@@ -4055,45 +3905,9 @@
     },
     "done": true
   },
-  "botania:recipes/tools/third_eye": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/loki_ring": {
-    "criteria": {
-      "ring": "2025-06-24 04:50:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/obedience_stick": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/combat/balance_cloak": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/cave_pumpkin_pie": {
-    "criteria": {
-      "has_sugar": "2025-06-24 04:36:12 +0000"
     },
     "done": true
   },
@@ -4103,27 +3917,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2025-06-24 04:24:51 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/misc/phantom_ink": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/exchange_rod": {
-    "criteria": {
-      "has_item": "2025-06-24 04:26:00 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/mana_gun": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
     },
     "done": true
   },
@@ -4133,27 +3929,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_slab": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/crafting_halo": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/infinite_fruit": {
-    "criteria": {
-      "fruit": "2025-06-24 05:11:32 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/slingshot": {
-    "criteria": {
-      "has_item": "2025-06-24 04:26:00 +0000"
     },
     "done": true
   },
@@ -4169,51 +3947,9 @@
     },
     "done": true
   },
-  "botania:challenge/thor_ring": {
-    "criteria": {
-      "ring": "2025-06-24 04:27:24 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/decorations/soul_lantern_lost_soul": {
-    "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/flugel_eye": {
-    "criteria": {
-      "eye": "2025-06-24 04:37:58 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/mana_distributor": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/silver_bullet_iron_ingot": {
-    "criteria": {
-      "has_lost_soul": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/sandstone": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/king_key": {
-    "criteria": {
-      "key": "2025-06-24 04:57:08 +0000"
     },
     "done": true
   },
@@ -4223,75 +3959,15 @@
     },
     "done": true
   },
-  "botania:recipes/building_blocks/mana_diamond_block": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/forlorn_leggings": {
-    "criteria": {
-      "has_item": "2025-06-24 03:37:32 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/tornado_rod": {
-    "criteria": {
-      "has_item": "2025-06-24 04:26:00 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/flighttiara_0": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/runic_altar_alt": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/forlorn_chestplate": {
-    "criteria": {
-      "has_item": "2025-06-24 03:37:32 +0000"
-    },
-    "done": true
-  },
-  "botania:challenge/odin_ring": {
-    "criteria": {
-      "ring": "2025-06-24 05:07:32 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/combat/manasteel_boots": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
     },
     "done": true
   },
-  "soulsweapons:recipes/building_blocks/soulfire_stain": {
-    "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/combat/manasteel_leggings": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:main/gaia_guardian_kill": {
-    "criteria": {
-      "guardian": "2025-06-24 04:25:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -4313,69 +3989,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/shadow_berry_jelly_potion": {
-    "criteria": {
-      "has_sugar": "2025-06-24 04:36:12 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/combat/missile_rod": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/redstone/gaia_spreader": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/travel_belt": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/forlorn_boots": {
-    "criteria": {
-      "has_item": "2025-06-24 03:37:32 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/blunderbuss": {
-    "criteria": {
-      "has_lost_soul": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/manasteel_shovel": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/gaia_ingot": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/spawner_mover": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/cobble_rod": {
-    "criteria": {
-      "has_alt_item": "2025-06-24 04:49:43 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/black_hole_talisman": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
     },
     "done": true
   },
@@ -4397,75 +4019,15 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/misc/iron_skull": {
-    "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/misc/soul_ingot": {
-    "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:transform_scythe": {
-    "criteria": {
-      "darkin_scythe": "2025-06-24 04:48:26 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/building_blocks/manasteel_block": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-06-24 04:51:42 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/super_cloud_pendant": {
-    "criteria": {
-      "has_alt_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/mana_bomb": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/combat/unholy_cloak": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sweet_berry_jelly_potion": {
-    "criteria": {
-      "has_sugar": "2025-06-24 04:36:12 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/manasteel_axe": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/building_blocks/cracked_infused_blackstone": {
-    "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/redstone/avatar": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:26 +0000"
     },
     "done": true
   },
@@ -4487,12 +4049,6 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/hunter_cannon": {
-    "criteria": {
-      "has_lost_soul": "2025-06-24 05:01:25 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/sextant": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -4505,45 +4061,111 @@
     },
     "done": true
   },
-  "botania:recipes/tools/super_lava_pendant": {
-    "criteria": {
-      "has_item": "2025-06-24 04:37:27 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/redstone/forest_eye": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
     },
     "done": true
   },
-  "soulsweapons:recipes/decorations/soul_lamp": {
+  "botania:recipes/decorations/alchemy_catalyst": {
     "criteria": {
-      "has_item": "2025-06-24 05:01:25 +0000"
+      "has_item": "2025-06-24 04:26:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "botania:main/bauble_wear": {
     "criteria": {
-      "has_glowstone_dust": "2025-06-24 04:24:51 +0000"
+      "code_triggered": "2025-06-24 04:27:24 +0000"
     },
     "done": true
   },
-  "botania:recipes/tools/water_rod": {
+  "botania:challenge/thor_ring": {
     "criteria": {
-      "has_item": "2025-06-24 04:49:43 +0000"
+      "ring": "2025-06-24 04:27:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sandstone_wall": {
+  "betterend:recipes/misc/blossom_berry_jelly_potion": {
     "criteria": {
-      "has_sandstone": "2025-06-24 05:18:40 +0000"
+      "has_sugar": "2025-06-24 04:36:12 +0000"
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/bloodthirster": {
+  "betterend:recipes/misc/cave_pumpkin_pie": {
     "criteria": {
-      "has_item": "2025-06-24 03:37:32 +0000"
+      "has_sugar": "2025-06-24 04:36:12 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly_potion": {
+    "criteria": {
+      "has_sugar": "2025-06-24 04:36:12 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_sugar": "2025-06-24 04:36:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_pylon": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/goddess_charm": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_tablet_alt": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manadiamond_block_deconstruct": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/auto_crafting_halo": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/third_eye": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_gun": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/mana_diamond_block": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/runic_altar_alt": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/avatar": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:26 +0000"
     },
     "done": true
   },
@@ -4553,9 +4175,117 @@
     },
     "done": true
   },
-  "botania:main/rune_pickup": {
+  "botania:recipes/tools/diva_charm": {
     "criteria": {
-      "rune": "2025-06-24 04:26:00 +0000"
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/astrolabe": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_travel_belt": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/holy_cloak": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/laputa_shard": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/balance_cloak": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/flighttiara_0": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/missile_rod": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/gaia_spreader": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/gaia_ingot": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/spawner_mover": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/black_hole_talisman": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_cloud_pendant": {
+    "criteria": {
+      "has_alt_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/mana_bomb": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/unholy_cloak": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_lava_pendant": {
+    "criteria": {
+      "has_item": "2025-06-24 04:37:27 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/flugel_eye": {
+    "criteria": {
+      "eye": "2025-06-24 04:37:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_ring": {
+    "criteria": {
+      "has_item": "2025-06-24 04:38:20 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_mirror": {
+    "criteria": {
+      "has_item": "2025-06-24 04:38:20 +0000"
     },
     "done": true
   },
@@ -4565,15 +4295,375 @@
     },
     "done": true
   },
+  "soulsweapons:transform_scythe": {
+    "criteria": {
+      "darkin_scythe": "2025-06-24 04:48:26 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/cobble_rod": {
+    "criteria": {
+      "has_alt_item": "2025-06-24 04:49:43 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/water_rod": {
+    "criteria": {
+      "has_item": "2025-06-24 04:49:43 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/loki_ring": {
+    "criteria": {
+      "ring": "2025-06-24 04:50:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-06-24 04:51:42 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/king_key": {
+    "criteria": {
+      "key": "2025-06-24 04:57:08 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/hunter_pistol": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/infused_blackstone": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/silver_bullet": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/decorations/soul_lantern_lost_soul": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/silver_bullet_iron_ingot": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/soulfire_stain": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/blunderbuss": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/iron_skull": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/soul_ingot": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/cracked_infused_blackstone": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/hunter_cannon": {
+    "criteria": {
+      "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/decorations/soul_lamp": {
+    "criteria": {
+      "has_item": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
   "soulsweapons:recipes/combat/gatling_gun": {
     "criteria": {
       "has_lost_soul": "2025-06-24 05:01:25 +0000"
     },
     "done": true
   },
-  "botania:recipes/decorations/alchemy_catalyst": {
+  "botania:challenge/odin_ring": {
     "criteria": {
-      "has_item": "2025-06-24 04:26:02 +0000"
+      "ring": "2025-06-24 05:07:32 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/infinite_fruit": {
+    "criteria": {
+      "fruit": "2025-06-24 05:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-06-24 05:15:23 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/pinkinator": {
+    "criteria": {
+      "use_pinkinator": "2025-06-24 05:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:33:25 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-06-24 05:32:32 +0000"
     },
     "done": true
   },
