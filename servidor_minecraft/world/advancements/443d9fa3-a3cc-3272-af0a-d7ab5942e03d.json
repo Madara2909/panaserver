@@ -4105,9 +4105,10 @@
       "minecraft:crimson_forest": "2025-06-22 02:29:29 +0000",
       "minecraft:soul_sand_valley": "2025-06-22 01:23:28 +0000",
       "minecraft:nether_wastes": "2025-06-22 02:23:31 +0000",
-      "minecraft:warped_forest": "2025-06-22 01:35:27 +0000"
+      "minecraft:warped_forest": "2025-06-22 01:35:27 +0000",
+      "minecraft:basalt_deltas": "2025-06-24 02:07:11 +0000"
     },
-    "done": false
+    "done": true
   },
   "netherexp:nether/soul_sand_valley": {
     "criteria": {
@@ -4940,6 +4941,48 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-06-22 03:21:31 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2025-06-24 02:07:38 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2025-06-24 01:52:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-06-24 02:07:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-06-24 01:52:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-06-24 02:11:52 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/rattling_remnants": {
+    "criteria": {
+      "structure": "2025-06-24 02:00:47 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/emf_raider": {
+    "criteria": {
+      "has_item": "2025-06-24 02:13:11 +0000"
     },
     "done": true
   },

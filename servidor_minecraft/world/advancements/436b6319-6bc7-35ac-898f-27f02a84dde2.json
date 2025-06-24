@@ -1514,10 +1514,13 @@
       "minecraft:spider": "2025-06-19 03:53:18 +0000",
       "minecraft:piglin_brute": "2025-06-20 02:11:05 +0000",
       "minecraft:creeper": "2025-06-22 03:50:25 +0000",
+      "minecraft:zombified_piglin": "2025-06-24 01:58:09 +0000",
+      "minecraft:wither_skeleton": "2025-06-24 02:04:06 +0000",
       "minecraft:piglin": "2025-06-20 02:13:29 +0000",
       "minecraft:enderman": "2025-06-22 03:49:26 +0000",
       "minecraft:zombie": "2025-06-20 02:11:52 +0000",
-      "minecraft:drowned": "2025-06-20 02:17:48 +0000"
+      "minecraft:drowned": "2025-06-20 02:17:48 +0000",
+      "minecraft:zombie_villager": "2025-06-24 01:53:30 +0000"
     },
     "done": false
   },
@@ -2789,7 +2792,9 @@
   "incendium:misc/soul_searcher": {
     "criteria": {
       "incendium:ash_barrens": "2025-06-22 04:10:49 +0000",
+      "incendium:weeping_valley": "2025-06-24 02:05:08 +0000",
       "incendium:quartz_flats": "2025-06-22 04:23:10 +0000",
+      "incendium:inverted_forest": "2025-06-24 02:05:02 +0000",
       "incendium:withered_forest": "2025-06-22 04:33:11 +0000"
     },
     "done": false
@@ -3138,7 +3143,10 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:basalt_deltas": "2025-06-22 04:24:20 +0000"
+      "minecraft:crimson_forest": "2025-06-24 02:12:17 +0000",
+      "minecraft:soul_sand_valley": "2025-06-24 02:00:07 +0000",
+      "minecraft:basalt_deltas": "2025-06-22 04:24:20 +0000",
+      "minecraft:warped_forest": "2025-06-24 02:03:43 +0000"
     },
     "done": false
   },
@@ -3517,6 +3525,156 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-06-22 05:30:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/blazeblock_deconstruct": {
+    "criteria": {
+      "has_item": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-06-24 02:15:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-06-24 01:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-06-24 01:54:08 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley": {
+    "criteria": {
+      "condition": "2025-06-24 02:00:07 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_perl_to_block": {
+    "criteria": {
+      "has_ender_pearl": "2025-06-24 02:06:39 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_eye_amber": {
+    "criteria": {
+      "has_ender_pearl": "2025-06-24 02:06:39 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_pearl_to_dust": {
+    "criteria": {
+      "has_item.minecraft.ender_pearl": "2025-06-24 02:06:39 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/dragon_staff": {
+    "criteria": {
+      "has_item": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-06-24 02:10:58 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/coal": {
+    "criteria": {
+      "has_coal": "2025-06-24 02:04:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-06-24 02:15:45 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/non_renewable_yeah_right": {
+    "criteria": {
+      "killed_entity": "2025-06-24 02:00:34 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wolf_smithing": {
+    "criteria": {
+      "has_wolf": "2025-06-24 02:11:51 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/gargoyle_statue": {
+    "criteria": {
+      "has_item": "2025-06-24 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/blaze_block": {
+    "criteria": {
+      "has_item": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-06-24 02:04:48 +0000"
+    },
+    "done": true
+  },
+  "dungeonnowloading:recipes/misc/spawner_frame": {
+    "criteria": {
+      "has_spawner_fragment": "2025-06-24 02:14:37 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2025-06-24 02:06:39 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/rattling_remnants": {
+    "criteria": {
+      "structure": "2025-06-24 02:00:43 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/ecto_soul_sand": {
+    "criteria": {
+      "has_item": "2025-06-24 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-24 02:19:01 +0000"
     },
     "done": true
   },
