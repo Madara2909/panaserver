@@ -3219,3 +3219,28 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 50 out of bounds for lengt
 	... 29 more
 [02:45:07] [Server thread/INFO]: skity lost connection: Timed out
 [02:45:07] [Server thread/INFO]: skity left the game
+[02:47:42] [Server thread/INFO]: Stopping the server
+[02:47:42] [Server thread/INFO]: Stopping server
+[02:47:42] [Server thread/INFO]: Saving players
+[02:47:42] [Server thread/INFO]: Saving worlds
+[02:47:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecells:promenade
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecells:prison
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecells:insufferable_crypt
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/the_bumblezone:the_bumblezone
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecells:ramparts
+[02:47:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecells:black_bridge
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (promenade): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (prison): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (insufferable_crypt): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (ramparts): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (black_bridge): All chunks are saved
+[02:47:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
