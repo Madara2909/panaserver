@@ -1003,6 +1003,7 @@
       "cooked_beef": "2025-06-19 03:12:50 +0000",
       "baked_potato": "2025-06-20 02:18:37 +0000",
       "bread": "2025-06-20 01:36:21 +0000",
+      "golden_apple": "2025-06-24 03:22:42 +0000",
       "rotten_flesh": "2025-06-19 03:59:21 +0000",
       "melon_slice": "2025-06-19 01:31:34 +0000",
       "golden_carrot": "2025-06-22 01:57:42 +0000"
@@ -5090,6 +5091,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-06-24 03:24:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2025-06-24 03:02:13 +0000"
@@ -5102,9 +5115,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-06-24 03:02:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
     },
     "done": true
   },
@@ -5126,15 +5175,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
   "soulsweapons:recipes/combat/forlorn_boots": {
     "criteria": {
       "has_item": "2025-06-24 03:16:55 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/misc/soul_soil_layer": {
     "criteria": {
       "has_item": "2025-06-24 03:02:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-24 03:29:55 +0000"
     },
     "done": true
   },

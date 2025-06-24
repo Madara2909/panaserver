@@ -3285,6 +3285,7 @@
     "criteria": {
       "forlorn_scythe": "2025-06-22 01:39:47 +0000",
       "withered_wabbajack": "2025-06-22 04:34:01 +0000",
+      "darkin_scythe_pre": "2025-06-24 03:28:24 +0000",
       "soul_reaper": "2025-06-22 02:37:42 +0000",
       "empowered_dawnbreaker": "2025-06-22 05:13:26 +0000",
       "moonlight_greatsword": "2025-06-22 04:19:23 +0000",
@@ -5831,9 +5832,57 @@
     },
     "done": true
   },
+  "soulsweapons:hallowheart": {
+    "criteria": {
+      "withered_chest": "2025-06-24 03:25:37 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_helmet": {
+    "criteria": {
+      "has_item": "2025-06-24 03:24:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_sword": "2025-06-24 03:14:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
     },
     "done": true
   },
@@ -5843,9 +5892,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_sword": "2025-06-24 03:14:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_leggings": {
+    "criteria": {
+      "has_item": "2025-06-24 03:24:46 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_chestplate": {
+    "criteria": {
+      "has_item": "2025-06-24 03:24:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_boots": {
+    "criteria": {
+      "has_item": "2025-06-24 03:24:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-06-24 03:22:29 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/bloodthirster": {
+    "criteria": {
+      "has_item": "2025-06-24 03:24:46 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/stayin_frosty": {
+    "criteria": {
+      "c1": "2025-06-24 03:34:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-06-24 03:21:11 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:infused_hallowheart": {
+    "criteria": {
+      "enhanced_withered_chest": "2025-06-24 03:27:12 +0000"
     },
     "done": true
   },

@@ -3721,5 +3721,35 @@
     },
     "done": true
   },
+  "soulsweapons:recipes/combat/forlorn_helmet": {
+    "criteria": {
+      "has_item": "2025-06-24 03:37:32 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_leggings": {
+    "criteria": {
+      "has_item": "2025-06-24 03:37:32 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_chestplate": {
+    "criteria": {
+      "has_item": "2025-06-24 03:37:32 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/forlorn_boots": {
+    "criteria": {
+      "has_item": "2025-06-24 03:37:32 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/bloodthirster": {
+    "criteria": {
+      "has_item": "2025-06-24 03:37:32 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
