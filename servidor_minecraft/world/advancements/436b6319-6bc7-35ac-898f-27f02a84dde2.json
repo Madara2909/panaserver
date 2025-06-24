@@ -1510,6 +1510,7 @@
     "criteria": {
       "minecraft:blaze": "2025-06-22 04:25:19 +0000",
       "minecraft:skeleton": "2025-06-19 03:40:18 +0000",
+      "minecraft:hoglin": "2025-06-24 02:21:49 +0000",
       "minecraft:magma_cube": "2025-06-22 05:06:54 +0000",
       "minecraft:spider": "2025-06-19 03:53:18 +0000",
       "minecraft:piglin_brute": "2025-06-20 02:11:05 +0000",
@@ -3528,21 +3529,9 @@
     },
     "done": true
   },
-  "botania:recipes/misc/conversions/blazeblock_deconstruct": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "has_item": "2025-06-24 02:19:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_sword": "2025-06-24 02:15:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-06-24 02:19:01 +0000"
+      "slept_in_bed": "2025-06-24 01:54:08 +0000"
     },
     "done": true
   },
@@ -3552,15 +3541,45 @@
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2025-06-24 01:54:08 +0000"
-    },
-    "done": true
-  },
   "netherexp:nether/soul_sand_valley": {
     "criteria": {
       "condition": "2025-06-24 02:00:07 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/non_renewable_yeah_right": {
+    "criteria": {
+      "killed_entity": "2025-06-24 02:00:34 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/rattling_remnants": {
+    "criteria": {
+      "structure": "2025-06-24 02:00:43 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/gargoyle_statue": {
+    "criteria": {
+      "has_item": "2025-06-24 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/ecto_soul_sand": {
+    "criteria": {
+      "has_item": "2025-06-24 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/coal": {
+    "criteria": {
+      "has_coal": "2025-06-24 02:04:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-06-24 02:04:48 +0000"
     },
     "done": true
   },
@@ -3582,9 +3601,9 @@
     },
     "done": true
   },
-  "soulsweapons:recipes/combat/dragon_staff": {
+  "travelersbackpack:recipes/misc/enderman": {
     "criteria": {
-      "has_item": "2025-06-24 02:19:01 +0000"
+      "has_ender_pearl": "2025-06-24 02:06:39 +0000"
     },
     "done": true
   },
@@ -3594,45 +3613,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/coal": {
-    "criteria": {
-      "has_coal": "2025-06-24 02:04:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_sword": "2025-06-24 02:15:45 +0000"
-    },
-    "done": true
-  },
-  "netherexp:nether/non_renewable_yeah_right": {
-    "criteria": {
-      "killed_entity": "2025-06-24 02:00:34 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/wolf_smithing": {
     "criteria": {
       "has_wolf": "2025-06-24 02:11:51 +0000"
-    },
-    "done": true
-  },
-  "netherexp:recipes/sanctum/gargoyle_statue": {
-    "criteria": {
-      "has_item": "2025-06-24 02:02:18 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/blaze_block": {
-    "criteria": {
-      "has_item": "2025-06-24 02:19:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2025-06-24 02:04:48 +0000"
     },
     "done": true
   },
@@ -3642,15 +3625,39 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/enderman": {
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
-      "has_ender_pearl": "2025-06-24 02:06:39 +0000"
+      "has_golden_sword": "2025-06-24 02:15:45 +0000"
     },
     "done": true
   },
-  "netherexp:nether/rattling_remnants": {
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
-      "structure": "2025-06-24 02:00:43 +0000"
+      "has_golden_sword": "2025-06-24 02:15:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/blazeblock_deconstruct": {
+    "criteria": {
+      "has_item": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/dragon_staff": {
+    "criteria": {
+      "has_item": "2025-06-24 02:19:01 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/blaze_block": {
+    "criteria": {
+      "has_item": "2025-06-24 02:19:01 +0000"
     },
     "done": true
   },
@@ -3666,17 +3673,125 @@
     },
     "done": true
   },
-  "netherexp:recipes/misc/ecto_soul_sand": {
-    "criteria": {
-      "has_item": "2025-06-24 02:02:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2025-06-24 02:19:01 +0000"
     },
     "done": true
+  },
+  "soulsweapons:recipes/misc/crimson_ingot": {
+    "criteria": {
+      "has_item": "2025-06-24 02:22:24 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:demon_heart": {
+    "criteria": {
+      "demon_heart": "2025-06-24 02:22:24 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/demon_chunk": {
+    "criteria": {
+      "has_item": "2025-06-24 02:22:24 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/molten_demon_heart": {
+    "criteria": {
+      "has_item": "2025-06-24 02:22:24 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/decorations/crimson_obsidian": {
+    "criteria": {
+      "has_item": "2025-06-24 02:22:24 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/cooked_hogham": {
+    "criteria": {
+      "has_item": "2025-06-24 02:28:57 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/frightening_rush": {
+    "criteria": {
+      "condition": "2025-06-24 02:34:05 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 02:40:29 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
