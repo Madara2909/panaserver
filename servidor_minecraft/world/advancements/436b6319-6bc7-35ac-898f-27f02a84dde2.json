@@ -3725,6 +3725,78 @@
     },
     "done": true
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-06-24 05:25:19 +0000"
+    },
+    "done": false
+  },
   "botania:recipes/combat/manasteel_helmet": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
@@ -3776,6 +3848,18 @@
   "soulsweapons:recipes/combat/hunter_pistol": {
     "criteria": {
       "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -3887,6 +3971,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/tools/auto_crafting_halo": {
     "criteria": {
       "has_item": "2025-06-24 04:37:26 +0000"
@@ -3905,6 +3995,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/decorations/bellows": {
     "criteria": {
       "has_item": "2025-06-24 04:26:00 +0000"
@@ -3920,6 +4016,12 @@
   "soulsweapons:recipes/combat/silver_bullet": {
     "criteria": {
       "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -3959,9 +4061,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
   "botania:challenge/loki_ring": {
     "criteria": {
       "ring": "2025-06-24 04:50:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -4016,6 +4130,12 @@
   "botania:recipes/tools/manasteel_shears": {
     "criteria": {
       "has_item": "2025-06-24 04:26:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -4076,6 +4196,18 @@
   "soulsweapons:recipes/combat/silver_bullet_iron_ingot": {
     "criteria": {
       "has_lost_soul": "2025-06-24 05:01:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -4154,6 +4286,12 @@
   "botania:main/gaia_guardian_kill": {
     "criteria": {
       "guardian": "2025-06-24 04:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
@@ -4394,6 +4532,12 @@
   "botania:recipes/tools/water_rod": {
     "criteria": {
       "has_item": "2025-06-24 04:49:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-06-24 05:18:40 +0000"
     },
     "done": true
   },
